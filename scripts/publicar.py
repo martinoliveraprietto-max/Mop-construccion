@@ -76,6 +76,24 @@ def main():
     if not pendiente:
         print("No queda nada pendiente en la cola.")
         return
+    if pendiente.get("video"):
+        url_video = BASE_IMG + pendiente["video"]
+        print(f"Siguiente: Reel {pendiente['id']}")
+        if "--simular" in sys.argv:
+            print("  ", url_video)
+            print(pendiente["texto"])
+            return
+        contenedor = llamar("POST", f"{ig_id}/media", media_type="REELS", video_url=url_video,
+                            caption=pendiente["texto"], share_to_feed="true")["id"]
+        esperar(contenedor, tope_seg=600)
+        media = llamar("POST", f"{ig_id}/media_publish", creation_id=contenedor)["id"]
+        enlace = llamar("GET", media, fields="permalink").get("permalink")
+        pendiente.update(estado="publicado", media_id=media,
+                         publicado=time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), enlace=enlace)
+        with open(COLA, "w", encoding="utf-8") as f:
+            json.dump(cola, f, ensure_ascii=False, indent=2)
+        print(f"PUBLICADO: {enlace}")
+        return
     urls = [BASE_IMG + ruta for ruta in pendiente["imagenes"]]
     print(f"Siguiente: publicación {pendiente['id']} ({len(urls)} imagen/es)")
     if "--simular" in sys.argv:
