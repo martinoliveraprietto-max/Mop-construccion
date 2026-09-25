@@ -23,6 +23,12 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 - `instagram/textos.txt`: los textos y el plan, para Martin.
 - `scripts/publicar.py`: publica la siguiente pendiente con la API de Instagram.
 
+## Material nuevo (fotos y videos)
+- Martin sube a Google Drive, carpeta "Mop instagram" (id 19ul5QKrqcSqsnZGLbO2OI8BrTeRzGIIO).
+- Todo gratis: editar video con FFmpeg (`pip install imageio-ffmpeg`, se reinstala en cada sesión).
+  Nada de Adobe, vidIQ ni herramientas pagas.
+- Plan: lunes foto/carrusel, miércoles Reel antes/después, viernes Reel de proceso.
+
 ## Cómo se publica
 - App de Meta "MOP Publicador" (API con inicio de sesión de Instagram), cuenta de empresa,
   permisos instagram_business_basic, _content_publish, _manage_comments, _manage_insights,
