@@ -81,13 +81,7 @@ REELS = {
    ('69.jpg', ['FROM DIRT', 'TO ROOF'], 'Sheathing'),
    ('84.jpg', ['FROM DIRT', 'TO ROOF'], 'Taking shape'),
    ('83.jpg', ['FROM DIRT', 'TO ROOF'], 'Built solid.')],
- 'reel02-el-concreto-que-no-se-ve.mp4': [
-   ('60.jpg', ['THE PART OF CONCRETE', 'NOBODY SEES'], 'Rebar & forms'),
-   ('61.jpg', ['THE PART OF CONCRETE', 'NOBODY SEES'], 'Curved forms'),
-   ('62.jpg', ['THE PART OF CONCRETE', 'NOBODY SEES'], 'Retaining wall'),
-   ('63.jpg', ['THE PART OF CONCRETE', 'NOBODY SEES'], 'Along the lot line'),
-   ('64.jpg', ['THE PART OF CONCRETE', 'NOBODY SEES'], 'Stairs before the pour'),
-   ('65.jpg', ['THE PART OF CONCRETE', 'NOBODY SEES'], 'Plumb. Level. Ready.')],
+    # reel02 (concreto) sacado a pedido de Martin el 25-sep: esperar fotos mejores de concreto
  'reel03-local-vacio-a-oficina.mp4': [
    ('18.jpg', ['EMPTY SHELL', 'TO OFFICE'], 'Steel studs'),
    ('20.jpg', ['EMPTY SHELL', 'TO OFFICE'], 'Straight & plumb'),
