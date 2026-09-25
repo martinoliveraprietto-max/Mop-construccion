@@ -34,13 +34,13 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 - Plan: lunes, miércoles y viernes 7:45 pm hora de Miami (America/New_York), una por vez.
 - El token dura 60 días. Renovarlo antes con
   `GET https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=...`
-  y pedirle a Martin que guarde el nuevo en el entorno. OJO: el token actual quedó visible en una
-  foto del chat del 25-sep: cuando todo funcione, pedirle a Martin que genere uno nuevo.
+  y pedirle a Martin que guarde el nuevo en el entorno. Martin decidió NO cambiar el token aunque
+  se vio en una foto del chat: no volver a pedírselo.
 - Comentarios: se pueden contestar los simples (agradecer, "call us at 754.457.3599"). Pedidos de
   precio y mensajes privados, pasárselos a Martin.
 
 ## Pendiente
-1. Verificar el token en una sesión nueva y publicar la 01.
+1. (Hecho 25-sep) Token verificado y 01 publicada. Se sacó #Contractor de los textos.
 2. Programar las siguientes (Routine lunes/miércoles/viernes).
 3. Activar GitHub Pages y, si Martin compra dominio, conectarlo.
 4. Conectar el formulario de la web a un correo (hoy solo avisa que llamen).
