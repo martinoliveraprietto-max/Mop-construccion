@@ -51,6 +51,9 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 
 ## Pendiente
 1. (Hecho 25-sep) Token verificado y 01 publicada. Se sacó #Contractor de los textos.
-2. Programar las siguientes (Routine lunes/miércoles/viernes).
+2. (Hecho 25-sep) Rutina "Instagram MOP: publicar la siguiente foto" (trig_01VgsrELobr1sunwZtMWVMwr): miércoles y
+   sábados 7:44 pm Miami, publica la siguiente de cola.json. Reels (instagram/reels/, hechos con
+   scripts/hacer_reel.py) los publica Martin lunes y viernes desde la app, con música de tendencia.
+   Perfil nuevo (foto con la plomada, bio, enlace) en instagram/perfil/perfil.txt: lo cambia Martin.
 3. Activar GitHub Pages y, si Martin compra dominio, conectarlo.
 4. Conectar el formulario de la web a un correo (hoy solo avisa que llamen).
