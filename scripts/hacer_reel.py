@@ -81,12 +81,26 @@ REELS = {
    ('69.jpg', ['FROM DIRT', 'TO ROOF'], 'Sheathing'),
    ('84.jpg', ['FROM DIRT', 'TO ROOF'], 'Taking shape'),
    ('83.jpg', ['FROM DIRT', 'TO ROOF'], 'Built solid.')],
-    # reel02 (concreto) sacado a pedido de Martin el 25-sep: esperar fotos mejores de concreto
+    # reel02 original (terminaba en una acera) sacado a pedido de Martin el 25-sep; rehecho sin acera
+ 'reel02-antes-del-vaciado.mp4': [
+   ('60.jpg', ['BEFORE', 'THE POUR'], 'Layout'),
+   ('61.jpg', ['BEFORE', 'THE POUR'], 'Curved forms'),
+   ('63.jpg', ['BEFORE', 'THE POUR'], 'Rebar tied'),
+   ('64.jpg', ['BEFORE', 'THE POUR'], 'Stair forms'),
+   ('94.jpg', ['BEFORE', 'THE POUR'], 'Block & stairs'),
+   ('92.jpg', ['BEFORE', 'THE POUR'], 'Ready to pour.')],
  'reel03-local-vacio-a-oficina.mp4': [
    ('18.jpg', ['EMPTY SHELL', 'TO OFFICE'], 'Steel studs'),
    ('20.jpg', ['EMPTY SHELL', 'TO OFFICE'], 'Straight & plumb'),
    ('74.jpg', ['EMPTY SHELL', 'TO OFFICE'], 'Drywall & finish'),
    ('73.jpg', ['EMPTY SHELL', 'TO OFFICE'], 'Ready for business')],
+ 'reel04-dos-pisos.mp4': [
+   ('93.jpg', ['GOING UP', 'TWO STORIES'], 'Trusses by crane'),
+   ('89.jpg', ['GOING UP', 'TWO STORIES'], 'Second-floor walls'),
+   ('70.jpg', ['GOING UP', 'TWO STORIES'], 'Plumb & square'),
+   ('91.jpg', ['GOING UP', 'TWO STORIES'], 'Wrapped'),
+   ('90.jpg', ['GOING UP', 'TWO STORIES'], 'Roof sheathed'),
+   ('88.jpg', ['GOING UP', 'TWO STORIES'], 'Built solid.')],
 }
 
 if __name__ == '__main__':
