@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="oro" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d68a"/><stop offset=".5" stop-color="#d1ad55"/><stop offset="1" stop-color="#a67f2e"/>
+    </linearGradient>
+    <linearGradient id="crema" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf5e6"/><stop offset="1" stop-color="#e3d7bb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1000" rx="120" fill="#0b0b0b"/>
+  <!-- plano: rombo doble con marcas de cota -->
+  <g fill="none" stroke="url(#oro)">
+    <path d="M500 40 960 500 500 960 40 500Z" stroke-width="10"/>
+  </g>
+  <!-- techo: dos aguas dobles -->
+  <g fill="none" stroke="url(#oro)" stroke-linejoin="miter" stroke-linecap="square">
+    <path d="M285 405 500 225 715 405" stroke-width="40"/>
+    <path d="M345 405 500 275 655 405" stroke-width="16"/>
+  </g>
+  <!-- letras con borde negro para que corten limpio el rombo -->
+  <g fill="url(#crema)" fill-rule="evenodd" stroke="#0b0b0b" stroke-width="14" paint-order="stroke">
+    <path d="M122 720V440h66l54 132 54-132h66v280h-62V580l-36 104h-44l-36-104v140z"/>
+    <path d="M500 440a118 140 0 1 1 0 280a118 140 0 1 1 0-280zm0 64a58 76 0 1 0 0 152a58 76 0 1 0 0-152z"/>
+    <path d="M638 720V440h150a90 90 0 0 1 0 180h-84v100zm66-218v56h80a28 28 0 0 0 0-56z"/>
+  </g>
+  <!-- plomada: hilo desde la cumbrera hasta el centro de la O -->
+  <path d="M500 262V548" stroke="#d6b35c" stroke-width="6"/>
+  <path fill="url(#oro)" d="M474 548h52l-5 12c-4 28-11 54-21 82-10-28-17-54-21-82z"/>
+  <circle cx="500" cy="548" r="9" fill="#0b0b0b" stroke="#d6b35c" stroke-width="5"/>
+  <!-- regla -->
+  <g stroke="#d1ad55">
+    <path d="M170 772h660" stroke-width="10"/>
+    <path d="M170 772v28M252.5 772v16M335 772v28M417.5 772v16M500 772v34M582.5 772v16M665 772v28M747.5 772v16M830 772v28" stroke-width="5"/>
+  </g>
+</svg>

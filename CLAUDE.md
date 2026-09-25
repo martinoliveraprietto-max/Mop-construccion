@@ -7,15 +7,19 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 - Teléfono y WhatsApp: 754.457.3599 — correo: mopconstruccion@gmail.com
 - Instagram: @mopconstruccion.inc — 20 años de experiencia — presupuesto gratis.
 - Servicios: estructura (framing), drywall, pintura, pisos, carpintería de terminación, decks y exteriores.
-- NO tiene licencia de contratista. No escribir "licensed", "general contractor" ni ofrecer "obra
-  nueva" en textos nuevos. (La página todavía muestra "New construction & framing": se le avisó a
-  Martin del riesgo legal en Florida; la decisión es suya.)
+- NO tiene licencia de contratista. No escribir "licensed", "general contractor", "crew"/cuadrilla,
+  cantidad de empleados, "roofing" ni ofrecer "obra nueva" como obra propia: se ofrece como
+  subcontratista bajo el permiso de la constructora a cargo ("Framing for new construction").
+- Nunca mostrar Hialeah. Ciudad visible: Dania Beach, FL. Español de la web: neutro con "tú".
 - Lema: "Your Vision. Built Solid." — Logo elegido: el de la plomada que baja por la O
   (archivos en `marca/`). Colores: negro #0d0c0a, dorado #c9a55a / #e6c97e, crema #f3ead6.
   Letras: Cinzel (títulos), Montserrat (texto), Cormorant Garamond itálica (lema).
 
 ## Qué hay en el repositorio
-- `index.html` + `img/`: la página web (inglés con botón ES). Para verla en internet gratis:
+- `index.html` + `img/`: la página web (inglés con botón ES). Versión UNIFICADA el 25-sep: esta web
+  más la de la sesión "MOP Construction" (formulario que abre WhatsApp, datos para Google, ícono de
+  la plomada, sección "For builders", menú en celular). Antes de subir cambios, correr
+  `python3 pruebas/prueba_sitio.py` y `node pruebas/prueba_navegador.js` (necesita playwright-core). Para verla en internet gratis:
   GitHub → Settings → Pages → Deploy from branch → main → / (root). Falta que Martin lo active.
 - `instagram/cola.json`: las 9 publicaciones en orden, con su texto y su estado.
 - `instagram/publicaciones/`: las imágenes (1080x1350). `instagram/destacadas/`: portadas de
