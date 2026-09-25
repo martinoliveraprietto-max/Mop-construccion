@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="MOP Construction and Service, Inc. Framing, drywall, painting, flooring, finish carpentry and decks in Miami-Dade and Broward. Free estimates: 754.457.3599.">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta property="og:title" content="MOP Construction and Service, Inc.">
+<meta property="og:description" content="Your Vision. Built Solid. Dania Beach, FL · Miami-Dade &amp; Broward.">
+<meta property="og:image" content="img/42.jpg">
+<title>MOP Construction | Dania Beach, FL</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@1,500&family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  color-scheme: dark;
+  --negro:#0d0c0a; --carbon:#171512; --linea:#2c2821;
+  --oro:#c9a55a; --oro-claro:#e6c97e; --crema:#f3ead6; --gris:#a89f8b;
+  --display:"Cinzel", Georgia, "Times New Roman", serif;
+  --texto:"Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  --cursiva:"Cormorant Garamond", Georgia, serif;
+  --ancho:1200px;
+}
+*{box-sizing:border-box}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{background:var(--negro);color:var(--crema);font:400 16px/1.65 var(--texto);-webkit-font-smoothing:antialiased}
+a{color:var(--oro-claro)}
+:focus-visible{outline:2px solid var(--oro-claro);outline-offset:3px}
+.envol{max-width:var(--ancho);margin-inline:auto;padding-inline:clamp(16px,4vw,40px)}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;text-wrap:balance;margin:0}
+.ceja{font:600 12px/1.4 var(--texto);letter-spacing:.32em;text-transform:uppercase;color:var(--oro)}
+.lema{font:italic 500 clamp(22px,2.4vw,28px)/1.3 var(--cursiva);color:var(--crema)}
+.falta{border:1px dashed var(--oro);padding:1px 8px;border-radius:3px;color:var(--oro-claro);white-space:nowrap}
+
+/* barra */
+.barra{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(13,12,10,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
+.barra .envol{display:flex;align-items:center;gap:24px;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--crema);flex-shrink:0}
+.logo .marca{width:66px;height:auto;display:block}
+.logo span{font:600 10px/1.35 var(--texto);letter-spacing:.24em;color:var(--oro);text-transform:uppercase}
+.menu{display:flex;gap:28px;margin-left:auto}
+.menu a{color:var(--crema);text-decoration:none;font-weight:500;font-size:12px;letter-spacing:.2em;text-transform:uppercase}
+.menu a:hover{color:var(--oro-claro)}
+.idioma{background:none;border:1px solid var(--linea);color:var(--crema);font:600 12px var(--texto);letter-spacing:.14em;padding:9px 12px;border-radius:3px;cursor:pointer;min-height:40px}
+.idioma:hover{border-color:var(--oro)}
+.boton{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:3px;font:600 14px var(--texto);letter-spacing:.06em;text-decoration:none;cursor:pointer;border:1px solid var(--oro);transition:background .2s,color .2s}
+.boton.lleno{background:var(--oro);color:var(--negro)}
+.boton.lleno:hover{background:var(--oro-claro)}
+.boton.hueco{background:transparent;color:var(--crema)}
+.boton.hueco:hover{background:rgba(201,165,90,.12)}
+
+
+/* portada */
+.portada{position:relative;min-height:clamp(560px,82vh,820px);display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.portada>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.portada::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(13,12,10,1) 0%,rgba(12,14,20,.66) 32%,rgba(12,14,20,.55))}
+.portada{align-items:center}
+.portada .envol{width:100%;padding-block:96px 88px;display:flex;flex-direction:column;align-items:center;text-align:center}
+.portada .raya{width:90px;height:1px;background:var(--oro);margin:6px auto 26px}
+.portada h1{font-size:clamp(44px,7.4vw,104px);font-weight:600;letter-spacing:.01em;margin-block:22px 22px}
+.portada h1 em{font-style:normal;color:var(--oro-claro)}
+.portada p.sub{max-width:36em;color:#e5dcc7;font-size:clamp(16px,1.4vw,18px);margin:0 0 34px}
+.portada .acciones{justify-content:center}
+.boton svg{width:16px;height:16px;flex-shrink:0}
+.acciones{display:flex;flex-wrap:wrap;gap:12px}
+.x-coord{font:500 12px/1.9 var(--texto);letter-spacing:.2em;color:var(--gris);text-align:right;text-transform:uppercase}
+.coord b{display:block;color:var(--oro);font-weight:600}
+
+/* plomada */
+.plomada{position:absolute;top:0;right:clamp(24px,12vw,180px);width:20px;height:58%;transform-origin:50% 0;animation:pendulo 5s ease-in-out infinite}
+.plomada i{position:absolute;left:9px;top:0;bottom:22px;width:1.5px;background:linear-gradient(var(--oro),var(--oro-claro))}
+.plomada svg{position:absolute;bottom:0;left:0;width:20px;height:30px}
+@keyframes pendulo{0%,100%{transform:rotate(1.6deg)}50%{transform:rotate(-1.6deg)}}
+
+section{padding-block:clamp(72px,10vw,120px)}
+.cabeza{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 48px;align-items:end;margin-bottom:48px}
+.cabeza h2{font-size:clamp(34px,4.6vw,58px);margin-top:14px}
+.cabeza p{margin:0;color:var(--gris);max-width:36em}
+
+/* servicios */
+.servicios{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--linea);border:1px solid var(--linea)}
+.serv{background:var(--negro);display:flex;flex-direction:column}
+.serv img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;filter:saturate(.85)}
+.serv div{padding:22px 24px 28px;display:flex;flex-direction:column;gap:8px}
+.serv h3{font-size:21px;color:var(--crema)}
+.serv p{margin:0;color:var(--gris);font-size:15px}
+
+/* proceso */
+.proceso{background:var(--carbon);border-block:1px solid var(--linea)}
+.pasos{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.pasos::before{content:"";position:absolute;left:0;right:0;top:19px;height:1px;background:var(--linea)}
+.paso{position:relative;display:flex;flex-direction:column;gap:14px}
+.paso .num{width:39px;height:39px;border-radius:50%;border:1px solid var(--oro);background:var(--carbon);display:grid;place-items:center;font:600 14px var(--display);color:var(--oro-claro);position:relative}
+.paso img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;border-radius:2px}
+.paso h3{font-size:20px}
+.paso p{margin:0;color:var(--gris);font-size:15px}
+
+/* obras */
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.chip{background:transparent;color:var(--crema);border:1px solid var(--linea);border-radius:40px;padding:0 16px;min-height:40px;font:500 13px var(--texto);letter-spacing:.04em;cursor:pointer}
+.chip:hover{border-color:var(--oro)}
+.chip.on{background:var(--crema);color:var(--negro);border-color:var(--crema)}
+.galeria{columns:3 300px;column-gap:14px}
+.obra{margin:0 0 14px;break-inside:avoid}
+.obra .abrir{display:block;width:100%;padding:0;border:0;background:var(--carbon);cursor:zoom-in;overflow:hidden;border-radius:2px}
+.obra img{display:block;width:100%;height:auto;transition:transform .5s ease}
+.obra .abrir:hover img{transform:scale(1.035)}
+.obra figcaption{font-size:13px;color:var(--gris);padding-top:8px}
+.cuenta{color:var(--gris);font-size:13px;letter-spacing:.06em;margin-top:8px}
+
+/* nosotros */
+.nosotros .envol{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(32px,6vw,80px);align-items:center}
+.nosotros img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;border-radius:2px}
+.nosotros h2{font-size:clamp(32px,4vw,50px);margin-block:14px 22px}
+.nosotros p{color:#ddd3be;max-width:34em;margin:0 0 16px}
+.datos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--linea);border:1px solid var(--linea);margin-top:28px}
+.datos div{background:var(--negro);padding:16px 18px}
+.datos dt{font:600 11px var(--texto);letter-spacing:.24em;color:var(--oro);text-transform:uppercase}
+.datos dd{margin:6px 0 0;font-size:15px}
+
+/* contacto */
+.contacto{background:var(--carbon);border-top:1px solid var(--linea)}
+.contacto .envol{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(32px,6vw,80px)}
+.contacto h2{font-size:clamp(34px,4.4vw,56px);margin-block:14px 18px}
+.contacto ul{list-style:none;padding:0;margin:28px 0 0;display:flex;flex-direction:column;gap:14px}
+.contacto li{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap}
+.contacto li span:first-child{font:600 11px var(--texto);letter-spacing:.24em;color:var(--oro);text-transform:uppercase;width:84px}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.campo{display:flex;flex-direction:column;gap:6px}
+.campo.ancho{grid-column:1/-1}
+label{font:600 11px var(--texto);letter-spacing:.2em;text-transform:uppercase;color:var(--gris)}
+input,select,textarea{font:400 16px var(--texto);color:var(--crema);background:var(--negro);border:1px solid var(--linea);border-radius:3px;padding:12px 14px;min-height:48px;width:100%}
+textarea{min-height:120px;resize:vertical}
+input:focus,select:focus,textarea:focus{border-color:var(--oro);outline:none}
+.aviso{grid-column:1/-1;font-size:14px;color:var(--oro-claro);margin:0}
+
+footer{border-top:1px solid var(--linea);padding-block:48px}
+footer .envol{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px}
+footer .marca{width:120px;height:auto}
+footer small{color:var(--gris);font-size:13px}
+.pie-links{display:flex;flex-wrap:wrap;gap:12px 28px;font-size:14px}
+.pie-links a{color:var(--crema);text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.pie-links a:hover{color:var(--oro-claro)}
+.pie-links svg,.ig-barra svg{width:18px;height:18px}
+.ig-barra{display:grid;place-items:center;width:40px;height:40px;color:var(--crema);border:1px solid var(--linea);border-radius:3px}
+.ig-barra:hover{border-color:var(--oro);color:var(--oro-claro)}
+.pie-galeria{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;margin-top:12px}
+.contacto li a{word-break:break-all}
+
+/* visor */
+dialog.visor{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%}
+dialog.visor::backdrop{background:rgba(8,7,6,.94)}
+.visor .caja{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:56px 16px 24px}
+.visor img{max-width:100%;max-height:calc(100% - 40px);object-fit:contain}
+.visor p{margin:0;color:var(--crema);font-size:14px;text-align:center}
+.visor button{position:absolute;background:rgba(23,21,18,.8);color:var(--crema);border:1px solid var(--linea);width:48px;height:48px;border-radius:50%;cursor:pointer;display:grid;place-items:center}
+.visor .cerrar{top:12px;right:12px}
+.visor .ant{left:12px;top:50%}
+.visor .sig{right:12px;top:50%}
+
+@media (max-width:900px){
+  .menu{display:none}
+  .servicios{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pasos{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pasos::before{display:none}
+  .cabeza,.nosotros .envol,.contacto .envol{grid-template-columns:minmax(0,1fr)}
+  .portada .envol{grid-template-columns:minmax(0,1fr)}
+  .x-coord{text-align:left}
+}
+@media (max-width:560px){
+  .logo span{display:none}
+  .servicios,.pasos,form,.datos{grid-template-columns:minmax(0,1fr)}
+}
+.banda{position:relative;isolation:isolate;overflow:hidden;text-align:center}
+.banda>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.banda::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(13,12,10,.72)}
+.banda .envol{display:flex;flex-direction:column;align-items:center;gap:20px}
+.banda h2{font-size:clamp(34px,5vw,64px)}
+.banda .acciones{justify-content:center}
+.barra .tel{min-height:40px;padding:0 16px;font-size:13px;letter-spacing:.12em}
+.barra-movil{display:none}
+@media (max-width:760px){
+  .plomada{display:none}
+  .barra-movil{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:30;padding-bottom:env(safe-area-inset-bottom,0px);background:var(--negro);border-top:1px solid var(--linea)}
+  .barra-movil a{display:grid;place-items:center;min-height:56px;font:600 13px var(--texto);letter-spacing:.24em;text-transform:uppercase;text-decoration:none}
+  .barra-movil a:first-child{background:var(--oro);color:var(--negro)}
+  .barra-movil a:last-child{color:var(--oro-claro)}
+  body{padding-bottom:56px}
+  .barra .tel{display:none}
+  .barra .ig-barra{margin-left:auto}
+}
+@media (prefers-reduced-motion:reduce){
+  .plomada{animation:none}
+  .obra img{transition:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+
+<header class="barra">
+  <div class="envol">
+    <a class="logo" href="#inicio"><svg class="marca" viewBox="50 28 340 250" role="img" aria-label="MOP Construction"><defs><linearGradient id="oro9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3dc95"/><stop offset="0.55" stop-color="#cfa94f"/><stop offset="1" stop-color="#9c7a2c"/></linearGradient></defs><g transform="translate(0 0) scale(1)"><path d="M60 150 L220 36 L380 150" fill="none" stroke="url(#oro9)" stroke-width="10" stroke-linejoin="miter"/><path d="M104 150 L220 67 L336 150" fill="none" stroke="#c9a55a" stroke-opacity="0.55" stroke-width="3"/><path d="M137.44 184.32 138.4 195.72 104.56 259.2Q104.56 259.2 103.48 261.29999999999995Q102.4 263.4 101.32 266.4Q100.24 269.4 100.12 272.16H98.91999999999999L95.19999999999999 262.68ZM58.599999999999994 261.24V270.0H45.28V268.8Q45.4 268.8 46.3 268.8Q47.199999999999996 268.8 47.199999999999996 268.8Q50.44 268.8 52.959999999999994 266.82Q55.48 264.84 55.959999999999994 261.24ZM63.28 263.16Q63.28 263.28 63.28 263.4Q63.28 263.52 63.28 263.76Q63.28 265.68 64.66 267.3Q66.03999999999999 268.92 67.96 268.92H69.75999999999999V270.0H62.44V263.16ZM65.56 184.32H66.75999999999999L70.36 194.76L62.56 270.0H54.879999999999995ZM66.75999999999999 184.32 104.44 252.24 98.91999999999999 272.16 63.879999999999995 207.72ZM138.51999999999998 184.32 149.56 270.0H133.6L127.35999999999999 209.04L137.44 184.32ZM145.84 261.24H148.48Q149.07999999999998 264.84 151.54 266.82Q154.0 268.8 157.23999999999998 268.8Q157.23999999999998 268.8 158.14 268.8Q159.04 268.8 159.16 268.8V270.0H145.84ZM132.88 263.16H133.72V270.0H126.4V268.92H128.2Q130.24 268.92 131.56 267.3Q132.88 265.68 132.88 263.76Q132.88 263.52 132.88 263.4Q132.88 263.28 132.88 263.16Z" fill="#f3ead6"/><path d="M220.0 184.32Q233.8 184.32 244.18 189.66Q254.56 195.0 260.2 204.84Q265.84 214.68 265.84 228.0Q265.84 241.32 260.2 251.16Q254.56 261.0 244.18 266.34000000000003Q233.8 271.68 220.0 271.68Q206.07999999999998 271.68 195.76 266.34000000000003Q185.44 261.0 179.8 251.16Q174.16 241.32 174.16 228.0Q174.16 214.68 179.8 204.84Q185.44 195.0 195.76 189.66Q206.07999999999998 184.32 220.0 184.32ZM220.0 267.12Q229.0 267.12 235.66 262.32Q242.32 257.52 245.98 248.76Q249.64 240.0 249.64 228.0Q249.64 216.0 245.98 207.24Q242.32 198.48000000000002 235.66 193.68Q229.0 188.88 220.0 188.88Q211.0 188.88 204.34 193.68Q197.68 198.48000000000002 194.01999999999998 207.24Q190.35999999999999 216.0 190.35999999999999 228.0Q190.35999999999999 240.0 194.01999999999998 248.76Q197.68 257.52 204.34 262.32Q211.0 267.12 220.0 267.12Z" fill="#f3ead6"/><path d="M303.15999999999997 186.0H317.91999999999996Q327.4 186.0 333.58 188.94Q339.76 191.88 342.88 197.04Q346.0 202.2 346.12 209.04Q346.23999999999995 215.04 344.02 219.83999999999997Q341.79999999999995 224.64 337.9 227.88Q334.0 231.12 329.14 232.62Q324.28 234.12 319.0 233.46Q313.71999999999997 232.8 308.79999999999995 229.8V228.6Q308.79999999999995 228.6 310.41999999999996 228.72Q312.03999999999996 228.84 314.67999999999995 228.42000000000002Q317.32 228.0 320.26 226.74Q323.2 225.48000000000002 325.71999999999997 222.66000000000003Q328.23999999999995 219.84 329.55999999999995 215.16Q330.03999999999996 213.6 330.21999999999997 211.68Q330.4 209.76 330.28 207.96Q330.15999999999997 200.04000000000002 326.08 195.3Q322.0 190.56 314.55999999999995 190.56H304.35999999999996Q304.35999999999996 190.56 304.05999999999995 189.42000000000002Q303.76 188.28 303.46 187.14Q303.15999999999997 186.0 303.15999999999997 186.0ZM304.71999999999997 186.0V270.0H290.08V186.0ZM290.44 261.24V270.0H280.84V268.8Q280.96 268.8 281.62 268.8Q282.28 268.8 282.4 268.8Q285.52 268.8 287.74 266.58000000000004Q289.96 264.36 290.08 261.24ZM290.44 194.76H290.08Q290.08 191.64 287.79999999999995 189.42Q285.52 187.2 282.4 187.2Q282.28 187.2 281.67999999999995 187.2Q281.08 187.2 280.96 187.2L280.84 186.0H290.44ZM304.35999999999996 261.24H304.71999999999997Q304.84 264.36 307.05999999999995 266.58000000000004Q309.28 268.8 312.4 268.8Q312.4 268.8 313.12 268.8Q313.84 268.8 313.96 268.8V270.0H304.35999999999996Z" fill="#f3ead6"/><line x1="220" y1="40" x2="220" y2="214" stroke="#d9b765" stroke-width="2.5"/><path d="M220 212 L230 226 L220 246 L210 226 Z" fill="url(#oro9)"/></g></svg><span data-es="Construction and<br>Service, Inc.">Construction and<br>Service, Inc.</span></a>
+    <nav class="menu" aria-label="Main">
+      <a href="#servicios" data-es="Servicios">Services</a>
+      <a href="#obras" data-es="Obras">Our work</a>
+      <a href="#proceso" data-es="Proceso">Process</a>
+      <a href="#nosotros" data-es="Nosotros">About</a>
+      <a href="#contacto" data-es="Presupuesto">Free estimate</a>
+    </nav>
+    <a class="ig-barra" href="https://www.instagram.com/mopconstruccion.inc/" aria-label="Instagram @mopconstruccion.inc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+    <button type="button" class="idioma" id="idioma" aria-label="Cambiar a español">ES</button>
+    <a class="boton hueco tel" href="tel:+17544573599"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>754.457.3599</a>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="portada" style="padding:0">
+    <img src="img/42.jpg" alt="Block home with gable walls topped out">
+    <div class="plomada" aria-hidden="true"><i></i><svg viewBox="0 0 20 30"><defs><linearGradient id="pb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3dc95"/><stop offset="1" stop-color="#9c7a2c"/></linearGradient></defs><path d="M10 0 L20 12 L10 30 L0 12 Z" fill="url(#pb)"/></svg></div>
+    <div class="envol">
+      <div class="ceja" data-es="Dania Beach, FL · Miami-Dade y Broward">Dania Beach, FL · Miami-Dade &amp; Broward</div>
+      <h1 data-es="Tu visión.<br><em>Bien construida.</em>">Your Vision.<br><em>Built Solid.</em></h1>
+      <div class="raya"></div>
+      <p class="sub" data-es="Estructura, drywall, pintura, pisos y carpintería de terminación. Bien hecho, a tiempo y con 20 años de experiencia detrás de cada obra.">Framing, drywall, painting, flooring and finish carpentry. Done right, on schedule, with 20 years of experience behind every job.</p>
+      <div class="acciones">
+        <a class="boton lleno" href="#contacto" data-es="Presupuesto gratis">Free estimate</a>
+        <a class="boton hueco" href="tel:+17544573599"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span data-es="Llamar">Call now</span></a>
+        <a class="boton hueco" href="https://wa.me/17544573599"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.45-.72-1.68-.8-.22-.08-.39-.12-.55.12-.16.25-.63.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 0 1-3.3-2.88c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.43-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.7 2.7 0 0 0-.85 2.02 4.7 4.7 0 0 0 1 2.5 10.8 10.8 0 0 0 4.13 3.65c1.54.66 2.14.72 2.9.6.47-.07 1.45-.59 1.65-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.47-.28z"/></svg>WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios">
+    <div class="envol">
+      <div class="cabeza">
+        <div><div class="ceja" data-es="Servicios">Services</div><h2 data-es="Seis oficios, un mismo nivel">Six trades, one standard</h2></div>
+        <p data-es="Cada foto de esta página es de una obra nuestra. Esto es lo que hacemos todos los días.">Every photo on this page is from one of our job sites. This is the work we do every day.</p>
+      </div>
+      <div class="servicios">
+        <article class="serv"><img src="img/41.jpg" alt="" loading="lazy"><div><h3 data-es="Obra nueva y estructura">New construction &amp; framing</h3><p data-es="Casas de bloque, cerchas de acero y madera, techos y vigas.">Block homes, steel and wood trusses, roofs and beams.</p></div></article>
+        <article class="serv"><img src="img/18.jpg" alt="" loading="lazy"><div><h3 data-es="Drywall">Drywall</h3><p data-es="Tabiques de perfil de acero, placas, masillado y terminación lisa.">Steel stud partitions, board hanging, taping and smooth finish.</p></div></article>
+        <article class="serv"><img src="img/48.jpg" alt="" loading="lazy"><div><h3 data-es="Pintura">Painting</h3><p data-es="Interiores y exteriores, con la preparación que hace que dure.">Interior and exterior, with the prep that makes it last.</p></div></article>
+        <article class="serv"><img src="img/10.jpg" alt="" loading="lazy"><div><h3 data-es="Pisos">Flooring</h3><p data-es="Cerámica, porcelanato y pisos de madera, nivelados y parejos.">Tile, porcelain and wood floors, level and true.</p></div></article>
+        <article class="serv"><img src="img/21.jpg" alt="" loading="lazy"><div><h3 data-es="Carpintería de terminación">Finish carpentry</h3><p data-es="Bancos empotrados, molduras, ménsulas y detalles a medida.">Built-in benches, trim, brackets and custom details.</p></div></article>
+        <article class="serv"><img src="img/26.jpg" alt="" loading="lazy"><div><h3 data-es="Decks y exteriores">Decks &amp; outdoor living</h3><p data-es="Decks, muelles, pérgolas y terrazas cubiertas.">Decks, docks, pergolas and covered terraces.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="proceso" class="proceso">
+    <div class="envol">
+      <div class="cabeza">
+        <div><div class="ceja" data-es="Desde abajo">From the ground up</div><h2 data-es="Cómo avanza una obra">How a build comes together</h2></div>
+        <p data-es="Cuatro etapas, siempre a plomo y a nivel.">Four stages, always plumb and level.</p>
+      </div>
+      <div class="pasos">
+        <div class="paso"><div class="num">1</div><img src="img/17.jpg" alt="Formwork for a new slab" loading="lazy"><h3 data-es="Fundación">Foundation</h3><p data-es="Replanteo, excavación, encofrado y hormigón.">Layout, excavation, forms and concrete.</p></div>
+        <div class="paso"><div class="num">2</div><img src="img/39.jpg" alt="Two-story block home with trusses going up" loading="lazy"><h3 data-es="Estructura">Structure</h3><p data-es="Muros de bloque, columnas y vigas de amarre.">Block walls, columns and tie beams.</p></div>
+        <div class="paso"><div class="num">3</div><img src="img/45.jpg" alt="Steel roof trusses" loading="lazy"><h3 data-es="Techo">Roof</h3><p data-es="Cerchas de acero o madera, entablonado y techado.">Steel or wood trusses, sheathing and roofing.</p></div>
+        <div class="paso"><div class="num">4</div><img src="img/06.jpg" alt="Pool house with folding glass walls" loading="lazy"><h3 data-es="Terminación">Finish</h3><p data-es="Drywall, pintura, pisos, carpintería y entrega.">Drywall, paint, floors, carpentry and handover.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="obras">
+    <div class="envol">
+      <div class="cabeza">
+        <div><div class="ceja" data-es="Obras">Our work</div><h2 data-es="Fotos de obra, sin retoques">Straight from the job site</h2></div>
+        <p data-es="Tocá una foto para verla grande.">Tap any photo to see it full size.</p>
+      </div>
+      <div class="filtros" role="group" aria-label="Filter projects"><button type="button" class="chip on" data-f="all" data-es="Todo">All work</button><button type="button" class="chip" data-f="new" data-es="Casas nuevas">New homes</button><button type="button" class="chip" data-f="framing" data-es="Estructura">Framing</button><button type="button" class="chip" data-f="outdoor" data-es="Exteriores">Outdoor living</button><button type="button" class="chip" data-f="decks" data-es="Decks y muelles">Decks & docks</button><button type="button" class="chip" data-f="interior" data-es="Interiores y comercial">Interiors & commercial</button><button type="button" class="chip" data-f="foundations" data-es="Fundaciones">Foundations</button></div>
+      <div class="galeria" id="galeria">
+<figure class="obra" data-cat="new"><button type="button" class="abrir" data-src="img/39.jpg" aria-label="Open photo"><img src="img/39.jpg" width="2000" height="1500" loading="lazy" alt="Two-story block home, trusses going up"></button><figcaption data-es="Casa de bloque de dos plantas, subiendo cerchas">Two-story block home, trusses going up</figcaption></figure>
+<figure class="obra" data-cat="new"><button type="button" class="abrir" data-src="img/44.jpg" aria-label="Open photo"><img src="img/44.jpg" width="2000" height="1500" loading="lazy" alt="Custom home under construction"></button><figcaption data-es="Casa a medida en construcción">Custom home under construction</figcaption></figure>
+<figure class="obra" data-cat="new"><button type="button" class="abrir" data-src="img/01.jpg" aria-label="Open photo"><img src="img/01.jpg" width="825" height="1100" loading="lazy" alt="Estate shell, stone and arches"></button><figcaption data-es="Casco de mansión, piedra y arcos">Estate shell, stone and arches</figcaption></figure>
+<figure class="obra" data-cat="new"><button type="button" class="abrir" data-src="img/03.jpg" aria-label="Open photo"><img src="img/03.jpg" width="1100" height="825" loading="lazy" alt="Dormer and roof detail on a new build"></button><figcaption data-es="Buhardilla y techo en obra nueva">Dormer and roof detail on a new build</figcaption></figure>
+<figure class="obra" data-cat="new"><button type="button" class="abrir" data-src="img/42.jpg" aria-label="Open photo"><img src="img/42.jpg" width="2200" height="1650" loading="lazy" alt="Block walls topped out"></button><figcaption data-es="Muros de bloque terminados">Block walls topped out</figcaption></figure>
+<figure class="obra" data-cat="new"><button type="button" class="abrir" data-src="img/43.jpg" aria-label="Open photo"><img src="img/43.jpg" width="1100" height="825" loading="lazy" alt="New home on its lot"></button><figcaption data-es="Casa nueva en su terreno">New home on its lot</figcaption></figure>
+<figure class="obra" data-cat="new"><button type="button" class="abrir" data-src="img/33.jpg" aria-label="Open photo"><img src="img/33.jpg" width="825" height="1100" loading="lazy" alt="Arched loggia restoration"></button><figcaption data-es="Restauración de galería con arcos">Arched loggia restoration</figcaption></figure>
+<figure class="obra" data-cat="framing"><button type="button" class="abrir" data-src="img/40.jpg" aria-label="Open photo"><img src="img/40.jpg" width="1100" height="619" loading="lazy" alt="Light-gauge steel roof framing, from above"></button><figcaption data-es="Techo de acero liviano, visto desde arriba">Light-gauge steel roof framing, from above</figcaption></figure>
+<figure class="obra" data-cat="framing"><button type="button" class="abrir" data-src="img/41.jpg" aria-label="Open photo"><img src="img/41.jpg" width="1100" height="619" loading="lazy" alt="Steel trusses across the whole house"></button><figcaption data-es="Cerchas de acero en toda la casa">Steel trusses across the whole house</figcaption></figure>
+<figure class="obra" data-cat="framing"><button type="button" class="abrir" data-src="img/45.jpg" aria-label="Open photo"><img src="img/45.jpg" width="825" height="1100" loading="lazy" alt="Steel truss web"></button><figcaption data-es="Cerchas de acero de cerca">Steel truss web</figcaption></figure>
+<figure class="obra" data-cat="framing"><button type="button" class="abrir" data-src="img/32.jpg" aria-label="Open photo"><img src="img/32.jpg" width="1100" height="825" loading="lazy" alt="Timber framing around a pool deck"></button><figcaption data-es="Estructura de madera junto a la piscina">Timber framing around a pool deck</figcaption></figure>
+<figure class="obra" data-cat="framing"><button type="button" class="abrir" data-src="img/34.jpg" aria-label="Open photo"><img src="img/34.jpg" width="1100" height="825" loading="lazy" alt="Post and beam structure going up"></button><figcaption data-es="Estructura de postes y vigas">Post and beam structure going up</figcaption></figure>
+<figure class="obra" data-cat="framing"><button type="button" class="abrir" data-src="img/36.jpg" aria-label="Open photo"><img src="img/36.jpg" width="825" height="1100" loading="lazy" alt="Posts set on footings"></button><figcaption data-es="Postes sobre sus zapatas">Posts set on footings</figcaption></figure>
+<figure class="obra" data-cat="framing"><button type="button" class="abrir" data-src="img/56.jpg" aria-label="Open photo"><img src="img/56.jpg" width="619" height="1100" loading="lazy" alt="Beam and header work"></button><figcaption data-es="Vigas y dinteles">Beam and header work</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/38.jpg" aria-label="Open photo"><img src="img/38.jpg" width="1100" height="619" loading="lazy" alt="Open-rafter hip roof"></button><figcaption data-es="Techo a cuatro aguas con vigas vistas">Open-rafter hip roof</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/35.jpg" aria-label="Open photo"><img src="img/35.jpg" width="1100" height="825" loading="lazy" alt="Covered terrace framing"></button><figcaption data-es="Estructura de terraza cubierta">Covered terrace framing</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/55.jpg" aria-label="Open photo"><img src="img/55.jpg" width="1100" height="825" loading="lazy" alt="Pergola by the pool"></button><figcaption data-es="Pérgola junto a la piscina">Pergola by the pool</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/46.jpg" aria-label="Open photo"><img src="img/46.jpg" width="1100" height="825" loading="lazy" alt="Wood brackets and canopy"></button><figcaption data-es="Ménsulas de madera y alero">Wood brackets and canopy</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/52.jpg" aria-label="Open photo"><img src="img/52.jpg" width="1100" height="825" loading="lazy" alt="Canopy brackets installed"></button><figcaption data-es="Ménsulas del alero instaladas">Canopy brackets installed</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/48.jpg" aria-label="Open photo"><img src="img/48.jpg" width="1100" height="825" loading="lazy" alt="Canopy along the rear facade"></button><figcaption data-es="Alero en la fachada trasera">Canopy along the rear facade</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/49.jpg" aria-label="Open photo"><img src="img/49.jpg" width="1100" height="825" loading="lazy" alt="Telehandler on site"></button><figcaption data-es="Manipulador telescópico en obra">Telehandler on site</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/06.jpg" aria-label="Open photo"><img src="img/06.jpg" width="1100" height="825" loading="lazy" alt="Pool house with folding glass walls"></button><figcaption data-es="Casa de piscina con puertas plegables">Pool house with folding glass walls</figcaption></figure>
+<figure class="obra" data-cat="outdoor"><button type="button" class="abrir" data-src="img/11.jpg" aria-label="Open photo"><img src="img/11.jpg" width="1100" height="619" loading="lazy" alt="Covered patio and turf"></button><figcaption data-es="Patio cubierto y césped">Covered patio and turf</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/26.jpg" aria-label="Open photo"><img src="img/26.jpg" width="1100" height="825" loading="lazy" alt="Composite deck in progress"></button><figcaption data-es="Deck de composite en proceso">Composite deck in progress</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/27.jpg" aria-label="Open photo"><img src="img/27.jpg" width="1100" height="825" loading="lazy" alt="Laying deck boards"></button><figcaption data-es="Colocando las tablas del deck">Laying deck boards</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/29.jpg" aria-label="Open photo"><img src="img/29.jpg" width="1100" height="825" loading="lazy" alt="Deck walkway to the gate"></button><figcaption data-es="Pasarela de deck hasta el portón">Deck walkway to the gate</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/23.jpg" aria-label="Open photo"><img src="img/23.jpg" width="1100" height="825" loading="lazy" alt="Raised deck framing"></button><figcaption data-es="Estructura de deck elevado">Raised deck framing</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/24.jpg" aria-label="Open photo"><img src="img/24.jpg" width="1100" height="825" loading="lazy" alt="Joists and first boards"></button><figcaption data-es="Vigas y primeras tablas">Joists and first boards</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/25.jpg" aria-label="Open photo"><img src="img/25.jpg" width="619" height="1100" loading="lazy" alt="Boardwalk along the side yard"></button><figcaption data-es="Pasarela en el lateral">Boardwalk along the side yard</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/30.jpg" aria-label="Open photo"><img src="img/30.jpg" width="1100" height="825" loading="lazy" alt="Deck steps and benches"></button><figcaption data-es="Escalones y bancos del deck">Deck steps and benches</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/13.jpg" aria-label="Open photo"><img src="img/13.jpg" width="1100" height="825" loading="lazy" alt="Dock rebuild on the canal"></button><figcaption data-es="Reconstrucción de muelle en el canal">Dock rebuild on the canal</figcaption></figure>
+<figure class="obra" data-cat="decks"><button type="button" class="abrir" data-src="img/14.jpg" aria-label="Open photo"><img src="img/14.jpg" width="1100" height="825" loading="lazy" alt="Dock framing over the water"></button><figcaption data-es="Estructura de muelle sobre el agua">Dock framing over the water</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/18.jpg" aria-label="Open photo"><img src="img/18.jpg" width="825" height="1100" loading="lazy" alt="Commercial build-out, metal studs"></button><figcaption data-es="Local comercial, perfilería metálica">Commercial build-out, metal studs</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/19.jpg" aria-label="Open photo"><img src="img/19.jpg" width="825" height="1100" loading="lazy" alt="Framing a commercial space"></button><figcaption data-es="Tabiques en un local comercial">Framing a commercial space</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/20.jpg" aria-label="Open photo"><img src="img/20.jpg" width="1100" height="825" loading="lazy" alt="Steel stud partitions"></button><figcaption data-es="Tabiques de perfil de acero">Steel stud partitions</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/21.jpg" aria-label="Open photo"><img src="img/21.jpg" width="1100" height="825" loading="lazy" alt="Window seat under arched windows"></button><figcaption data-es="Banco bajo ventanas en arco">Window seat under arched windows</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/22.jpg" aria-label="Open photo"><img src="img/22.jpg" width="1100" height="825" loading="lazy" alt="Built-in bench framing"></button><figcaption data-es="Estructura de banco empotrado">Built-in bench framing</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/15.jpg" aria-label="Open photo"><img src="img/15.jpg" width="825" height="1100" loading="lazy" alt="Vaulted arcade"></button><figcaption data-es="Galería abovedada">Vaulted arcade</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/08.jpg" aria-label="Open photo"><img src="img/08.jpg" width="1100" height="825" loading="lazy" alt="Leveling columns"></button><figcaption data-es="Nivelando columnas">Leveling columns</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/09.jpg" aria-label="Open photo"><img src="img/09.jpg" width="495" height="1100" loading="lazy" alt="Wood ceiling and columns"></button><figcaption data-es="Techo y columnas de madera">Wood ceiling and columns</figcaption></figure>
+<figure class="obra" data-cat="interior"><button type="button" class="abrir" data-src="img/10.jpg" aria-label="Open photo"><img src="img/10.jpg" width="619" height="1100" loading="lazy" alt="Open living space, finished"></button><figcaption data-es="Espacio abierto, terminado">Open living space, finished</figcaption></figure>
+<figure class="obra" data-cat="foundations"><button type="button" class="abrir" data-src="img/17.jpg" aria-label="Open photo"><img src="img/17.jpg" width="825" height="1100" loading="lazy" alt="Formwork for a new slab"></button><figcaption data-es="Encofrado para una losa nueva">Formwork for a new slab</figcaption></figure>
+<figure class="obra" data-cat="foundations"><button type="button" class="abrir" data-src="img/31.jpg" aria-label="Open photo"><img src="img/31.jpg" width="1100" height="825" loading="lazy" alt="Pool and footing forms"></button><figcaption data-es="Encofrados de piscina y zapatas">Pool and footing forms</figcaption></figure>
+<figure class="obra" data-cat="foundations"><button type="button" class="abrir" data-src="img/16.jpg" aria-label="Open photo"><img src="img/16.jpg" width="1100" height="825" loading="lazy" alt="Curved retaining form"></button><figcaption data-es="Encofrado curvo de contención">Curved retaining form</figcaption></figure>
+<figure class="obra" data-cat="foundations"><button type="button" class="abrir" data-src="img/53.jpg" aria-label="Open photo"><img src="img/53.jpg" width="864" height="481" loading="lazy" alt="Excavation and forms"></button><figcaption data-es="Excavación y encofrados">Excavation and forms</figcaption></figure>
+      </div>
+      <div class="pie-galeria"><p class="cuenta" id="cuenta"></p><a class="boton hueco" href="https://www.instagram.com/mopconstruccion.inc/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span data-es="Más obras en Instagram">More work on Instagram</span></a></div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="nosotros">
+    <div class="envol">
+      <img src="img/57.jpg" alt="Crew member working on a scaffold" loading="lazy">
+      <div>
+        <div class="ceja" data-es="Nosotros">About us</div>
+        <h2 data-es="Un equipo que construye con sus manos">A crew that builds with its own hands</h2>
+        <p data-es="MOP Construction and Service, Inc. trabaja desde Dania Beach en casas, estructura, decks y exteriores en todo el sur de Florida.">MOP Construction and Service, Inc. works out of Dania Beach on homes, framing, decks and outdoor spaces across South Florida.</p>
+        <p data-es="La plomada del logo es la primera herramienta de cualquier obra: si la línea no está a plomo, nada de lo que sigue lo está.">The plumb bob in our logo is the first tool on any site. If the line isn't plumb, nothing built on it will be.</p>
+        <dl class="datos">
+          <div><dt data-es="Base">Based in</dt><dd>Dania Beach, FL</dd></div>
+          <div><dt data-es="Zona">Service area</dt><dd data-es="Miami-Dade y Broward">Miami-Dade &amp; Broward</dd></div>
+          <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/mopconstruccion.inc/">@mopconstruccion.inc</a></dd></div>
+          <div><dt data-es="Experiencia">Experience</dt><dd data-es="20 años">20 years</dd></div>
+          <div><dt data-es="Idiomas">Languages</dt><dd data-es="Inglés y español">English &amp; Spanish</dd></div>
+          <div><dt data-es="Presupuesto">Estimates</dt><dd data-es="Gratis">Free</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="banda">
+    <img src="img/44.jpg" alt="" loading="lazy">
+    <div class="envol">
+      <div class="ceja" data-es="Empezá tu obra">Start your build</div>
+      <h2 data-es="El presupuesto es gratis.<br>La obra, a plomo.">Estimates are free.<br>The work is plumb.</h2>
+      <div class="acciones"><a class="boton lleno" href="#contacto" data-es="Pedir presupuesto">Get a free estimate</a><a class="boton hueco" href="tel:+17544573599">754.457.3599</a></div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <div class="envol">
+      <div>
+        <div class="ceja" data-es="Contacto">Contact</div>
+        <h2 data-es="Contanos tu proyecto">Tell us about your project</h2>
+        <p class="lema" data-es="Tu visión. Bien construida.">Your Vision. Built Solid.</p>
+        <ul>
+          <li><span data-es="Teléfono">Phone</span><a href="tel:+17544573599">754.457.3599</a></li>
+          <li><span>WhatsApp</span><a href="https://wa.me/17544573599">754.457.3599</a></li>
+          <li><span>Email</span><a href="mailto:mopconstruccion@gmail.com">mopconstruccion@gmail.com</a></li>
+          <li><span>Instagram</span><a href="https://www.instagram.com/mopconstruccion.inc/">@mopconstruccion.inc</a></li>
+          <li><span data-es="Zona">Area</span><span data-es="Miami-Dade y Broward">Miami-Dade &amp; Broward</span></li>
+        </ul>
+      </div>
+      <form id="form" novalidate>
+        <div class="campo"><label for="f-nombre" data-es="Nombre">Name</label><input id="f-nombre" name="nombre" autocomplete="name" required></div>
+        <div class="campo"><label for="f-tel" data-es="Teléfono">Phone</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" required></div>
+        <div class="campo ancho"><label for="f-tipo" data-es="Tipo de obra">Project type</label>
+          <select id="f-tipo" name="tipo">
+            <option data-es="Obra nueva">New construction</option>
+            <option data-es="Estructura de madera y acero">Wood &amp; steel framing</option>
+            <option data-es="Deck, muelle o pasarela">Deck, dock or boardwalk</option>
+            <option data-es="Pérgola o espacio exterior">Pergola or outdoor living</option>
+            <option data-es="Local comercial">Commercial build-out</option>
+            <option data-es="Otra">Something else</option>
+          </select></div>
+        <div class="campo ancho"><label for="f-msj" data-es="Contanos qué querés construir">What do you want to build?</label><textarea id="f-msj" name="mensaje"></textarea></div>
+        <div class="campo ancho"><button class="boton lleno" type="submit" data-es="Enviar pedido">Send request</button></div>
+        <p class="aviso" id="aviso" hidden></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="envol">
+    <svg class="marca" viewBox="50 28 340 250" role="img" aria-label="MOP Construction"><defs><linearGradient id="oro8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3dc95"/><stop offset="0.55" stop-color="#cfa94f"/><stop offset="1" stop-color="#9c7a2c"/></linearGradient></defs><g transform="translate(0 0) scale(1)"><path d="M60 150 L220 36 L380 150" fill="none" stroke="url(#oro8)" stroke-width="10" stroke-linejoin="miter"/><path d="M104 150 L220 67 L336 150" fill="none" stroke="#c9a55a" stroke-opacity="0.55" stroke-width="3"/><path d="M137.44 184.32 138.4 195.72 104.56 259.2Q104.56 259.2 103.48 261.29999999999995Q102.4 263.4 101.32 266.4Q100.24 269.4 100.12 272.16H98.91999999999999L95.19999999999999 262.68ZM58.599999999999994 261.24V270.0H45.28V268.8Q45.4 268.8 46.3 268.8Q47.199999999999996 268.8 47.199999999999996 268.8Q50.44 268.8 52.959999999999994 266.82Q55.48 264.84 55.959999999999994 261.24ZM63.28 263.16Q63.28 263.28 63.28 263.4Q63.28 263.52 63.28 263.76Q63.28 265.68 64.66 267.3Q66.03999999999999 268.92 67.96 268.92H69.75999999999999V270.0H62.44V263.16ZM65.56 184.32H66.75999999999999L70.36 194.76L62.56 270.0H54.879999999999995ZM66.75999999999999 184.32 104.44 252.24 98.91999999999999 272.16 63.879999999999995 207.72ZM138.51999999999998 184.32 149.56 270.0H133.6L127.35999999999999 209.04L137.44 184.32ZM145.84 261.24H148.48Q149.07999999999998 264.84 151.54 266.82Q154.0 268.8 157.23999999999998 268.8Q157.23999999999998 268.8 158.14 268.8Q159.04 268.8 159.16 268.8V270.0H145.84ZM132.88 263.16H133.72V270.0H126.4V268.92H128.2Q130.24 268.92 131.56 267.3Q132.88 265.68 132.88 263.76Q132.88 263.52 132.88 263.4Q132.88 263.28 132.88 263.16Z" fill="#f3ead6"/><path d="M220.0 184.32Q233.8 184.32 244.18 189.66Q254.56 195.0 260.2 204.84Q265.84 214.68 265.84 228.0Q265.84 241.32 260.2 251.16Q254.56 261.0 244.18 266.34000000000003Q233.8 271.68 220.0 271.68Q206.07999999999998 271.68 195.76 266.34000000000003Q185.44 261.0 179.8 251.16Q174.16 241.32 174.16 228.0Q174.16 214.68 179.8 204.84Q185.44 195.0 195.76 189.66Q206.07999999999998 184.32 220.0 184.32ZM220.0 267.12Q229.0 267.12 235.66 262.32Q242.32 257.52 245.98 248.76Q249.64 240.0 249.64 228.0Q249.64 216.0 245.98 207.24Q242.32 198.48000000000002 235.66 193.68Q229.0 188.88 220.0 188.88Q211.0 188.88 204.34 193.68Q197.68 198.48000000000002 194.01999999999998 207.24Q190.35999999999999 216.0 190.35999999999999 228.0Q190.35999999999999 240.0 194.01999999999998 248.76Q197.68 257.52 204.34 262.32Q211.0 267.12 220.0 267.12Z" fill="#f3ead6"/><path d="M303.15999999999997 186.0H317.91999999999996Q327.4 186.0 333.58 188.94Q339.76 191.88 342.88 197.04Q346.0 202.2 346.12 209.04Q346.23999999999995 215.04 344.02 219.83999999999997Q341.79999999999995 224.64 337.9 227.88Q334.0 231.12 329.14 232.62Q324.28 234.12 319.0 233.46Q313.71999999999997 232.8 308.79999999999995 229.8V228.6Q308.79999999999995 228.6 310.41999999999996 228.72Q312.03999999999996 228.84 314.67999999999995 228.42000000000002Q317.32 228.0 320.26 226.74Q323.2 225.48000000000002 325.71999999999997 222.66000000000003Q328.23999999999995 219.84 329.55999999999995 215.16Q330.03999999999996 213.6 330.21999999999997 211.68Q330.4 209.76 330.28 207.96Q330.15999999999997 200.04000000000002 326.08 195.3Q322.0 190.56 314.55999999999995 190.56H304.35999999999996Q304.35999999999996 190.56 304.05999999999995 189.42000000000002Q303.76 188.28 303.46 187.14Q303.15999999999997 186.0 303.15999999999997 186.0ZM304.71999999999997 186.0V270.0H290.08V186.0ZM290.44 261.24V270.0H280.84V268.8Q280.96 268.8 281.62 268.8Q282.28 268.8 282.4 268.8Q285.52 268.8 287.74 266.58000000000004Q289.96 264.36 290.08 261.24ZM290.44 194.76H290.08Q290.08 191.64 287.79999999999995 189.42Q285.52 187.2 282.4 187.2Q282.28 187.2 281.67999999999995 187.2Q281.08 187.2 280.96 187.2L280.84 186.0H290.44ZM304.35999999999996 261.24H304.71999999999997Q304.84 264.36 307.05999999999995 266.58000000000004Q309.28 268.8 312.4 268.8Q312.4 268.8 313.12 268.8Q313.84 268.8 313.96 268.8V270.0H304.35999999999996Z" fill="#f3ead6"/><line x1="220" y1="40" x2="220" y2="214" stroke="#d9b765" stroke-width="2.5"/><path d="M220 212 L230 226 L220 246 L210 226 Z" fill="url(#oro8)"/></g></svg>
+    <div class="pie-links"><a href="tel:+17544573599">754.457.3599</a><a href="mailto:mopconstruccion@gmail.com">mopconstruccion@gmail.com</a><a class="ig" href="https://www.instagram.com/mopconstruccion.inc/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>@mopconstruccion.inc</a></div>
+    <small>© 2026 MOP Construction and Service, Inc. · Dania Beach, FL</small>
+  </div>
+</footer>
+
+<nav class="barra-movil" aria-label="Quick contact"><a href="tel:+17544573599" data-es="Llamar">Call</a><a href="https://wa.me/17544573599">WhatsApp</a></nav>
+
+<dialog class="visor" id="visor" aria-label="Photo">
+  <div class="caja">
+    <img id="visor-img" alt="">
+    <p id="visor-txt"></p>
+  </div>
+  <button type="button" class="cerrar" id="v-cerrar" aria-label="Close"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3l12 12M15 3L3 15"/></svg></button>
+  <button type="button" class="ant" id="v-ant" aria-label="Previous"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 3L5 9l6 6"/></svg></button>
+  <button type="button" class="sig" id="v-sig" aria-label="Next"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 3l6 6-6 6"/></svg></button>
+</dialog>
+
+<script>
+(function(){
+  var es=false;
+  var nodos=[].slice.call(document.querySelectorAll('[data-es]'));
+  nodos.forEach(function(n){ n.setAttribute('data-en', n.innerHTML); });
+  var btn=document.getElementById('idioma');
+  function idioma(){
+    nodos.forEach(function(n){ n.innerHTML = n.getAttribute(es?'data-es':'data-en'); });
+    document.documentElement.lang = es?'es':'en';
+    btn.textContent = es?'EN':'ES';
+    btn.setAttribute('aria-label', es?'Switch to English':'Cambiar a español');
+    contar();
+  }
+  btn.addEventListener('click', function(){ es=!es; idioma(); try{localStorage.setItem('mop-idioma', es?'es':'en');}catch(e){} });
+
+  var obras=[].slice.call(document.querySelectorAll('.obra'));
+  var chips=[].slice.call(document.querySelectorAll('.chip'));
+  var cuenta=document.getElementById('cuenta');
+  function contar(){
+    var v=obras.filter(function(o){return !o.hidden;}).length;
+    cuenta.textContent = es ? v+' fotos' : v+' photos';
+  }
+  chips.forEach(function(c){
+    c.addEventListener('click', function(){
+      var f=c.getAttribute('data-f');
+      chips.forEach(function(x){ x.classList.toggle('on', x===c); x.setAttribute('aria-pressed', x===c); });
+      obras.forEach(function(o){ o.hidden = !(f==='all' || o.getAttribute('data-cat')===f); });
+      contar();
+    });
+  });
+
+  var visor=document.getElementById('visor'), vImg=document.getElementById('visor-img'), vTxt=document.getElementById('visor-txt'), actual=0;
+  function visibles(){ return obras.filter(function(o){return !o.hidden;}); }
+  function mostrar(i){
+    var v=visibles(); if(!v.length) return;
+    actual=(i+v.length)%v.length;
+    var o=v[actual];
+    vImg.src=o.querySelector('.abrir').getAttribute('data-src');
+    vImg.alt=o.querySelector('img').alt;
+    vTxt.textContent=o.querySelector('figcaption').textContent;
+  }
+  obras.forEach(function(o){
+    o.querySelector('.abrir').addEventListener('click', function(){
+      mostrar(visibles().indexOf(o));
+      if(visor.showModal) visor.showModal(); else visor.setAttribute('open','');
+    });
+  });
+  document.getElementById('v-cerrar').addEventListener('click', function(){ visor.close(); });
+  document.getElementById('v-ant').addEventListener('click', function(){ mostrar(actual-1); });
+  document.getElementById('v-sig').addEventListener('click', function(){ mostrar(actual+1); });
+  visor.addEventListener('click', function(e){ if(e.target===visor || e.target.classList.contains('caja')) visor.close(); });
+  visor.addEventListener('keydown', function(e){ if(e.key==='ArrowLeft') mostrar(actual-1); if(e.key==='ArrowRight') mostrar(actual+1); });
+
+  document.getElementById('form').addEventListener('submit', function(e){
+    e.preventDefault();
+    var aviso=document.getElementById('aviso');
+    aviso.hidden=false;
+    aviso.textContent = es
+      ? 'Este formulario todavía no está conectado a un correo. Por ahora, llamanos o escribinos por WhatsApp al 754.457.3599.'
+      : 'This form is not connected to an inbox yet. For now, call or WhatsApp 754.457.3599.';
+  });
+
+  try{ if(localStorage.getItem('mop-idioma')==='es'){ es=true; } }catch(e){}
+  idioma();
+})();
+</script>
+
+</body>
+</html>
