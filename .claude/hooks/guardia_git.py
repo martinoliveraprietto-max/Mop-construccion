@@ -66,7 +66,7 @@ def main():
                    + "\n  ".join(fallas or [r.stdout[-600:] or r.stderr[-600:]]))
 
     if es_commit:
-        preparados = correr(["git", "diff", "--cached", "--name-only"], raiz).stdout.split()
+        preparados = correr(["git", "diff", "--cached", "--name-only", "--diff-filter=ACMR"], raiz).stdout.split()
         basura = [p for p in preparados if "__pycache__" in p or p.endswith(".pyc")]
         if basura:
             frenar("hay basura de Python preparada para el commit (%s). Sacarla con "
