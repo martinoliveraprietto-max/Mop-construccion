@@ -11,6 +11,9 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
   cantidad de empleados, "roofing" ni ofrecer "obra nueva" como obra propia: se ofrece como
   subcontratista bajo el permiso de la constructora a cargo ("Framing for new construction").
 - Nunca mostrar Hialeah. Ciudad visible: Dania Beach, FL. Español de la web: neutro con "tú".
+- Domicilio legal (Sunbiz, desde el 27-sep): agente registrado comercial en St. Petersburg, FL.
+  NO se muestra en la web (ahí solo va la ciudad, Dania Beach, sin calle). Solo va en el pie de los
+  emails a constructoras. Nunca escribir la dirección de la casa de Martin en este repositorio (es público).
 - Lema: "Your Vision. Built Solid." — Logo elegido: el de la plomada que baja por la O
   (archivos en `marca/`). Colores: negro #0d0c0a, dorado #c9a55a / #e6c97e, crema #f3ead6.
   Letras: Cinzel (títulos), Montserrat (texto), Cormorant Garamond itálica (lema).
