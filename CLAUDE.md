@@ -36,6 +36,20 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
   Nada de Adobe, vidIQ ni herramientas pagas.
 - Plan: lunes foto/carrusel, miércoles Reel antes/después, viernes Reel de proceso.
 
+## Fotos: seguridad (lo primero que miran las constructoras)
+- No se publica (web ni Instagram) una foto con gente en obra sin casco, ni trabajando en altura
+  sin arnés. Se recorta a la persona o se descarta. Nunca se agregan cascos con IA ni se borronea.
+- Tampoco carteles, logos o licencias de otras constructoras, patentes, caras de clientes ni
+  números de casa. Detectado por Washington Nieves el 27-sep: varias fotos ya publicadas tienen
+  gente sin casco; Martin decide cuáles se sacan (no se tocaron).
+
+## Herramientas de este repositorio (.claude/)
+- `/fotos`: carga fotos nuevas de punta a punta (revisión de seguridad, GPS, galería, pruebas).
+- `/publicar`: sube a GitHub Pages con las pruebas en verde y confirma que la web cambió.
+- Guardias automáticas: `guardia_publica.py` frena al escribir palabras prohibidas, direcciones
+  de calle o tokens; `guardia_git.py` corre `prueba_sitio.py` antes de cada commit o push y frena
+  si falla. Al arrancar cada sesión en la nube se instalan pillow, imageio-ffmpeg y playwright-core.
+
 ## Cómo se publica
 - App de Meta "MOP Publicador" (API con inicio de sesión de Instagram), cuenta de empresa,
   permisos instagram_business_basic, _content_publish, _manage_comments, _manage_insights,
