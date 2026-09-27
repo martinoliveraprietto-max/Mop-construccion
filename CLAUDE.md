@@ -50,7 +50,11 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 - `/publicar`: sube a GitHub Pages con las pruebas en verde y confirma que la web cambió.
 - Guardias automáticas: `guardia_publica.py` frena al escribir palabras prohibidas, direcciones
   de calle o tokens; `guardia_git.py` corre `prueba_sitio.py` antes de cada commit o push y frena
-  si falla. Al arrancar cada sesión en la nube se instalan pillow, imageio-ffmpeg y playwright-core.
+  si falla. Al arrancar cada sesión en la nube se instalan pillow, imageio-ffmpeg, yt-dlp y
+  playwright-core.
+- Videos de YouTube que manda Martin: leer los subtítulos con
+  `yt-dlp --skip-download --write-auto-subs --write-subs --sub-langs "es.*,en.*" --sub-format vtt`.
+  Solo trae lo que se dice, no lo que se ve. Si YouTube responde 429, esperar unos minutos.
 
 ## Cómo se publica
 - App de Meta "MOP Publicador" (API con inicio de sesión de Instagram), cuenta de empresa,
