@@ -41,7 +41,9 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
   sin arnés. Se recorta a la persona o se descarta. Nunca se agregan cascos con IA ni se borronea.
 - Tampoco carteles, logos o licencias de otras constructoras, patentes, caras de clientes ni
   números de casa. Detectado por Washington Nieves el 27-sep: varias fotos ya publicadas tienen
-  gente sin casco; Martin decide cuáles se sacan (no se tocaron).
+  gente sin casco. El 27-sep Martin pidió sacarlas y dejar la galería en 12 fotos: las demás siguen
+  en `img/` (las usan los Reels) y están listadas en `pruebas/fotos_fuera_de_la_web.txt`; la prueba
+  del sitio frena si alguna vuelve a la página o si la galería deja de tener 12.
 
 ## Herramientas de este repositorio (.claude/)
 - `/fotos`: carga fotos nuevas de punta a punta (revisión de seguridad, GPS, galería, pruebas).

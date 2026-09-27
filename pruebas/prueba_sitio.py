@@ -61,8 +61,18 @@ chequear(not faltan, f"existen las {len(rutas)} imágenes que usa la página" + 
 chequear(os.path.exists(os.path.join(SITIO, "favicon.png")), "existe favicon.png")
 fotos = [f for f in os.listdir(os.path.join(SITIO, "img")) if f.lower().endswith((".jpg", ".jpeg"))]
 usadas = {os.path.basename(r) for r in rutas}
-sobran = [f for f in fotos if f not in usadas and f != "04.jpg"]
-chequear(not sobran, "todas las fotos de img/ se usan" + (f" (sin usar: {sobran})" if sobran else ""))
+lista_fuera = os.path.join(SITIO, "pruebas", "fotos_fuera_de_la_web.txt")
+fuera = set()
+if os.path.exists(lista_fuera):
+    fuera = {l.split()[0] for l in open(lista_fuera, encoding="utf-8") if l.strip() and not l.startswith("#")}
+volvieron = sorted(fuera & usadas)
+chequear(not volvieron, "ninguna foto sacada de la web (sin casco, sin arnés o descartada) volvió a la página"
+         + (f" (volvieron: {volvieron})" if volvieron else ""))
+sobran = [f for f in fotos if f not in usadas and f not in fuera and f != "04.jpg"]
+chequear(not sobran, "todas las fotos de img/ se usan o están en fotos_fuera_de_la_web.txt"
+         + (f" (sin usar: {sobran})" if sobran else ""))
+galeria = re.findall(r'<figure class="obra"', html)
+chequear(len(galeria) == 12, f"la galería tiene 12 fotos (tiene {len(galeria)})")
 
 
 def exif_con_datos(ruta):

@@ -1,0 +1,56 @@
+# Fotos que quedan en img/ (las usa scripts/hacer_reel.py) pero NO se muestran en la web.
+# Decidido por Martin el 27-sep: galería de 12 fotos y ninguna con gente sin casco o en altura sin arnés.
+# La prueba del sitio frena si alguna de estas vuelve a aparecer en index.html.
+
+01.jpg  persona sin casco frente a la obra
+08.jpg  persona sin casco
+09.jpg  fuera de las 12 elegidas
+10.jpg  persona sin casco al fondo
+11.jpg  fuera de las 12 elegidas
+15.jpg  fuera de las 12 elegidas
+16.jpg  fuera de las 12 elegidas
+20.jpg  fuera de las 12 elegidas
+23.jpg  fuera de las 12 elegidas
+25.jpg  persona al fondo
+29.jpg  fuera de las 12 elegidas
+30.jpg  fuera de las 12 elegidas
+31.jpg  fuera de las 12 elegidas
+35.jpg  gente al fondo sin casco
+36.jpg  fuera de las 12 elegidas
+45.jpg  persona en el techo, arnés no visible
+46.jpg  gente en andamio sin casco
+49.jpg  fuera de las 12 elegidas
+52.jpg  persona en andamio sin casco
+53.jpg  fuera de las 12 elegidas
+55.jpg  persona en el techo
+56.jpg  fuera de las 12 elegidas
+57.jpg  persona en andamio sin casco
+58.jpg  fuera de las 12 elegidas
+60.jpg  persona sin casco
+62.jpg  fuera de las 12 elegidas
+63.jpg  fuera de las 12 elegidas
+64.jpg  persona sin casco al fondo
+65.jpg  vereda con cono y cintas (pedido de Martin)
+66.jpg  gente sin casco
+67.jpg  trabajadores; casco dudoso
+68.jpg  persona en el techo, arnés no visible
+70.jpg  fuera de las 12 elegidas
+71.jpg  persona sobre muro alto, arnés no visible
+72.jpg  persona en escalera sin casco
+73.jpg  fuera de las 12 elegidas
+74.jpg  fuera de las 12 elegidas
+77.jpg  persona sin casco
+78.jpg  persona sin casco
+79.jpg  fuera de las 12 elegidas
+80.jpg  persona al fondo
+81.jpg  gente sin casco
+82.jpg  pierna de persona en el borde
+83.jpg  gente en altura, arnés no visible
+84.jpg  fuera de las 12 elegidas
+87.jpg  fuera de las 12 elegidas
+88.jpg  brazo de persona en el borde
+90.jpg  fuera de las 12 elegidas
+91.jpg  personas en altura sin casco ni arnés
+93.jpg  persona en el techo, arnés no visible
+94.jpg  fuera de las 12 elegidas
+95.jpg  fuera de las 12 elegidas
