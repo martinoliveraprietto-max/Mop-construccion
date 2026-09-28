@@ -9,7 +9,8 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
 - MOP Construction and Service, Inc. — Dania Beach, FL — trabaja en Miami-Dade y Broward.
 - Teléfono y WhatsApp: 754.457.3599 — correo: mopconstruccion@gmail.com
 - Instagram: @mopconstruccion.inc — 20 años de experiencia — presupuesto gratis.
-- Servicios: estructura (framing), drywall, pintura, pisos, carpintería de terminación, decks y exteriores.
+- Servicios: estructura (framing), concreto estructural, drywall, pintura, pisos, carpintería de terminación,
+  decks y exteriores. La web no promete equipos de seguridad: nada de "siempre con casco" ni parecidos.
 - NO tiene licencia de contratista. No escribir "licensed", "general contractor", "crew"/cuadrilla,
   cantidad de empleados, "roofing" ni ofrecer "obra nueva" como obra propia: se ofrece como
   subcontratista bajo el permiso de la constructora a cargo ("Framing for new construction").
@@ -40,8 +41,8 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
 - Plan: lunes foto/carrusel, miércoles Reel antes/después, viernes Reel de proceso.
 
 ## Fotos: seguridad (lo primero que miran las constructoras)
-- No se publica (web ni Instagram) una foto con gente en obra sin casco, ni trabajando en altura
-  sin arnés. Se recorta a la persona o se descarta. Nunca se agregan cascos con IA ni se borronea.
+- Si en una foto aparece gente sin casco, o en altura sin arnés, se le avisa a Martin (solo en el chat)
+  y él decide si se publica, se recorta o se descarta. Nunca se agregan cascos con IA ni se borronea.
 - Tampoco carteles, logos o licencias de otras constructoras, patentes, caras de clientes ni
   números de casa. Detectado por Washington Nieves el 27-sep: varias fotos ya publicadas tienen
   gente sin casco. El 27-sep Martin pidió sacarlas y dejar la galería en 12 fotos: las demás siguen

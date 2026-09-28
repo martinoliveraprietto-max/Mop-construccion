@@ -13,12 +13,12 @@ Todo en español con Martin. Seguir los pasos EN ORDEN. Este repositorio es PÚB
 sube sin que Martin vea antes la lista de fotos aceptadas y rechazadas.
 
 ## 1. Mirar cada foto (con la herramienta de leer imágenes, una por una)
-Clasificar cada una en ACEPTADA, RECORTAR o RECHAZADA, con el motivo en una línea:
+Clasificar cada una en ACEPTADA, RECORTAR, CONSULTAR o RECHAZADA, con el motivo en una línea:
 
-- **Seguridad (lo que más miran las constructoras):** persona en obra SIN CASCO, o trabajando
-  en altura (techo, andamio, escalera alta, cerchas) SIN ARNÉS → RECHAZADA, salvo que la persona
-  se pueda recortar y lo que queda siga mostrando el trabajo (→ RECORTAR). Nunca agregar cascos
-  con inteligencia artificial ni retocar a la persona; tampoco borronearla (se sigue viendo).
+- **Seguridad (lo que más miran las constructoras):** si aparece una persona sin casco, o en altura
+  (techo, andamio, escalera alta, cerchas) sin arnés, marcarla como **CONSULTAR** y decírselo a Martin
+  en el chat: él decide sí o no (o recortar). Nunca agregar cascos con inteligencia artificial ni retocar
+  a la persona; tampoco borronearla.
 - **Otras empresas:** cartel, logo, camioneta rotulada o número de licencia de otra constructora
   → RECORTAR (si el cartel queda en un borde) o RECHAZADA. En la web nada puede sugerir que la
   obra o la licencia son de MOP si no lo son.

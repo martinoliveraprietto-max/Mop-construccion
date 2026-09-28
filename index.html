@@ -258,7 +258,39 @@ dialog.visor::backdrop{background:rgba(8,7,6,.94)}
   .menu.abierto{display:flex;position:absolute;top:72px;left:0;right:0;flex-direction:column;gap:0;background:var(--negro);border-bottom:1px solid var(--linea);padding:8px 0}
   .menu.abierto a{padding:14px clamp(16px,4vw,40px);font-size:13px}
 }
+
+/* franja de confianza */
+.franja{padding-block:0;border-bottom:1px solid var(--linea);background:var(--carbon)}
+.franja .envol{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.franja .envol>div{padding:22px 18px;border-left:1px solid var(--linea);display:flex;flex-direction:column;gap:2px}
+.franja .envol>div:first-child{border-left:0}
+.franja b{font:600 16px/1.3 var(--display);color:var(--oro-claro);letter-spacing:.02em}
+.franja span{font-size:13px;color:var(--gris)}
+/* servicios: la estructura va ancha y cierra una tarjeta para mandar planos */
+.serv.grande{grid-column:span 2}
+.serv.grande img{aspect-ratio:8/3}
+.serv.llamada{justify-content:center;background:linear-gradient(160deg,#1a1712,#0d0c0a)}
+.serv.llamada div{padding:32px 28px;gap:12px}
+.serv.llamada .boton{align-self:flex-start;margin-top:6px}
+.serv.llamada .ceja{padding:0}
+/* preguntas */
+.preguntas h2{font-size:clamp(30px,4vw,48px);margin-block:14px 32px;max-width:18em}
+.lista-preg{border-top:1px solid var(--linea)}
+.lista-preg details{border-bottom:1px solid var(--linea)}
+.lista-preg summary{cursor:pointer;list-style:none;padding:20px 44px 20px 0;position:relative;font:600 18px/1.4 var(--texto);color:var(--crema)}
+.lista-preg summary::-webkit-details-marker{display:none}
+.lista-preg summary::after{content:"+";position:absolute;right:6px;top:15px;font:400 26px var(--texto);color:var(--oro)}
+.lista-preg details[open] summary::after{content:"\2013"}
+.lista-preg p{margin:0 0 22px;color:var(--gris);max-width:44em}
+@media (max-width:900px){
+  .franja .envol{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .franja .envol>div:nth-child(3){border-left:0}
+  .franja .envol>div:nth-child(n+3){border-top:1px solid var(--linea)}
+  .serv.grande{grid-column:auto}
+  .serv.grande img{aspect-ratio:4/3}
+}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do you work as a subcontractor?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We work under the permit and supervision of the builder in charge of the project."}}, {"@type": "Question", "name": "What areas do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "Miami-Dade and Broward. We are based in Dania Beach."}}, {"@type": "Question", "name": "Do you charge for estimates?", "acceptedAnswer": {"@type": "Answer", "text": "No. We walk the site, review the plans and send a price at no charge."}}, {"@type": "Question", "name": "How do I send you plans?", "acceptedAnswer": {"@type": "Answer", "text": "By WhatsApp at 754.457.3599 or by email at mopconstruccion@gmail.com."}}, {"@type": "Question", "name": "Do you speak Spanish?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We work in English and Spanish."}}]}</script>
 </head>
 <body>
 
@@ -289,7 +321,7 @@ dialog.visor::backdrop{background:rgba(8,7,6,.94)}
       <div class="ceja" data-es="Dania Beach, FL · Miami-Dade y Broward">Dania Beach, FL · Miami-Dade &amp; Broward</div>
       <h1 data-es="Tu visión.<br><em>Bien construida.</em>">Your Vision.<br><em>Built Solid.</em></h1>
       <div class="raya"></div>
-      <p class="sub" data-es="Estructura, drywall, pintura, pisos y carpintería de terminación. Bien hecho, a tiempo y con 20 años de experiencia detrás de cada obra.">Framing, drywall, painting, flooring and finish carpentry. Done right, on schedule, with 20 years of experience behind every job.</p>
+      <p class="sub" data-es="Estructura, concreto estructural, drywall, pintura, pisos y carpintería de terminación para constructoras y dueños en todo el sur de Florida. Bien hecho, a tiempo y con 20 años de oficio.">Framing, structural concrete, drywall, painting, flooring and finish carpentry for builders and homeowners across South Florida. Done right, on schedule, with 20 years on the job.</p>
       <div class="acciones">
         <a class="boton lleno" href="#contacto" data-es="Presupuesto gratis">Free estimate</a>
         <a class="boton hueco" href="tel:+17544573599"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg><span data-es="Llamar">Call now</span></a>
@@ -298,19 +330,30 @@ dialog.visor::backdrop{background:rgba(8,7,6,.94)}
     </div>
   </section>
 
+  <section class="franja" aria-label="MOP at a glance">
+    <div class="envol">
+      <div><b data-es="20 años">20 years</b><span data-es="de oficio en obra">on the job</span></div>
+      <div><b data-es="Miami-Dade y Broward">Miami-Dade &amp; Broward</b><span data-es="desde Dania Beach">from Dania Beach</span></div>
+      <div><b data-es="Subcontratista">Subcontractor</b><span data-es="bajo el permiso de la constructora">under the builder's permit</span></div>
+      <div><b data-es="Inglés y español">English &amp; Spanish</b><span data-es="presupuesto sin cargo">free estimates</span></div>
+    </div>
+  </section>
+
   <section id="servicios">
     <div class="envol">
       <div class="cabeza">
-        <div><div class="ceja" data-es="Servicios">Services</div><h2 data-es="Seis oficios, un mismo nivel">Six trades, one standard</h2></div>
+        <div><div class="ceja" data-es="Servicios">Services</div><h2 data-es="Siete oficios, un mismo nivel">Seven trades, one standard</h2></div>
         <p data-es="Cada foto de esta página es de una obra nuestra. Esto es lo que hacemos todos los días.">Every photo on this page is from one of our job sites. This is the work we do every day.</p>
       </div>
       <div class="servicios">
-        <article class="serv"><img src="img/41.jpg" alt="" loading="lazy"><div><h3 data-es="Estructura para obra nueva">Framing for new construction</h3><p data-es="Estructura de madera y de acero liviano, cerchas y vigas, bajo el permiso de la constructora a cargo.">Wood and light-gauge steel framing, trusses and beams, under the permit of the builder in charge.</p></div></article>
+        <article class="serv grande"><img src="img/41.jpg" alt="" loading="lazy"><div><h3 data-es="Estructura para obra nueva">Framing for new construction</h3><p data-es="Estructura de madera y de acero liviano, cerchas y vigas, bajo el permiso de la constructora a cargo.">Wood and light-gauge steel framing, trusses and beams, under the permit of the builder in charge.</p></div></article>
+        <article class="serv"><img src="img/92.jpg" alt="" loading="lazy"><div><h3 data-es="Concreto estructural">Structural concrete</h3><p data-es="Excavación de zapatas, cabillas, encofrado y colado de zapatas, columnas y vigas de amarre.">Footing excavation, rebar, formwork and pours for footings, columns and tie beams.</p></div></article>
         <article class="serv"><img src="img/18.jpg" alt="" loading="lazy"><div><h3 data-es="Drywall">Drywall</h3><p data-es="Tabiques de perfil de acero, placas, masillado y terminación lisa.">Steel stud partitions, board hanging, taping and smooth finish.</p></div></article>
         <article class="serv"><img src="img/48.jpg" alt="" loading="lazy"><div><h3 data-es="Pintura">Painting</h3><p data-es="Interiores y exteriores, con la preparación que hace que dure.">Interior and exterior, with the prep that makes it last.</p></div></article>
         <article class="serv"><img src="img/75.jpg" alt="" loading="lazy"><div><h3 data-es="Pisos">Flooring</h3><p data-es="Cerámica, porcelanato y pisos de madera, nivelados y parejos.">Tile, porcelain and wood floors, level and true.</p></div></article>
         <article class="serv"><img src="img/21.jpg" alt="" loading="lazy"><div><h3 data-es="Carpintería de terminación">Finish carpentry</h3><p data-es="Bancos empotrados, molduras, ménsulas y detalles a medida.">Built-in benches, trim, brackets and custom details.</p></div></article>
         <article class="serv"><img src="img/26.jpg" alt="" loading="lazy"><div><h3 data-es="Decks y exteriores">Decks &amp; outdoor living</h3><p data-es="Decks, muelles, pérgolas y terrazas cubiertas.">Decks, docks, pergolas and covered terraces.</p></div></article>
+        <article class="serv llamada"><div><div class="ceja" data-es="¿Otro trabajo?">Something else?</div><h3 data-es="Mándanos los planos">Send us your plans</h3><p data-es="Por WhatsApp o por correo. Visitamos la obra y enviamos el precio sin cargo.">By WhatsApp or email. We walk the site and send a price at no charge.</p><a class="boton lleno" href="https://wa.me/17544573599" data-es="Enviar por WhatsApp">Send via WhatsApp</a></div></article>
       </div>
     </div>
   </section>
@@ -398,6 +441,20 @@ dialog.visor::backdrop{background:rgba(8,7,6,.94)}
     </div>
   </section>
 
+  <section id="preguntas" class="preguntas">
+    <div class="envol">
+      <div class="ceja" data-es="Preguntas frecuentes">FAQ</div>
+      <h2 data-es="Lo que nos preguntan antes de empezar">What builders ask before we start</h2>
+      <div class="lista-preg">
+        <details><summary data-es="¿Trabajan como subcontratista?">Do you work as a subcontractor?</summary><p data-es="Sí. Trabajamos bajo el permiso y la supervisión de la constructora a cargo de la obra.">Yes. We work under the permit and supervision of the builder in charge of the project.</p></details>
+        <details><summary data-es="¿En qué zonas trabajan?">What areas do you cover?</summary><p data-es="Miami-Dade y Broward. Estamos en Dania Beach.">Miami-Dade and Broward. We are based in Dania Beach.</p></details>
+        <details><summary data-es="¿El presupuesto tiene costo?">Do you charge for estimates?</summary><p data-es="No. Visitamos la obra, miramos los planos y enviamos el precio sin cargo.">No. We walk the site, review the plans and send a price at no charge.</p></details>
+        <details><summary data-es="¿Cómo les mando los planos?">How do I send you plans?</summary><p data-es="Por WhatsApp al 754.457.3599 o por correo a mopconstruccion@gmail.com.">By WhatsApp at 754.457.3599 or by email at mopconstruccion@gmail.com.</p></details>
+        <details><summary data-es="¿Hablan español?">Do you speak Spanish?</summary><p data-es="Sí. Trabajamos en inglés y en español.">Yes. We work in English and Spanish.</p></details>
+      </div>
+    </div>
+  </section>
+
   <section id="contacto" class="contacto">
     <div class="envol">
       <div>
@@ -418,6 +475,7 @@ dialog.visor::backdrop{background:rgba(8,7,6,.94)}
         <div class="campo ancho"><label for="f-tipo" data-es="Tipo de obra">Project type</label>
           <select id="f-tipo" name="tipo">
             <option data-es="Estructura (madera o acero liviano)">Framing (wood or light-gauge steel)</option>
+            <option data-es="Concreto estructural">Structural concrete</option>
             <option data-es="Drywall">Drywall</option>
             <option data-es="Pintura">Painting</option>
             <option data-es="Pisos">Flooring</option>
