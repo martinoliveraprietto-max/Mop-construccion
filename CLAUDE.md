@@ -1,5 +1,8 @@
 # MOP Construction — sitio web e Instagram
 
+**Antes de hacer nada, leer `HISTORIA.md`**: estado de todos los temas (web, Instagram, emails, planos,
+estimador), dónde está cada cosa y qué decisiones de Martin están pendientes. Mantenerlo al día.
+
 Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cortos, uno por vez.
 Martin es uruguayo. Al final de cada respuesta, mandarle también un audio con lo importante, con voz
 uruguaya de hombre: `edge-tts --voice es-UY-MateoNeural --text "..." --write-media respuesta.mp3` en el
@@ -27,7 +30,7 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
   más la de la sesión "MOP Construction" (formulario que abre WhatsApp, datos para Google, ícono de
   la plomada, sección "For builders", menú en celular). Antes de subir cambios, correr
   `python3 pruebas/prueba_sitio.py` y `node pruebas/prueba_navegador.js` (necesita playwright-core). Para verla en internet gratis:
-  GitHub → Settings → Pages → Deploy from branch → main → / (root). Falta que Martin lo active.
+  GitHub Pages activo desde el 25-sep: https://martinoliveraprietto-max.github.io/Mop-construccion/
 - `instagram/cola.json`: las 9 publicaciones en orden, con su texto y su estado.
 - `instagram/publicaciones/`: las imágenes (1080x1350). `instagram/destacadas/`: portadas de
   historias destacadas (la API no maneja destacadas: las sube Martin).
@@ -68,7 +71,8 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
   archivos, commits ni mensajes. `publicar.py` lo tapa en los errores.
 - Primero: `python3 scripts/publicar.py --verificar`. Después `--simular`. Después sin opciones.
 - Después de publicar, `cola.json` cambia (estado, media_id, enlace): hacer commit y push a main.
-- Plan: lunes, miércoles y viernes 7:45 pm hora de Miami (America/New_York), una por vez.
+- Plan: lunes, miércoles, viernes y sábado 7:44 pm hora de Miami (America/New_York), una por vez
+  (rutina trig_01VgsrELobr1sunwZtMWVMwr; publica también los Reels por la API).
 - El token dura 60 días. Renovarlo antes con
   `GET https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=...`
   y pedirle a Martin que guarde el nuevo en el entorno. Martin decidió NO cambiar el token aunque
@@ -82,5 +86,5 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
    sábados 7:44 pm Miami, publica la siguiente de cola.json. Reels (instagram/reels/, hechos con
    scripts/hacer_reel.py) los publica Martin lunes y viernes desde la app, con música de tendencia.
    Perfil nuevo (foto con la plomada, bio, enlace) en instagram/perfil/perfil.txt: lo cambia Martin.
-3. Activar GitHub Pages y, si Martin compra dominio, conectarlo.
+3. (Hecho 25-sep) GitHub Pages activo. Si Martin compra dominio, conectarlo.
 4. Conectar el formulario de la web a un correo (hoy solo avisa que llamen).
