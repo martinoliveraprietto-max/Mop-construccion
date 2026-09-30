@@ -7,6 +7,8 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 Martin es uruguayo. Al final de cada respuesta, mandarle también un audio con lo importante, con voz
 uruguaya de hombre: `edge-tts --voice es-UY-MateoNeural --text "..." --write-media respuesta.mp3` en el
 directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el 27-sep.
+Los audios van SIEMPRE en español, también cuando un correo sale en inglés (se le lee la traducción).
+Pedido por Martin el 30-sep.
 
 ## El negocio (datos reales, no inventar otros)
 - MOP Construction and Service, Inc. — Dania Beach, FL — trabaja en Miami-Dade y Broward.

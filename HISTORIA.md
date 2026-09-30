@@ -78,6 +78,8 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
   a Manley deBoer y Valmont, planos a Florida Foundation, recordatorios (plazo jueves 1-oct) y a Daniel el
   pedido de estudios de suelo. Ningún proveedor mandó precio todavía. Todo en el repo mop-estimador,
   `obras/north-beach/` (estado en `pedidos-precio.md`).
+- Flagler: 30-sep salió el correo a Nicole (Fortum) con alcance (solo lo del plano; sin plomería, electricidad,
+  aire, accesorios de baño, permisos ni inspecciones; bajo la licencia del GC) y 7 preguntas. Esperar respuesta.
 - Flagler (Fortum, entrega viernes 9-oct): presupuesto en mop-estimador `obras/1044-flagler/`, 87.053 con
   precios publicados (30-sep). Faltan: losa y construcciones del fondo (visita), marcos de madera tratada.
 
