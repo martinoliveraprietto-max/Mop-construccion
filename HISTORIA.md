@@ -37,6 +37,7 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
 | Emails a constructoras | solana-signal-bot, rama `claude/mop-construction-website-djmiog`, `mop-app/email/` |
 | Planos en PDF (S-1 a S-5) | misma rama, `mop-app/planos/` (reglas en `planos/REGLAS.md`) |
 | MOP Estimator (app de presupuestos) | repositorio privado `martinoliveraprietto-max/mop-estimador` (antes `mop-app/estimador-nuevo/`) |
+| MOP Construction OS (gestión de obra) | dentro de `mop-estimador` (decisión 30-sep): documentos en `docs/os/`, rama `ccr-2a44a709-iekn7h` |
 | Habilidad para leer planos y sacar cantidades | solana-signal-bot, `.claude/skills/leer-planos` |
 | Fotos y videos nuevos de Martin | Google Drive, carpeta "Mop instagram" |
 
@@ -79,6 +80,12 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
   de amarre nueva 8x12 sobre puerta nueva 39x81, pared de madera 2x6 y losa subida; faltan medidas.
 - Regla (28-sep): cada plano con medidas confirmadas va con hoja aparte de materiales y precios, con
   la fuente de cada precio; si no hay precio, "PRECIO A CONFIRMAR".
+
+### MOP Construction OS (30-sep)
+- Martin aprobó hacerlo dentro del MOP Estimator (privado). Hecho: auditoría y plan (`docs/os/`), 3 errores de la base
+  arreglados, núcleo de la obra en la base real (roles, tareas, materiales, RFI, órdenes de cambio, partes diarios,
+  inspecciones, historial), "Centro de mando" y "Parte del día" en la app. Todo en la rama `ccr-2a44a709-iekn7h`.
+- PENDIENTE DE MARTIN: mandar las pantallas nuevas a su celular (eas update) y juntar la rama con main.
 
 ## Problemas conocidos entre chats
 - Varios chats trabajan a la vez sobre lo mismo: antes de mandar o publicar algo, hacer `git pull`
