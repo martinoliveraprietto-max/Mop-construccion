@@ -88,6 +88,16 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
 - 30-sep: Martin dijo que sí. Rama juntada con main del Estimator y pantallas publicadas en su celular (eas update,
   canal preview). Próximo: formularios de tareas, materiales, RFI y órdenes de cambio.
 
+### Licitaciones de Fortum Construction (Nicole Swanton, 30-sep)
+- 1044 W Flagler: visita a obra lunes 5-oct 12:00 (Martin confirmó); precio vence viernes 9-oct. Cálculo en
+  `mop-estimador/obras/1044-flagler/`.
+- 298 Lincoln Rd, fase 2 (fachada y cascarón): presupuesto PRELIMINAR de la parte de MOP en
+  `mop-estimador/obras/298-lincoln/` ($53.562 con precio; falta el hormigón 6000 psi y otros). La estructura del juego
+  dice "not for construction": 12 preguntas para Fortum sin mandar (con el sí de Martin). Falta el modelo 3D.
+- Kilwins (1390 Ocean Dr #105): vence miércoles 14-oct; plano bajado (29 hojas), sin medir.
+- Rojas: en el Drive solo está la Rev. aprobada del 23-jun-2026; el original ("Proyecto rojas.pdf", OneDrive personal)
+  no se puede bajar desde la nube: Martin lo tiene que subir por la app.
+
 ## Problemas conocidos entre chats
 - Varios chats trabajan a la vez sobre lo mismo: antes de mandar o publicar algo, hacer `git pull`
   y mirar `envios.csv`, `cola.json` y el Gmail enviado para no repetir. El 28-sep dos chats
