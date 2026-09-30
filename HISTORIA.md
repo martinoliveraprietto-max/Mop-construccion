@@ -73,6 +73,13 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
   Dr & Bay Dr), con 2 planos estructurales en el mail del 28-sep. Falta: leer planos, cantidades y
   propuesta; se manda solo con aprobado de Martin.
 - Borradores en Gmail a proveedores de concreto y fundaciones (29-sep): no enviados.
+- 30-sep: Vercetti pidió incluir micropilotes y postensado, material y mano de obra por separado; entrega
+  antes del viernes 2-oct (a más tardar martes 6). Con el sí de Martin salieron 14 correos: lista de hierro
+  a Manley deBoer y Valmont, planos a Florida Foundation, recordatorios (plazo jueves 1-oct) y a Daniel el
+  pedido de estudios de suelo. Ningún proveedor mandó precio todavía. Todo en el repo mop-estimador,
+  `obras/north-beach/` (estado en `pedidos-precio.md`).
+- Flagler (Fortum, entrega viernes 9-oct): presupuesto en mop-estimador `obras/1044-flagler/`, 87.053 con
+  precios publicados (30-sep). Faltan: losa y construcciones del fondo (visita), marcos de madera tratada.
 
 ### Planos
 - S-1 a S-5 hechos desde croquis de Martin (inglés, marcan VERIFY lo que falta). S-5 (28-sep): viga
