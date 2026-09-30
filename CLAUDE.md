@@ -9,6 +9,8 @@ uruguaya de hombre: `edge-tts --voice es-UY-MateoNeural --text "..." --write-med
 directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el 27-sep.
 Los audios van SIEMPRE en español, también cuando un correo sale en inglés (se le lee la traducción).
 Pedido por Martin el 30-sep.
+ANTES de mandar cualquier correo: mandarle a Martin el audio en español del texto EXACTO que va a salir y
+esperar su "sí" a ESE audio. Un "mandalo" dado antes de escuchar la versión final no alcanza (30-sep).
 
 ## El negocio (datos reales, no inventar otros)
 - MOP Construction and Service, Inc. — Dania Beach, FL — trabaja en Miami-Dade y Broward.
