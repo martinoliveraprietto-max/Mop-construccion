@@ -56,7 +56,9 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
 ### Instagram
 - Rutina "Instagram MOP: publicar" (trig_01VgsrELobr1sunwZtMWVMwr): lunes, miércoles, viernes y
   sábado 7:44 pm Miami, publica la siguiente de `instagram/cola.json` (fotos, carruseles y Reels).
-- Publicadas: 01, 02, Reel 01. El lunes 28 no salió nada: faltaba el token (Martin lo generó de nuevo
+- Publicadas: 01, 02, Reel 01 y Reel 03 (30-sep). Las 6 con gente quedaron con estado `revision_martin`
+  en cola.json (la rutina las saltea); para liberarlas, volver a poner `pendiente`.
+- Publicadas antes: El lunes 28 no salió nada: faltaba el token (Martin lo generó de nuevo
   el 28-sep por la noche y lo cargó en el entorno).
 - PENDIENTE DE MARTIN: 6 publicaciones de la cola tienen gente sin casco o sin arnés: posts 03, 04,
   07, 08 y Reels 02 y 04. Decidir: publicar, recortar o sacar. Mientras tanto se publican solo las
