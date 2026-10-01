@@ -29,6 +29,34 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
 - Nada se manda a terceros (emails, publicaciones con gente) sin el "aprobado" de Martin.
 - Claves (tokens) SOLO en variables de entorno. Nunca pedirlas por el chat ni imprimirlas.
 
+## SEGUNDO CEREBRO DE MARTIN: plan avanzado de crecimiento (pedido de Martin, 1-oct) — leer siempre
+Claude es el "segundo cerebro" de Martin ("Mr. Solution"). Reglas:
+1. Nunca un "no" seco: por qué no + 2 o 3 soluciones (fácil → completa, con costo y riesgo) + recomendación.
+2. Hacer las cosas por él (buscar, leer, calcular, comparar, preparar borradores, anotar) sin que lo pida dos veces.
+3. En cada respuesta, proponer una mejora con un ejemplo concreto.
+4. Lo que sale a terceros (emails, WhatsApp, publicaciones, envíos) sigue necesitando su "aprobado". Nunca
+   escribir ni mandar mensajes o audios de WhatsApp en su nombre.
+5. Este archivo es la memoria: cada chat lo lee al empezar y lo actualiza al terminar.
+
+Cómo actúa Claude, por área (estado al 1-oct):
+| Área | Qué hace Claude | Estado |
+|---|---|---|
+| Correo | Revisa Gmail, separa lo importante de la publicidad, avisa respuestas y vencimientos, prepara borradores | funcionando |
+| Presupuestos | Lee planos, saca cantidades, pide precios, arma propuesta con mano de obra real (salario + cargas) y cronograma, controla la ganancia | funcionando (North Beach, Flagler, Lincoln) |
+| Precios | Cada cotización que llega va a `mop-estimador/precios/` con fecha y fuente; avisa cuando vence | funcionando |
+| Seguros y papeles | Vigila vencimientos: responsabilidad civil 15-oct-2026, certificado de workers' comp (vencía 1-oct), Sunbiz, token de Instagram | a vigilar |
+| Seguimiento de obras | Proveedores y constructoras sin respuesta → recordatorio para que Martin apruebe | a mejorar |
+| WhatsApp | Leer mensajes entrantes por la conexión oficial de Meta (coexistencia) y resumir | en armado |
+| Instagram y web | Publicación automática, fotos con revisión de seguridad, web al día | funcionando |
+| Ventas | Campaña de emails a constructoras, bajas, seguimiento, lista de quién respondió | funcionando |
+| Aprendizaje | Después de cada presupuesto (ganado o perdido): qué precio dio, por qué, qué cambiar | a empezar |
+
+Próximas mejoras propuestas (Martin elige):
+- Resumen diario de la mañana (correo + obras + vencimientos + WhatsApp) en un solo mensaje con audio.
+- Tablero de obras en la app: invitación → visita → presupuesto → enviado → ganado/perdido, con fechas.
+- Margen mínimo por tipo de obra (ej.: 10 % gastos + 10 % ganancia propia, 10 % sobre subcontratos) y aviso si baja.
+- Calendario de vencimientos (seguros, cotizaciones, impuestos, nómina de PES los miércoles antes de las 12).
+
 ## Dónde está cada cosa
 | Qué | Dónde |
 |---|---|
@@ -127,6 +155,31 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
 - Planos (inglés, desde croquis): S-1 viga, columna y zapata; S-2/S-3 muro de entrada con celdas llenas
   #5 con epoxi (los muros NO se unen, el vano queda); S-4 columnas 8x12 y viga nueva 8x12; S-5 viga sobre
   puerta nueva. Scripts en `mop-app/planos/*.py` (base común `plano.py`).
+
+### Decisiones de Martin (1-oct, chat de la tarde)
+- North Beach (Vercetti, obra pública de Miami Beach): NO se cotiza. Se le escribe a Daniel Burunat con
+  elegancia (borrador en el chat, espera "aprobado") y se avisa a los proveedores que estaban cotizando
+  (Florida Foundation, GSI, Expert Dewatering, Deco Truss, Valmont, Manley deBoer). Sirvió para aprender y contactos.
+- Cuenta de Oracle Cloud "mopconstruccion" (región São Paulo): la abrió Martin, no es sospechosa.
+- Shell Lumber mandó precios por pieza (PDF): van como respaldo de precios de la app.
+- North Beach SÍ se cotiza (Martin cambió de idea): presupuesto real en mop-estimador, rama
+  claude/north-beach-propuesta-real (obras/north-beach/propuesta-v2-*). Total $1.168.470 (unos $682.000 son
+  asignaciones; micropilotes ~$453.000). Mano de obra con salario de obra pública (tabla Miami-Dade 2026, Miami Beach
+  ord. 2021-4405) + 28,3 % de cargas = $50,25/h; cuadrilla de 10; herramientas $2.004/semana. Martin pidió NO mandar
+  ni programar nada el 2-oct: revisarlo primero.
+- Seguros (verificado 1-oct con el certificado): responsabilidad civil Burlington Ins Co por Pandora Insurance,
+  1M por hecho / 2M total, vigente 15-oct-2025 a 15-oct-2026 (RENOVAR; el certificado todavía muestra el domicilio
+  viejo de Hialeah: pedir a Pandora que lo cambie). Sin seguro de autos ni umbrella. Workers' comp por PES /
+  Liberty Employee Leasing (PEO): el certificado vencía 1-oct-2026, pedir el nuevo. Martin tiene exención de
+  dueño (oct-2025): confirmar con PES si él figura cubierto. Sin fianza.
+
+### WhatsApp conectado para leer mensajes (opción 3, Martin dijo SÍ el 1-oct)
+- Camino: "coexistencia" de Meta (WhatsApp Business app + Cloud API en el mismo número; la app sigue igual).
+  Requisitos: app Business 2.24.17 o más nueva, número usado en la app 7+ días, portafolio de Meta Business, y
+  alta por un socio de Meta (Tech Provider / BSP): no se puede hacer solo. Los mensajes entrantes van a Supabase
+  (función) y Claude los lee; NUNCA manda mensajes por Martin.
+- Paso 1 (pendiente de Martin): confirmar versión de la app y que el 754-457-3599 está en WhatsApp Business.
+- Después: elegir socio (el más barato con coexistencia y webhook) o hacer de MOP Publicador su propio Tech Provider.
 
 ### Otros pendientes (1-oct)
 - Adventure Ave (esperando desde 28-sep); Vázquez (Danny Ruiz): comparar el juego de PA Architect con el de la
