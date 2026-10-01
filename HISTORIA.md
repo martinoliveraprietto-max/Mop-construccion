@@ -230,6 +230,12 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   SOLO con el aprobado de Martin. Martin tiene que decidir antes: ganancia 9 % ($1.168.470) o 13,4 % ($1.226.891).
 - Flagler se entrega el viernes 9-oct (NO el 2): visita lunes 5-oct 12:00.
 
+### Proyecto "Segundo Cerebro MOP" en claude.ai (creado 1-oct)
+- Instrucciones cargadas. Conocimiento: 3 archivos .txt en el Drive de Martin (la app del celular no acepta Google
+  Docs): "Segundo cerebro MOP - para el proyecto de Claude.txt" (memoria + 12 coaches), "... - 2 Obras clientes y
+  presupuestos.txt" y "... - 3 Finanzas papeles y vida (PRIVADO).txt". Son fotos del 1-oct: cuando cambie algo
+  grande, generar versiones nuevas y avisarle a Martin que las reemplace en el proyecto.
+
 ### WhatsApp conectado para leer mensajes (opción 3, Martin dijo SÍ el 1-oct)
 - Camino: "coexistencia" de Meta (WhatsApp Business app + Cloud API en el mismo número; la app sigue igual).
   Requisitos: app Business 2.24.17 o más nueva, número usado en la app 7+ días, portafolio de Meta Business, y
