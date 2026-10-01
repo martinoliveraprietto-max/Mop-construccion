@@ -135,6 +135,11 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
   (Florida Foundation, GSI, Expert Dewatering, Deco Truss, Valmont, Manley deBoer). Sirvió para aprender y contactos.
 - Cuenta de Oracle Cloud "mopconstruccion" (región São Paulo): la abrió Martin, no es sospechosa.
 - Shell Lumber mandó precios por pieza (PDF): van como respaldo de precios de la app.
+- Seguros (verificado 1-oct con el certificado): responsabilidad civil Burlington Ins Co por Pandora Insurance,
+  1M por hecho / 2M total, vigente 15-oct-2025 a 15-oct-2026 (RENOVAR; el certificado todavía muestra el domicilio
+  viejo de Hialeah: pedir a Pandora que lo cambie). Sin seguro de autos ni umbrella. Workers' comp por PES /
+  Liberty Employee Leasing (PEO): el certificado vencía 1-oct-2026, pedir el nuevo. Martin tiene exención de
+  dueño (oct-2025): confirmar con PES si él figura cubierto. Sin fianza.
 
 ### Otros pendientes (1-oct)
 - Adventure Ave (esperando desde 28-sep); Vázquez (Danny Ruiz): comparar el juego de PA Architect con el de la
