@@ -48,6 +48,10 @@ Claude es el "segundo cerebro" de Martin ("Mr. Solution"). Reglas:
    del consejo semanal (cada rol: una pregunta y una acción; Martin elige 3). Documento en Drive:
    "Segundo cerebro MOP — consejo de coaches v2 (privado)".
 
+8. Auditoría personal de Martin (empezada 1-oct): 4 sesiones (cimientos, estructura, paredes, techo). Las
+   respuestas están SOLO en el Google Doc privado "Auditoría personal de Martin — PRIVADO" del Drive de Martin
+   (nunca copiarlas a este repositorio público). Sesión 1 hecha; sigue la 2 (estructura).
+
 Cómo actúa Claude, por área (estado al 1-oct):
 | Área | Qué hace Claude | Estado |
 |---|---|---|
