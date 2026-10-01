@@ -193,6 +193,18 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   Liberty Employee Leasing (PEO): el certificado vencía 1-oct-2026, pedir el nuevo. Martin tiene exención de
   dueño (oct-2025): confirmar con PES si él figura cubierto. Sin fianza.
 
+### Memoria para el Claude de voz (1-oct)
+- Google Doc privado "Segundo cerebro MOP — memoria para Claude (privado)" en el Drive de Martin
+  (id 1iTdNSYY2e5tbFdMwU_WrMqycdeA5a_Sm_XcSQtt_hcY): resumen de esta historia sin datos técnicos. Mantenerlo al día
+  cuando cambie algo importante. Paso 2 pendiente: Martin crea el proyecto "Segundo cerebro MOP" en la app de Claude
+  y le agrega ese documento.
+
+### Plan 2-oct (pedido de Martin)
+- Viernes 2-oct: correo a Daniel Burunat (Vercetti) con el número de North Beach: gracias, aceptamos el desafío,
+  este es el precio con todo, y con transparencia lo que hoy falta (fianza, umbrella). Borrador en el chat; sale
+  SOLO con el aprobado de Martin. Martin tiene que decidir antes: ganancia 9 % ($1.168.470) o 13,4 % ($1.226.891).
+- Flagler se entrega el viernes 9-oct (NO el 2): visita lunes 5-oct 12:00.
+
 ### WhatsApp conectado para leer mensajes (opción 3, Martin dijo SÍ el 1-oct)
 - Camino: "coexistencia" de Meta (WhatsApp Business app + Cloud API en el mismo número; la app sigue igual).
   Requisitos: app Business 2.24.17 o más nueva, número usado en la app 7+ días, portafolio de Meta Business, y
