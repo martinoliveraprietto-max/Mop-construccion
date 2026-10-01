@@ -210,7 +210,7 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   y le agrega ese documento.
 
 ### Obra en curso y clientes fuertes (1-oct)
-- Kozo Construction (José Felipe), obra Rojas: los ~$30.000 que faltan (2 losas de hormigón y una escalera) son
+- Kozo Construction (Felipe), obra Rojas: los ~$30.000 que faltan (2 losas de hormigón y una escalera) son
   el saldo del contrato Rojas. Ojo: contrato $135.000 y cobrado ~$120.734 (si los $20.250 del 7-nov son la seña
   de Rojas) → por contrato quedarían ~$14.266; confirmar con Kozo el saldo (¿adicionales?) antes de facturar. Es la plata más cercana: armar cronograma, certificados de avance semanales y pedir adelanto para
   materiales. Antes de hormigonar: confirmar con Pandora que el seguro cubra hormigón.
