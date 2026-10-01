@@ -1,10 +1,10 @@
 # MOP Construction — historia y estado de todo (leer esto PRIMERO en cada chat nuevo)
 
-Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo en `main`.
+Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en `main`.
 
 ## Cómo arrancar un chat nuevo (Martin copia y pega esto)
-> Leé `HISTORIA.md` y `CLAUDE.md` del repositorio Mop-construccion (rama main) y la carpeta
-> `mop-app/` de solana-signal-bot (rama `claude/mop-construction-website-djmiog`) antes de hacer nada.
+> Leé `HISTORIA.md` y `CLAUDE.md` del repositorio Mop-construccion (rama main) y, si el tema es la app
+> o un presupuesto, `CLAUDE.md` y `docs/os/` del repositorio mop-estimador (rama main) antes de hacer nada.
 > Respondeme en español, pasos cortos, y con audio al final (voz es-UY-MateoNeural).
 > Hoy quiero: ...
 
@@ -99,8 +99,18 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
   dice "not for construction": 12 preguntas a Nicole programadas para el 1-oct 8:01 (borrador en Gmail). COMPLETA en
   la app (3D, piezas, presupuesto con por qué). Acero pedido a Diana (Nu-Vue); soldadura: Dani Soldador (WhatsApp).
 - Kilwins (1390 Ocean Dr #105): vence miércoles 14-oct; plano bajado (29 hojas), sin medir.
+- 1-oct, 8:01 Miami: la tarea programada del chat del 30-sep manda el borrador a Nicole (hilo "298 Lincoln"),
+  revisando antes si ella escribió algo. Si en el chat nuevo no aparece enviado en Gmail, avisar a Martin.
+- Falta: Lincoln en 3D "terminada" (como Flagler: baños con artefactos, ascensor, escalera, fachada) y
+  respuesta de Diana (acero) y Dani Soldador (precio por trabajo).
 - Rojas: en el Drive solo está la Rev. aprobada del 23-jun-2026; el original ("Proyecto rojas.pdf", OneDrive personal)
   no se puede bajar desde la nube: Martin lo tiene que subir por la app.
+
+### Otros pendientes (1-oct)
+- Adventure Ave (esperando desde 28-sep); Vázquez (Danny Ruiz): comparar el juego de PA Architect con el de la
+  diseñadora cuando Martin lo vuelva a subir; North Beach y A100 no tienen el "¿por qué?" en sus líneas.
+- Esperan el OK de Martin: cambio de roles y permisos en la app; volver a publicar presupuestos viejos.
+- 1-oct: se le pasó a Martin un prompt para que un amigo arme una app parecida desde cero (sin datos de MOP).
 
 ## Problemas conocidos entre chats
 - Varios chats trabajan a la vez sobre lo mismo: antes de mandar o publicar algo, hacer `git pull`
