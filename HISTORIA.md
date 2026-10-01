@@ -57,6 +57,16 @@ Próximas mejoras propuestas (Martin elige):
 - Margen mínimo por tipo de obra (ej.: 10 % gastos + 10 % ganancia propia, 10 % sobre subcontratos) y aviso si baja.
 - Calendario de vencimientos (seguros, cotizaciones, impuestos, nómina de PES los miércoles antes de las 12).
 
+### Ideas grandes de crecimiento (1-oct, para que Martin elija; ninguna arrancada)
+1. Licencia de contratista certificado de Florida (DBPR/CILB) con sus 20 años, o socio "qualifier": cobra directo al dueño.
+2. Kit de precalificación (COI, W-9, referencias, capacidad, fotos) + alta en BuildingConnected, PlanHub y Procore.
+3. Nicho de recertificación y reparación de hormigón en condominios (inspecciones obligatorias después de Surfside).
+4. Certificación SBE de Miami-Dade + fianzas con garantía de la SBA: abre obra pública sin capital grande.
+5. Vender el MOP Estimator / servicio de presupuestos en español a otros subcontratistas.
+6. Marca personal en Instagram/YouTube en español ("Martin, el de la plomada") + perfil de Google.
+7. Alianza con una constructora con licencia (MOP hace estructura, ellos el permiso).
+8. Sistema propio de encofrado reutilizable para bajar costo en hormigón.
+
 ## Dónde está cada cosa
 | Qué | Dónde |
 |---|---|
