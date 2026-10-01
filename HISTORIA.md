@@ -210,8 +210,9 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   y le agrega ese documento.
 
 ### Obra en curso y clientes fuertes (1-oct)
-- Kozo Construction (José Felipe): falta terminar 2 losas de hormigón y una escalera, algo más de $30.000 por
-  cobrar. Es la plata más cercana: armar cronograma, certificados de avance semanales y pedir adelanto para
+- Kozo Construction (José Felipe), obra Rojas: los ~$30.000 que faltan (2 losas de hormigón y una escalera) son
+  el saldo del contrato Rojas. Ojo: contrato $135.000 y cobrado ~$120.734 (si los $20.250 del 7-nov son la seña
+  de Rojas) → por contrato quedarían ~$14.266; confirmar con Kozo el saldo (¿adicionales?) antes de facturar. Es la plata más cercana: armar cronograma, certificados de avance semanales y pedir adelanto para
   materiales. Antes de hormigonar: confirmar con Pandora que el seguro cubra hormigón.
 - Danny Ruiz (Bello Construction, obra Vázquez): Martin habla por WhatsApp; Danny está renovando su web para
   conseguir más obra. Idea: ofrecerle fotos de Vázquez y un testimonio para su web (relación y próximas obras).
