@@ -3,8 +3,8 @@
 Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en `main`.
 
 ## Cómo arrancar un chat nuevo (Martin copia y pega esto)
-> Leé `HISTORIA.md` y `CLAUDE.md` del repositorio Mop-construccion (rama main) y la carpeta
-> `mop-app/` de solana-signal-bot (rama main; la de trabajo es `claude/mop-construction-website-djmiog`) antes de hacer nada.
+> Leé `HISTORIA.md` y `CLAUDE.md` del repositorio Mop-construccion (rama main) y, si el tema es la app
+> o un presupuesto, `CLAUDE.md` y `docs/os/` del repositorio mop-estimador (rama main) antes de hacer nada.
 > Respondeme en español, pasos cortos, y con audio al final (voz es-UY-MateoNeural).
 > Hoy quiero: ...
 
@@ -34,8 +34,8 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
 | Página web | este repo (`index.html`, `img/`), en línea: https://martinoliveraprietto-max.github.io/Mop-construccion/ |
 | Instagram (cola, reels, textos, perfil) | este repo, `instagram/` y `scripts/publicar.py`, `scripts/hacer_reel.py` |
 | Logo elegido (plomada que baja por la O) | este repo, `marca/` |
-| Emails a constructoras | solana-signal-bot, `mop-app/email/` (en main desde el 1-oct; se trabaja en la rama `claude/mop-construction-website-djmiog`) |
-| Planos en PDF (S-1 a S-5) | solana-signal-bot, `mop-app/planos/` (main y rama de trabajo; reglas en `planos/REGLAS.md`) |
+| Emails a constructoras | solana-signal-bot, rama `claude/mop-construction-website-djmiog`, `mop-app/email/` |
+| Planos en PDF (S-1 a S-5) | misma rama, `mop-app/planos/` (reglas en `planos/REGLAS.md`) |
 | MOP Estimator (app de presupuestos) | repositorio privado `martinoliveraprietto-max/mop-estimador` (antes `mop-app/estimador-nuevo/`) |
 | MOP Construction OS (gestión de obra) | dentro de `mop-estimador` (decisión 30-sep): documentos en `docs/os/` (en main) |
 | Habilidad para leer planos y sacar cantidades | solana-signal-bot, `.claude/skills/leer-planos` |
@@ -58,8 +58,8 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
   sábado 7:44 pm Miami, publica la siguiente de `instagram/cola.json` (fotos, carruseles y Reels).
 - Publicadas: 01, 02, Reel 01 y Reel 03 (30-sep). Las 6 con gente quedaron con estado `revision_martin`
   en cola.json (la rutina las saltea); para liberarlas, volver a poner `pendiente`.
-- El lunes 28 no salió nada: faltaba el token (Martin lo generó de nuevo el 28-sep por la noche y lo
-  cargó en el entorno; funciona desde el 30-sep).
+- Publicadas antes: El lunes 28 no salió nada: faltaba el token (Martin lo generó de nuevo
+  el 28-sep por la noche y lo cargó en el entorno).
 - PENDIENTE DE MARTIN: 6 publicaciones de la cola tienen gente sin casco o sin arnés: posts 03, 04,
   07, 08 y Reels 02 y 04. Decidir: publicar, recortar o sacar. Mientras tanto se publican solo las
   que no tienen gente (Reel 03, posts 05, 06, 09). El Reel 01 ya publicado también tiene gente en altura.
@@ -99,30 +99,18 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
   dice "not for construction": 12 preguntas a Nicole programadas para el 1-oct 8:01 (borrador en Gmail). COMPLETA en
   la app (3D, piezas, presupuesto con por qué). Acero pedido a Diana (Nu-Vue); soldadura: Dani Soldador (WhatsApp).
 - Kilwins (1390 Ocean Dr #105): vence miércoles 14-oct; plano bajado (29 hojas), sin medir.
+- 1-oct, 8:01 Miami: la tarea programada del chat del 30-sep manda el borrador a Nicole (hilo "298 Lincoln"),
+  revisando antes si ella escribió algo. Si en el chat nuevo no aparece enviado en Gmail, avisar a Martin.
+- Falta: Lincoln en 3D "terminada" (como Flagler: baños con artefactos, ascensor, escalera, fachada) y
+  respuesta de Diana (acero) y Dani Soldador (precio por trabajo).
 - Rojas: en el Drive solo está la Rev. aprobada del 23-jun-2026; el original ("Proyecto rojas.pdf", OneDrive personal)
   no se puede bajar desde la nube: Martin lo tiene que subir por la app.
 
-## Lo que se resolvió en el chat principal "MOP Construction: logo profesional, web y email" (23 al 30-sep)
-- Logo: el de la plomada que baja por la O (no hacer más propuestas). Archivos en `marca/` y `mop-app/logo/elegido/`.
-- Web: se unificaron las dos webs, se sacaron fotos repetidas, se sumaron fotos de Instagram (galería
-  luego reducida a 12 por seguridad), formulario que abre WhatsApp, sección "For builders".
-- Instagram: publicación por la API (fotos, carruseles y Reels). Reels hechos con `scripts/hacer_reel.py`
-  (1080x1920, sin música; Martin puede agregar música de tendencia desde la app): 01 "From dirt to roof",
-  02 "Before the pour" (rehecho sin la acera que no le gustó), 03 "Empty shell to office", 04 "Going up: two stories".
-  Recomendaciones de perfil dadas a Martin: nombre "MOP Construction | Framing", biografía de `perfil.txt`,
-  enlace a la web, pasar a cuenta de empresa (categoría Construction Company, botones Llamar y WhatsApp,
-  SIN dirección), historias destacadas (Framing, Concrete, Interiors, Before/After, Contact).
-- Emails: lista de 562 constructoras sacada del registro del DBPR + webs (286 listas: 202 obra nueva,
-  84 remodelación). Se descartaron oficios sueltos (plomeros, electricistas, jardinería). Texto v1 y v2
-  (con logo) reemplazados por la v3 de texto simple (asunto con el nombre de la empresa, pedido de entrar
-  a su lista de subcontratistas). Armador: `mop-app/email/armar_correo.py`; registro: `envio.py`.
-- Dirección postal: se descartó PO Box y UPS Store; quedó la dirección comercial de Sunshine (suite propia).
-  Pausado y no urgente: formulario 1583 del correo (USPS) para el reenvío de correspondencia; falta un
-  comprobante de domicilio a nombre de Martin con la dirección actual (seguro de inquilino o licencia
-  actualizada en MyDMV). Revisar en Sunbiz que "Principal Address" y "Mailing Address" ya no digan Hialeah.
-- Planos (inglés, desde croquis): S-1 viga, columna y zapata; S-2/S-3 muro de entrada con celdas llenas
-  #5 con epoxi (los muros NO se unen, el vano queda); S-4 columnas 8x12 y viga nueva 8x12; S-5 viga sobre
-  puerta nueva. Scripts en `mop-app/planos/*.py` (base común `plano.py`).
+### Otros pendientes (1-oct)
+- Adventure Ave (esperando desde 28-sep); Vázquez (Danny Ruiz): comparar el juego de PA Architect con el de la
+  diseñadora cuando Martin lo vuelva a subir; North Beach y A100 no tienen el "¿por qué?" en sus líneas.
+- Esperan el OK de Martin: cambio de roles y permisos en la app; volver a publicar presupuestos viejos.
+- 1-oct: se le pasó a Martin un prompt para que un amigo arme una app parecida desde cero (sin datos de MOP).
 
 ## Problemas conocidos entre chats
 - Varios chats trabajan a la vez sobre lo mismo: antes de mandar o publicar algo, hacer `git pull`
