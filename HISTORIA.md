@@ -135,6 +135,11 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
   (Florida Foundation, GSI, Expert Dewatering, Deco Truss, Valmont, Manley deBoer). Sirvió para aprender y contactos.
 - Cuenta de Oracle Cloud "mopconstruccion" (región São Paulo): la abrió Martin, no es sospechosa.
 - Shell Lumber mandó precios por pieza (PDF): van como respaldo de precios de la app.
+- North Beach SÍ se cotiza (Martin cambió de idea): presupuesto real en mop-estimador, rama
+  claude/north-beach-propuesta-real (obras/north-beach/propuesta-v2-*). Total $1.168.470 (unos $682.000 son
+  asignaciones; micropilotes ~$453.000). Mano de obra con salario de obra pública (tabla Miami-Dade 2026, Miami Beach
+  ord. 2021-4405) + 28,3 % de cargas = $50,25/h; cuadrilla de 10; herramientas $2.004/semana. Martin pidió NO mandar
+  ni programar nada el 2-oct: revisarlo primero.
 - Seguros (verificado 1-oct con el certificado): responsabilidad civil Burlington Ins Co por Pandora Insurance,
   1M por hecho / 2M total, vigente 15-oct-2025 a 15-oct-2026 (RENOVAR; el certificado todavía muestra el domicilio
   viejo de Hialeah: pedir a Pandora que lo cambie). Sin seguro de autos ni umbrella. Workers' comp por PES /
