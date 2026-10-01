@@ -209,6 +209,14 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   cuando cambie algo importante. Paso 2 pendiente: Martin crea el proyecto "Segundo cerebro MOP" en la app de Claude
   y le agrega ese documento.
 
+### Obra en curso y clientes fuertes (1-oct)
+- Kozo Construction (José Felipe): falta terminar 2 losas de hormigón y una escalera, algo más de $30.000 por
+  cobrar. Es la plata más cercana: armar cronograma, certificados de avance semanales y pedir adelanto para
+  materiales. Antes de hormigonar: confirmar con Pandora que el seguro cubra hormigón.
+- Danny Ruiz (Bello Construction, obra Vázquez): Martin habla por WhatsApp; Danny está renovando su web para
+  conseguir más obra. Idea: ofrecerle fotos de Vázquez y un testimonio para su web (relación y próximas obras).
+- Kozo y Danny Ruiz fueron ~74 % del ingreso de los últimos 12 meses (detalle privado en el Drive de Martin).
+
 ### Plan 2-oct (pedido de Martin)
 - Viernes 2-oct: correo a Daniel Burunat (Vercetti) con el número de North Beach: gracias, aceptamos el desafío,
   este es el precio con todo, y con transparencia lo que hoy falta (fianza, umbrella). Borrador en el chat; sale
