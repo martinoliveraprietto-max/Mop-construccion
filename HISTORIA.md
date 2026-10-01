@@ -236,6 +236,12 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   presupuestos.txt" y "... - 3 Finanzas papeles y vida (PRIVADO).txt". Son fotos del 1-oct: cuando cambie algo
   grande, generar versiones nuevas y avisarle a Martin que las reemplace en el proyecto.
 
+### Coach astrológico (13.º, 1-oct)
+- Carta natal calculada con pyswisseph (script en el scratchpad de la sesión; se rehace con los datos del archivo
+  privado). Los datos de nacimiento y la lectura están SOLO en el Drive de Martin:
+  "Segundo cerebro MOP - 4 Carta natal de Martin (PRIVADO).txt". No copiarlos a este repositorio público.
+- Fechas útiles: Mercurio retrógrado 24-oct al 14-nov-2026 y 10-feb al 4-mar-2027 (revisar todo dos veces).
+
 ### WhatsApp conectado para leer mensajes (opción 3, Martin dijo SÍ el 1-oct)
 - Camino: "coexistencia" de Meta (WhatsApp Business app + Cloud API en el mismo número; la app sigue igual).
   Requisitos: app Business 2.24.17 o más nueva, número usado en la app 7+ días, portafolio de Meta Business, y
