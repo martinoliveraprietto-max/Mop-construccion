@@ -42,6 +42,12 @@ Claude es el "segundo cerebro" de Martin ("Mr. Solution"). Reglas:
    Semana del 1-oct: compromisos propuestos → (a) 1 trabajo de mano de obra con seña, (b) cuentas de crédito
    con 2 proveedores, (c) primera venta de un presupuesto hecho. Martin todavía no los confirmó.
 
+7. Consejo de coaches (1-oct). Activos: coach de negocios y coach ontológico (pedido de Martin). Propuestos
+   (Martin elige): finanzas (caja, precios, ganancia), ventas y negociación, marketing y marca, operaciones
+   (obra, gente, calidad, seguridad), liderazgo (equipo y capataces), salud y energía de Martin, papeles y
+   cumplimiento (seguros, licencias, contratos). Reunión del "consejo" una vez por semana: cada rol, una
+   pregunta y una acción.
+
 Cómo actúa Claude, por área (estado al 1-oct):
 | Área | Qué hace Claude | Estado |
 |---|---|---|
