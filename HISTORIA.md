@@ -100,8 +100,7 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
   dice "not for construction": 12 preguntas a Nicole programadas para el 1-oct 8:01 (borrador en Gmail). COMPLETA en
   la app (3D, piezas, presupuesto con por qué). Acero pedido a Diana (Nu-Vue); soldadura: Dani Soldador (WhatsApp).
 - Kilwins (1390 Ocean Dr #105): vence miércoles 14-oct; plano bajado (29 hojas), sin medir.
-- 1-oct, 8:01 Miami: la tarea programada del chat del 30-sep manda el borrador a Nicole (hilo "298 Lincoln"),
-  revisando antes si ella escribió algo. Si en el chat nuevo no aparece enviado en Gmail, avisar a Martin.
+- 1-oct, 8:02 Miami: ENVIADAS las 12 preguntas a Nicole (hilo "ITB: 298 Lincoln Rd - Phase 2"). Esperando respuesta.
 - Falta: Lincoln en 3D "terminada" (como Flagler: baños con artefactos, ascensor, escalera, fachada) y
   respuesta de Diana (acero) y Dani Soldador (precio por trabajo).
 - Rojas: en el Drive solo está la Rev. aprobada del 23-jun-2026; el original ("Proyecto rojas.pdf", OneDrive personal)
