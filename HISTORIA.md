@@ -146,6 +146,14 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
   Liberty Employee Leasing (PEO): el certificado vencía 1-oct-2026, pedir el nuevo. Martin tiene exención de
   dueño (oct-2025): confirmar con PES si él figura cubierto. Sin fianza.
 
+### WhatsApp conectado para leer mensajes (opción 3, Martin dijo SÍ el 1-oct)
+- Camino: "coexistencia" de Meta (WhatsApp Business app + Cloud API en el mismo número; la app sigue igual).
+  Requisitos: app Business 2.24.17 o más nueva, número usado en la app 7+ días, portafolio de Meta Business, y
+  alta por un socio de Meta (Tech Provider / BSP): no se puede hacer solo. Los mensajes entrantes van a Supabase
+  (función) y Claude los lee; NUNCA manda mensajes por Martin.
+- Paso 1 (pendiente de Martin): confirmar versión de la app y que el 754-457-3599 está en WhatsApp Business.
+- Después: elegir socio (el más barato con coexistencia y webhook) o hacer de MOP Publicador su propio Tech Provider.
+
 ### Otros pendientes (1-oct)
 - Adventure Ave (esperando desde 28-sep); Vázquez (Danny Ruiz): comparar el juego de PA Architect con el de la
   diseñadora cuando Martin lo vuelva a subir; North Beach y A100 no tienen el "¿por qué?" en sus líneas.
