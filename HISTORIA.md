@@ -218,6 +218,12 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   conseguir más obra. Idea: ofrecerle fotos de Vázquez y un testimonio para su web (relación y próximas obras).
 - Kozo y Danny Ruiz fueron ~74 % del ingreso de los últimos 12 meses (detalle privado en el Drive de Martin).
 
+### Orden de la plata (desde el 1-oct, decisión de Martin)
+- Martin avisa en el chat cada compra y cada factura que manda. Claude la anota en la planilla privada
+  "Libro de caja MOP (desde 1-oct-2026)" dentro de la carpeta de Drive "MOP Comprobantes (facturas y compras)"
+  (id 1YgsP8sQs7YsCdO34MWII598B_E3QX_jh) y guarda ahí la foto o el PDF. Como el conector de Drive no edita
+  planillas, se recrea con las filas nuevas y la vieja va a la papelera. Resumen semanal para el coach.
+
 ### Plan 2-oct (pedido de Martin)
 - Viernes 2-oct: correo a Daniel Burunat (Vercetti) con el número de North Beach: gracias, aceptamos el desafío,
   este es el precio con todo, y con transparencia lo que hoy falta (fianza, umbrella). Borrador en el chat; sale
