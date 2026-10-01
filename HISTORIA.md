@@ -224,6 +224,13 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   (id 1YgsP8sQs7YsCdO34MWII598B_E3QX_jh) y guarda ahí la foto o el PDF. Como el conector de Drive no edita
   planillas, se recrea con las filas nuevas y la vieja va a la papelera. Resumen semanal para el coach.
 
+### Base de contactos (desde el 1-oct, pedido de Martin)
+- Planilla privada en el Drive de Martin: "Contactos MOP - base de trabajo (PRIVADO)"
+  (id 1cGzqsmyyf23cA2QjQvVJA87kQkkZ8bXaaTCiswB1jWk). ~50 contactos sacados de Gmail: clientes/constructoras,
+  proveedores, subcontratistas, servicios y arquitectos, con qué hacen, última charla y obras.
+- Cuando Martin pida algo ("¿a quién le pido acero?"), mirar primero esa planilla. Los datos de contacto
+  NO se copian a este repositorio (es público). Faltan los contactos del celular (exportar .vcf a Drive).
+
 ### Plan 2-oct (pedido de Martin)
 - Viernes 2-oct: correo a Daniel Burunat (Vercetti) con el número de North Beach: gracias, aceptamos el desafío,
   este es el precio con todo, y con transparencia lo que hoy falta (fianza, umbrella). Borrador en el chat; sale
