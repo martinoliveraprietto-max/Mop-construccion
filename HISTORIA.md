@@ -91,11 +91,13 @@ Actualizado: 29-sep-2026. Si cambiás algo importante, actualizá este archivo e
   canal preview). Próximo: formularios de tareas, materiales, RFI y órdenes de cambio.
 
 ### Licitaciones de Fortum Construction (Nicole Swanton, 30-sep)
+- Regla de Martin (30-sep): toda obra que se estima va COMPLETA a la app (plano, 3D, piezas, presupuesto con por qué).
 - 1044 W Flagler: visita a obra lunes 5-oct 12:00 (Martin confirmó); precio vence viernes 9-oct. Cálculo en
-  `mop-estimador/obras/1044-flagler/`.
+  `mop-estimador/obras/1044-flagler/`. 1-oct: COMPLETA en la app ($85.754, 3D de 37 piezas).
 - 298 Lincoln Rd, fase 2 (fachada y cascarón): presupuesto PRELIMINAR de la parte de MOP en
   `mop-estimador/obras/298-lincoln/` ($53.562 con precio; falta el hormigón 6000 psi y otros). La estructura del juego
-  dice "not for construction": 12 preguntas para Fortum sin mandar (con el sí de Martin). Falta el modelo 3D.
+  dice "not for construction": 12 preguntas a Nicole programadas para el 1-oct 8:01 (borrador en Gmail). COMPLETA en
+  la app (3D, piezas, presupuesto con por qué). Acero pedido a Diana (Nu-Vue); soldadura: Dani Soldador (WhatsApp).
 - Kilwins (1390 Ocean Dr #105): vence miércoles 14-oct; plano bajado (29 hojas), sin medir.
 - Rojas: en el Drive solo está la Rev. aprobada del 23-jun-2026; el original ("Proyecto rojas.pdf", OneDrive personal)
   no se puede bajar desde la nube: Martin lo tiene que subir por la app.
