@@ -129,6 +129,13 @@ Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en
   #5 con epoxi (los muros NO se unen, el vano queda); S-4 columnas 8x12 y viga nueva 8x12; S-5 viga sobre
   puerta nueva. Scripts en `mop-app/planos/*.py` (base común `plano.py`).
 
+### Decisiones de Martin (1-oct, chat de la tarde)
+- North Beach (Vercetti, obra pública de Miami Beach): NO se cotiza. Se le escribe a Daniel Burunat con
+  elegancia (borrador en el chat, espera "aprobado") y se avisa a los proveedores que estaban cotizando
+  (Florida Foundation, GSI, Expert Dewatering, Deco Truss, Valmont, Manley deBoer). Sirvió para aprender y contactos.
+- Cuenta de Oracle Cloud "mopconstruccion" (región São Paulo): la abrió Martin, no es sospechosa.
+- Shell Lumber mandó precios por pieza (PDF): van como respaldo de precios de la app.
+
 ### Otros pendientes (1-oct)
 - Adventure Ave (esperando desde 28-sep); Vázquez (Danny Ruiz): comparar el juego de PA Architect con el de la
   diseñadora cuando Martin lo vuelva a subir; North Beach y A100 no tienen el "¿por qué?" en sus líneas.
