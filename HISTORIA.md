@@ -231,6 +231,13 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
 - Cuando Martin pida algo ("¿a quién le pido acero?"), mirar primero esa planilla. Los datos de contacto
   NO se copian a este repositorio (es público). Faltan los contactos del celular (exportar .vcf a Drive).
 
+### WhatsApp Business (1-oct, decisión de Martin)
+- Cuenta creada en el 754-457-3599. Nombre "Mop Construction..." (Meta avisa por MOP en mayúsculas; se puede
+  pedir después). Horario L-V 7-18, sáb 8-13. Sin dirección. Catálogo: más adelante.
+- Decisión de Martin: hasta arreglar el seguro (hoy clasificado framing interior), el perfil dice SOLO framing,
+  sin enlace a la web ni a Instagram. Pendiente: pedir a Pandora agregar concreto/drywall antes del 15-oct, y
+  decidir si la web e Instagram también se muestran solo con framing mientras tanto.
+
 ### Plan 2-oct (pedido de Martin)
 - Viernes 2-oct: correo a Daniel Burunat (Vercetti) con el número de North Beach: gracias, aceptamos el desafío,
   este es el precio con todo, y con transparencia lo que hoy falta (fianza, umbrella). Borrador en el chat; sale
