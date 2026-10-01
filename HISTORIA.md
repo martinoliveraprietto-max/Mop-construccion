@@ -57,6 +57,12 @@ Próximas mejoras propuestas (Martin elige):
 - Margen mínimo por tipo de obra (ej.: 10 % gastos + 10 % ganancia propia, 10 % sobre subcontratos) y aviso si baja.
 - Calendario de vencimientos (seguros, cotizaciones, impuestos, nómina de PES los miércoles antes de las 12).
 
+### PRIORIDAD (1-oct): flujo de caja primero
+Martin está con la caja muy baja. Regla: primero lo que trae plata rápido y no cuesta nada (trabajos de mano de
+obra, clientes anteriores como Kozo, seña o pagos semanales, servicio de presupuestos, crédito con proveedores a
+30 días). Ningún gasto nuevo (seguros extra, herramientas) hasta que un contrato lo pague. No cotizar obras que
+pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por etapas.
+
 ### Ideas grandes de crecimiento (1-oct, para que Martin elija; ninguna arrancada)
 1. Licencia de contratista certificado de Florida (DBPR/CILB) con sus 20 años, o socio "qualifier": cobra directo al dueño.
 2. Kit de precalificación (COI, W-9, referencias, capacidad, fotos) + alta en BuildingConnected, PlanHub y Procore.
