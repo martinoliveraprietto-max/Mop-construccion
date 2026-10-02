@@ -252,6 +252,11 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   cobrada antes del viernes 9); (b) Flagler: visita lunes 5 12:00 y propuesta ENVIADA el jueves 8 ($85.754 base);
   (c) Seguros: renovación de responsabilidad civil (vence 15-oct) + concreto/drywall con Pandora.
 - En espera: respuesta de Nicole a las 12 preguntas de Lincoln. Kilwins (vence 14-oct): medir a partir del miércoles 7.
+- North Beach (2-oct, pedido de Martin): el correo es para decir con elegancia que hoy NO tomamos la obra y pedir obras
+  privadas más chicas. Precio nuevo separado: base MOP $807.000 (Harding 252k / Normandy 555k) + opción micropilotes y
+  postensado $867.000 = $1.674.000 (10 % de imprevistos + 5 % por obra federal; sin achique, entibado ni limpieza:
+  según Daniel el 29-sep los paga Vercetti). PDF nuevo de 3 páginas con las vistas 3D del hierro + lista de hierro de
+  regalo. Archivos en el scratchpad de la sesión del 2-oct (no subidos al Estimator). Espera el "aprobado" de Martin.
 - Falta aceptar en el calendario la invitación de Nicole a la visita de Flagler (Nicole lo pidió).
 
 ### Proyecto "Segundo Cerebro MOP" en claude.ai (creado 1-oct)
