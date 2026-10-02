@@ -1,6 +1,6 @@
 # MOP Construction — historia y estado de todo (leer esto PRIMERO en cada chat nuevo)
 
-Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en `main`.
+Actualizado: 2-oct-2026. Si cambiás algo importante, actualizá este archivo en `main`.
 
 ## Cómo arrancar un chat nuevo (Martin copia y pega esto)
 > Leé `HISTORIA.md` y `CLAUDE.md` del repositorio Mop-construccion (rama main) y la carpeta
@@ -243,6 +243,16 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   este es el precio con todo, y con transparencia lo que hoy falta (fianza, umbrella). Borrador en el chat; sale
   SOLO con el aprobado de Martin. Martin tiene que decidir antes: ganancia 9 % ($1.168.470) o 13,4 % ($1.226.891).
 - Flagler se entrega el viernes 9-oct (NO el 2): visita lunes 5-oct 12:00.
+
+### Plan de la semana 5 al 9-oct (armado el viernes 2-oct, falta el "sí" de Martin)
+- Hoy 2-oct: (1) decidir ganancia North Beach (9 % o 13,4 %) y aprobar el correo a Daniel Burunat; Kelvin (Expert
+  Dewatering) pidió el plano de fundaciones de Harding Ave (no abre el Dropbox). (2) Llamar a Diana (Nu-Vue) 8:30.
+  (3) Llamar a PES: certificado de workers' comp venció el 1-oct.
+- 3 compromisos propuestos para la semana: (a) Kozo: confirmar saldo Rojas y facturar/pedir adelanto (meta: plata
+  cobrada antes del viernes 9); (b) Flagler: visita lunes 5 12:00 y propuesta ENVIADA el jueves 8 ($85.754 base);
+  (c) Seguros: renovación de responsabilidad civil (vence 15-oct) + concreto/drywall con Pandora.
+- En espera: respuesta de Nicole a las 12 preguntas de Lincoln. Kilwins (vence 14-oct): medir a partir del miércoles 7.
+- Falta aceptar en el calendario la invitación de Nicole a la visita de Flagler (Nicole lo pidió).
 
 ### Proyecto "Segundo Cerebro MOP" en claude.ai (creado 1-oct)
 - Instrucciones cargadas. Conocimiento: 3 archivos .txt en el Drive de Martin (la app del celular no acepta Google
