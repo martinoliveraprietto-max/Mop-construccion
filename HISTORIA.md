@@ -268,7 +268,13 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
 - Adventure Ave (esperando desde 28-sep); Vázquez (Danny Ruiz): comparar el juego de PA Architect con el de la
   diseñadora cuando Martin lo vuelva a subir; North Beach y A100 no tienen el "¿por qué?" en sus líneas.
 - Esperan el OK de Martin: cambio de roles y permisos en la app; volver a publicar presupuestos viejos.
-- 1-oct: se le pasó a Martin un prompt para que un amigo arme una app parecida desde cero (sin datos de MOP).
+- 1-oct: se le pasó a Martin un prompt para que un amigo arme una app parecida desde cero (sin datos de MOP);
+  guardado en `mop-estimador/docs/prompt-app-desde-cero.md`.
+- Los PDF de los planos (Lincoln, Flagler, Kilwins, Rojas) NO están en ningún repositorio (regla): el chat nuevo los
+  vuelve a bajar del correo de Nicole (enlaces de SharePoint, truco de la cookie en el CLAUDE.md del estimador) o del
+  Drive. Lincoln y Flagler ya están subidos a la app (Storage `planos`).
+- 2-oct: chat "MOP Construction OS platform" archivado a pedido de Martin; se archivaron también 15 chats viejos
+  ya terminados. Uno ("Hugging Face (2)") esperaba una foto JPG en el Drive para hacer un video.
 
 ## Problemas conocidos entre chats
 - Varios chats trabajan a la vez sobre lo mismo: antes de mandar o publicar algo, hacer `git pull`
