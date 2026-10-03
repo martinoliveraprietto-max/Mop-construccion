@@ -258,7 +258,9 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   según Daniel el 29-sep los paga Vercetti). PDF nuevo de 3 páginas con las vistas 3D del hierro + lista de hierro de
   regalo. Archivos en el scratchpad de la sesión del 2-oct (no subidos al Estimator). APROBADO por Martin (2-oct):
   borrador en Gmail (draft r7542911431850391712, hilo con Daniel); Martin le agrega los 3 adjuntos desde el celular
-  y la rutina trig_01TXRX3GGu4RGS3qdKgM9vtn lo manda el 2-oct 8:00 Miami (si no tiene adjuntos, no sale y avisa).
+  ENVIADO por Martin el viernes 2-oct a las 6:55 Miami (asunto "MOP - North Beach Entrance Signs - budgetary price and
+  3D model", con PDF y planilla). Al 3-oct, Daniel todavía no contestó. Seguimiento: si no responde, una nota corta el
+  viernes 9-oct pidiendo obras privadas chicas.
   Martin se encarga de los seguros.
 - Falta aceptar en el calendario la invitación de Nicole a la visita de Flagler (Nicole lo pidió).
 
