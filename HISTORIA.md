@@ -264,8 +264,9 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   Martin se encarga de los seguros.
 - 2-oct (correo y Drive, revisado el 3-oct): PES mandó el certificado nuevo de workers' comp (renovación) y Martin lo
   reenvió a ACBOTAX (contadora de Kozo). Kozo pagó 2 cheques de $600 (Rojas/Segovia), depositados en Chase el 2-oct
-  ($500 disponible ya, $700 el 5-oct). Anotados en el libro de caja nuevo (id 1jVrs5vLfKjm67-Gw9-OYsPr0RKw1CHXACW5tSVCLe-0;
-  el viejo vacío a la papelera). Llegaron cotizaciones de North Beach que ya no se usan: GSI (micropilotes, base + VE,
+  ($500 disponible ya, $700 el 5-oct). Según Martin (3-oct) esos $1.200 son ADICIONALES; faltan cobrar ~$1.400 más de
+  adicionales y la restauración de un muro (hay que estimarla). NO escribirle a Felipe por ahora (pedido de Martin).
+  Libro de caja actual: id 1M-k5H1T4LgFAhH2U7XIsSS2x90Cl7qn9W_IsthSQQmE (los anteriores, a la papelera). Llegaron cotizaciones de North Beach que ya no se usan: GSI (micropilotes, base + VE,
   2 PDF) y Expert Dewatering (Normandy): falta solo un "gracias, no seguimos" con aprobado de Martin.
 - Falta aceptar en el calendario la invitación de Nicole a la visita de Flagler (Nicole lo pidió).
 
