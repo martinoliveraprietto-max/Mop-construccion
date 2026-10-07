@@ -255,6 +255,10 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   privado). Los datos de nacimiento y la lectura están SOLO en el Drive de Martin:
   "Segundo cerebro MOP - 4 Carta natal de Martin (PRIVADO).txt". No copiarlos a este repositorio público.
 - Fechas útiles: Mercurio retrógrado 24-oct al 14-nov-2026 y 10-feb al 4-mar-2027 (revisar todo dos veces).
+- Videos que mira Martin (7-oct): mandó "Plutonazo de octubre" (canal Mercedes - The Astral Method). No hay conexión
+  directa al historial de YouTube (Google no da API para eso). Propuesto: exportar el historial con Google Takeout
+  (solo YouTube → historial, formato JSON) y dejarlo en su Drive privado; mientras, que mande los links por el chat.
+  Desde la nube YouTube a veces bloquea leer subtítulos ("no eres un bot"): ahí se usa solo título y canal.
 
 ### WhatsApp conectado para leer mensajes (opción 3, Martin dijo SÍ el 1-oct)
 - Camino: "coexistencia" de Meta (WhatsApp Business app + Cloud API en el mismo número; la app sigue igual).
