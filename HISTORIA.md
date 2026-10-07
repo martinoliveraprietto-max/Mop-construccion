@@ -259,6 +259,9 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   directa al historial de YouTube (Google no da API para eso). Propuesto: exportar el historial con Google Takeout
   (solo YouTube → historial, formato JSON) y dejarlo en su Drive privado; mientras, que mande los links por el chat.
   Desde la nube YouTube a veces bloquea leer subtítulos ("no eres un bot"): ahí se usa solo título y canal.
+  Videos recibidos: "Plutonazo de octubre" (Mercedes - The Astral Method) y "Biblia de los signos octubre 2026"
+  (Aripka Maia, Astrología Interdimensional: Venus retrógrada desde el 3-oct en Escorpio). El resumen del segundo
+  salió con Firecrawl (avisó que le quedan pocos créditos). Fechas: Venus retrógrada 3-oct al 13-nov-2026 (aprox.).
 
 ### WhatsApp conectado para leer mensajes (opción 3, Martin dijo SÍ el 1-oct)
 - Camino: "coexistencia" de Meta (WhatsApp Business app + Cloud API en el mismo número; la app sigue igual).
