@@ -94,9 +94,8 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   instagram-lectura (pendiente de conexión). Comandos: /estado, /habilidades, /activar, /apagar, /explorar, /expansion.
 - Explorador: `EXPLORADOR/` (campos, hallazgos, en-espera, mapa-expansion). Tarea programada "Explorador MOP:
   /explorar semanal" (trig_01WURKDzQ4TtQBpYgVd8qqDP), domingos 20:50 Miami, sesión nueva sin conectores.
-- fabrica-canales: proyecto separado (3 canales con presentador virtual). GitHub no deja crear el repositorio desde
-  la nube (403): Martin crea el repositorio vacío y privado "fabrica-canales" y se sube. Mientras tanto vive en el
-  scratchpad de la sesión del 14-oct.
+- fabrica-canales: proyecto separado (3 canales con presentador virtual). Repositorio privado
+  martinoliveraprietto-max/Fabrica-canales- (lo creó Martin el 14-oct; desde la nube no se puede crear). Código subido.
 - Arreglos de la nube: edge-tts viejo da 403 → `pip install --upgrade edge-tts` (ya en el gancho de instalación);
   pyswisseph no compila → antes `pip install --upgrade setuptools`.
 - Gmail 14-oct: Flagler ENVIADA el 9-oct (EST-2026-004); Sedano's #32 (Fortum) vence 21-oct; Galleria Mall (Fortum,
