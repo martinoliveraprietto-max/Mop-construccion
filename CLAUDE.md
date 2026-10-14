@@ -28,6 +28,27 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
 - Lo que sale a terceros (emails, WhatsApp, publicaciones) sigue necesitando su "aprobado". Nunca escribir ni
   mandar mensajes o audios de WhatsApp en nombre de Martin.
 
+## Sistema de asistentes (prompt maestro de Martin, 13-oct-2026)
+- Al arrancar cada sesión: leer `TABLERO.md` y `HABILIDADES.md` y decir en tres líneas qué vence hoy, qué
+  está trabado y qué habilidades hay activas. (El gancho SessionStart los muestra.)
+- Al terminar cada sesión: escribir en "Mensajes entre asistentes" de `TABLERO.md` qué se hizo y qué queda.
+- Durante la sesión: anotar en `OBSERVACIONES.md` (fecha y hora · tipo · qué pasó · fuentes) cada pedido
+  repetido, cada vez que hubo que juntar datos de 2 o más fuentes, cada "siempre" / "cada vez" / "de ahora en
+  más" / "no me hagas repetir", cada herramienta, app, cliente, API o camino nuevo, y cada corrección de formato.
+  El gancho Stop obliga a decidir esas líneas antes de cerrar (reglas en OBSERVACIONES.md).
+- Habilidades: plantilla fija en `.claude/skills/<nombre>/SKILL.md`; registro en `HABILIDADES.md`. Cada
+  creación, cambio o apagado se avisa a Martin en una línea ("creé/cambié/apagué la habilidad X porque pasó Y;
+  se usa diciendo Z") y se anota en TABLERO.md. Si sirve para cualquier proyecto, copiarla también a
+  `~/.claude/skills/`.
+- Reparto por costo: tareas chicas (renombrar, resumir, mover, formatear, buscar) con el modelo más barato
+  disponible (subagente con modelo haiku o sonnet); programar y revisar código con el principal. Nunca dos
+  asistentes en la misma tarea.
+- Todo bloque que Martin deba pegar en otro lado dice arriba adónde va ("→ Termux" o "→ Claude Code").
+- Respuestas en español rioplatense, frases cortas, sin tablas, sin palabras en inglés salvo nombres propios y
+  términos técnicos exactos.
+- Comandos: `/estado`, `/habilidades`, `/activar <nombre>`, `/apagar <nombre>`, `/explorar`, `/expansion`.
+- TABLERO.md está en un repositorio PÚBLICO: nada de correos, teléfonos, direcciones ni datos privados.
+
 ## El negocio (datos reales, no inventar otros)
 - MOP Construction and Service, Inc. — Dania Beach, FL — trabaja en Miami-Dade y Broward.
 - Teléfono y WhatsApp: 754.457.3599 — correo: mopconstruccion@gmail.com
