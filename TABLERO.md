@@ -96,6 +96,7 @@ Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo /
    - Límite: el conector de Drive no edita planillas (se recrean).
 3. **fabrica-canales** — 14-oct. Repositorio creado por Martin el 14-oct: martinoliveraprietto-max/Fabrica-canales- (privado), código subido. Faltan: ANTHROPIC_API_KEY (pago, espera aprobado), YOUTUBE_API_KEY (gratis), OAuth de YouTube por canal, 3 canales de YouTube y 3 cuentas de TikTok, app de TikTok con Content Posting API. Detalle en `CONEXIONES.md` de ese repositorio.
 4. **Medición de planos con IA (explorador, 14-oct)** — prueba gratis de Kreo o BuildVision. Antes: permiso de Fortum para subir el plano. Pendiente de Martin.
+6. **Bandeja de obras (Gmail → Drive → Claude Code)** — 14-oct. Apps Script en la cuenta de Google de Martin (código en mop-estimador `herramientas/bandeja_gmail.gs` y en Drive "MOP Bandeja - codigo para pegar en Apps Script.txt"). Pendiente de Martin: pegarlo en script.google.com y ejecutar `instalar`; agregarle al vigilante (trig_01JZwaH6KFa8wqJuh9cEPhk6) los conectores Gmail, Google Drive y Supabase en claude.ai. Los enlaces de SharePoint no se bajan solos (el control de seguridad lo bloquea y el constructor ve quién abre): se avisa "bajar a mano".
 5. **edge-tts** — 14-oct: dio error 403 con la versión vieja; se arregla con `pip install --upgrade edge-tts`. Listo.
 
 ---
