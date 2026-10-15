@@ -123,3 +123,4 @@ Formato: fecha · decisión · qué se esperaba · qué pasó (se completa a los
 
 - 13-oct-2026 · Arranca el proyecto fabrica-canales (prueba de 60 días, meta: un canal con 1.000 suscriptores; si a los 30 días ningún canal crece, se para) · Esperado: canal que crezca sin trabajo de Martin · Qué pasó: revisar el 12-nov-2026.
 - 13-oct-2026 · Sistema de asistentes con tablero y habilidades que se crean solas · Esperado: menos pedidos repetidos y nada vencido sin aviso · Qué pasó: revisar el 12-nov-2026.
+- 15-oct-2026 · Los videos y el 3D para el cliente llevan SIEMPRE render profesional (Blender, materiales y luces reales), en todas las obras · Esperado: que el cliente vea la obra terminada como una foto real y eso ayude a ganar trabajos · Qué pasó: revisar el 14-nov-2026.
