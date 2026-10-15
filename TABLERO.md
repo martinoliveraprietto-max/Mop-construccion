@@ -54,11 +54,11 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 
 ### Kilwins (1390 Ocean Dr #105, Fortum Construction)
 - Cliente y contacto: Fortum Construction, Nicole Swanton.
-- Estado: propuesta enviada el miércoles 14-oct a Nicole (precio base, alternativa A de losa para plomería en dos variantes y alternativa 1 de muros perimetrales; válida 30 días). Montos en el correo enviado (Gmail, 14-oct).
+- Estado: propuesta enviada el miércoles 14-oct a Nicole (precio base, alternativa A de losa para plomería en dos variantes y alternativa 1 de muros perimetrales; válida 30 días). Montos en el correo enviado (Gmail, 14-oct). Nicole respondió el jueves 15-oct 11:49, pasó la propuesta a David y pregunta si MOP cotiza también las puertas.
 - Monto: en el correo enviado el 14-oct (Gmail), no se copia a este repositorio público.
 - Cobrado: $0.
 - Por cobrar con fecha: sin dato (no ganada).
-- Próximo paso con fecha: seguimiento a Nicole el viernes 16-oct si no responde (regla de los 2 días). Conectores Dayton D250XL: Nicole confirmó presupuestar cada 16" a cada lado de la zanja.
+- Próximo paso con fecha: contar las puertas en Kilwins Combine CDs.pdf (cuadro de puertas y planta) desde la tablet, armar el adicional "puertas, marcos y herrajes" con marca estándar que cumpla el plano, materiales y mano de obra por separado, y contestarle a Nicole. Conectores Dayton D250XL: Nicole confirmó presupuestar cada 16" a cada lado de la zanja.
 - Riesgo: falta saber si el flete está incluido en la cotización de techos de ACP Ideas (QUO-11567); sin recorrido de obra (local ocupado).
 
 ### Galleria Mall Renovation (Fortum Construction)
@@ -71,7 +71,7 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 - Riesgo: invitación sin contestar desde hace 9 días.
 
 ### Otras que aparecieron en Gmail (no pedidas en la carga, se anotan para no perderlas)
-- Sedano's #32 Shell Space (Fortum): MOP confirmó propuesta para el miércoles 21-oct. Nicole preguntó el 13-oct si MOP y su socio mandan una propuesta juntos o separadas: sin contestar.
+- Sedano's #32 Shell Space (Fortum): MOP confirmó propuesta para el miércoles 21-oct. Nicole preguntó el 13-oct si MOP y su socio mandan una propuesta juntos o separadas: la respuesta la manda Martin con Dani; ningún asistente la redacta.
 
 ---
 
@@ -83,6 +83,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 - 15-oct-2026 · Claude Code · Sedano's #32: 3D completo en la app con todas las etapas del plano (estructura con hierro, acero, framing, techo, plomería, electricidad, aire, cielorrasos, puertas y vidriera), versión del cliente en inglés, video por etapas y fotos con Blender; arreglo de la función de la app que borraba el enlace del 3D; adjuntos de correo por enlace propio de la app (30 días); llave permanente de la app creada; todo en main de mop-estimador · el juego de Sedano's no trae rociadores ni alarma (preguntar a Fortum); el borrado de las 125 piezas viejas de Sedano's en la base pide confirmación en pantalla y se canceló dos veces · Martin: guardar la llave como MOP_LLAVE en el entorno; aprobar el borrado cuando aparezca el aviso; el pedido de acero a Nu-Vue sale solo el 16-oct 7:30.
 - 15-oct-2026 · Claude Code · Sedano's #32: presupuesto completo en la app (estado listo, 0 líneas sin precio): $231.244 sin 15 %, $265.931 con 15 %, opcional pintura de fachada $5.504 aparte. Precios: los de Martin primero, después precio de mercado alto con fuente y fecha (Home Depot, Homewyse, Hilti y otros). Se corrigió en el 3D el tramo del fondo del muro tipo D (6'-4", no 12'-8"); en main de mop-estimador · acero a precio de mercado hasta que cotice Nu-Vue; puertas con NOA, muebles de la oficina ($37.305), barandas, zanja ($10.200 contra $6.000 de Kilwins) y apuntalamiento son los números más gruesos · Martin: revisar esos cinco y los plazos de la cuadrilla antes de mandar (vence el miércoles 21-oct).
 - 15-oct-2026 · Claude Code (sesión del repositorio bot-de-trading-view) · Por error se armó el 13-oct un segundo tablero en bot-de-trading-view; Martin decidió unificar acá. Pasé lo nuevo: Kilwins enviado el 14-oct, seguro renovado y entrada pagada, versión final de Flagler, pago de Blue Door del 24-sep. Creé la habilidad buscar-papeles (antes de poner "sin dato", buscar en la bandeja de Drive, Gmail y el repositorio) · el tablero de bot-de-trading-view queda retirado y apunta acá · Claude chat: pedir a Pandora el certificado nuevo con los límites; Martin: confirmar a qué trabajo corresponde el pago de Blue Door; seguimiento de Kilwins el viernes 16-oct.
+- 15-oct-2026 · Claude Code · Kilwins: Nicole respondió hoy 11:49, pasó la propuesta a David y pregunta si MOP cotiza también las puertas. Sedano's: la respuesta a Nicole sobre si va una propuesta junta o separada la manda Martin con Dani; ningún asistente la redacta · nuevo pendiente concreto en Kilwins (adicional de puertas) · Martin: contar las puertas en Kilwins Combine CDs.pdf desde la tablet (cuadro de puertas y planta), armar el adicional "puertas, marcos y herrajes" con marca estándar que cumpla el plano, materiales y mano de obra por separado, y mandárselo a Nicole.
 ---
 
 ## Anticipación
