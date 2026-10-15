@@ -172,10 +172,12 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   dice "not for construction": 12 preguntas a Nicole programadas para el 1-oct 8:01 (borrador en Gmail). COMPLETA en
   la app (3D, piezas, presupuesto con por qué). Acero pedido a Diana (Nu-Vue); soldadura: Dani Soldador (WhatsApp).
 - Kilwins (1390 Ocean Dr #105): vence miércoles 14-oct; plano bajado (29 hojas), sin medir.
-- Sedano's #32 Shell Space (Fortum, 14655 SW 56th St): vence miércoles 21-oct. 14-oct: modelo 3D hecho (130 piezas:
-  frente con 7 zapatas, columnas C1/TC/ST1 y dintel 2 C10x20, rampas, muro de 1 h, baños y oficina) en
-  `mop-estimador/obras/sedano-32/` (rama ccr-42dd0dea-6c385i), con 6 supuestos en su LEEME. Falta subirlo a la app
-  (la sesión no tenía MOP_LLAVE), cantidades y presupuesto.
+- Sedano's #32 Shell Space (Fortum, 14655 SW 56th St): vence miércoles 21-oct. 15-oct: 3D COMPLETO en la app (en main
+  de mop-estimador, `obras/sedano-32/`): todas las etapas del plano (demolición, estructura con hierro, acero, framing,
+  techo, plomería, electricidad, aire, cielorrasos, puertas, vidriera; rociadores y alarma no vienen en el juego).
+  Versión para el cliente en inglés, video por etapas y fotos con render de Blender. Pedido de acero a Nu-Vue en
+  Borradores, sale el 16-oct 7:30 (tarea programada), con el plano por enlace propio de la app (30 días).
+  Llave permanente de la app creada (vence oct-2027): falta que Martin la guarde en el entorno como MOP_LLAVE.
 - 1-oct, 8:02 Miami: ENVIADAS las 12 preguntas a Nicole (hilo "ITB: 298 Lincoln Rd - Phase 2"). Esperando respuesta.
 - Falta: Lincoln en 3D "terminada" (como Flagler: baños con artefactos, ascensor, escalera, fachada) y
   respuesta de Diana (acero) y Dani Soldador (precio por trabajo).
