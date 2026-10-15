@@ -23,13 +23,13 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 - Cobrado: ~$120.734 (si los $20.250 del 7-nov fueron la seña de Rojas; a confirmar).
 - Por cobrar con fecha: ~$14.266 por contrato, o ~$30.000 si hay adicionales. Fecha: sin dato.
 - Próximo paso con fecha: confirmar con Kozo el saldo real antes de facturar; armar cronograma y certificados de avance semanales. Fecha: sin dato.
-- Riesgo: diferencia entre $14.266 y $30.000 sin aclarar; confirmar con Pandora que el seguro cubra hormigón antes de hormigonar. Plano original "Proyecto rojas.pdf" solo en OneDrive personal de Martin.
+- Riesgo: diferencia entre $14.266 y $30.000 sin aclarar. Seguro de responsabilidad civil RENOVADO (firmado el 12-oct, vigente desde el 15-oct, entrada ya pagada según Martin el 15-oct); falta pedirle a Pandora el certificado nuevo (Kozo lo pide para pagar) y confirmar si cubre hormigón antes de hormigonar. Plano original "Proyecto rojas.pdf" solo en OneDrive personal de Martin.
 
 ### Blue Door (632 SW 8th St)
 - Cliente y contacto: Blue Door Contractors, Rodrigo (planos reenviados por Redline Consulting el 18-sep).
 - Estado: cotizando (sin dato de avance después del 19-sep).
 - Monto: sin dato.
-- Cobrado: $0.
+- Cobrado: hubo un pago de Blue Door el 24-sep (referencia "632 Strux"), registrado en las finanzas privadas de Drive; a confirmar con Martin a qué trabajo corresponde.
 - Por cobrar con fecha: sin dato.
 - Próximo paso con fecha: Martin confirma si se cotiza y para cuándo. Sin dato de vencimiento.
 - Riesgo: no figura en HISTORIA.md; el 19-sep Martin reenvió los planos a un tercero y no hay respuesta registrada.
@@ -37,7 +37,7 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 ### 1044 W Flagler (Fortum Construction)
 - Cliente y contacto: Fortum Construction, Nicole Swanton.
 - Estado: propuesta enviada (EST-2026-004, 9-oct).
-- Monto: $85.754 según HISTORIA (1-oct); confirmar que es el número final enviado.
+- Monto: $85.754 según HISTORIA (1-oct). La versión final de la propuesta (v3 del 6-oct) es mayor: el número está en el Drive privado (Segundo cerebro 7) y en el PDF EST-2026-004.
 - Cobrado: $0.
 - Por cobrar con fecha: sin dato (no ganada).
 - Próximo paso con fecha: Nicole dijo el 9-oct "follow up shortly". Seguimiento sugerido: jueves 16-oct si no responde.
@@ -54,11 +54,11 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 
 ### Kilwins (1390 Ocean Dr #105, Fortum Construction)
 - Cliente y contacto: Fortum Construction, Nicole Swanton.
-- Estado: cotizando. Vence el miércoles 14-oct.
-- Monto: sin dato.
+- Estado: propuesta enviada el miércoles 14-oct a Nicole (precio base, alternativa A de losa para plomería en dos variantes y alternativa 1 de muros perimetrales; válida 30 días). Montos en el correo enviado (Gmail, 14-oct).
+- Monto: en el correo enviado el 14-oct (Gmail), no se copia a este repositorio público.
 - Cobrado: $0.
-- Por cobrar con fecha: sin dato.
-- Próximo paso con fecha: mandar la propuesta el miércoles 14-oct (Martin pidió prórroga al viernes 16-oct; Nicole no contestó eso). Conectores Dayton D250XL: Nicole confirmó presupuestar cada 16" a cada lado de la zanja.
+- Por cobrar con fecha: sin dato (no ganada).
+- Próximo paso con fecha: seguimiento a Nicole el viernes 16-oct si no responde (regla de los 2 días). Conectores Dayton D250XL: Nicole confirmó presupuestar cada 16" a cada lado de la zanja.
 - Riesgo: falta saber si el flete está incluido en la cotización de techos de ACP Ideas (QUO-11567); sin recorrido de obra (local ocupado).
 
 ### Galleria Mall Renovation (Fortum Construction)
@@ -81,6 +81,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 - 14-oct-2026 · Claude Code · Creé TABLERO, OBSERVACIONES, HABILIDADES, habilidades estado-de-obra, anticipar, cuestionar, explorador e instagram-lectura, comandos y ganchos; cargué las 6 obras; corrí /explorar; armé fabrica-canales (local, falta crear el repositorio en GitHub) · Kilwins vence el miércoles 14-oct; Galleria sin contestar; Sedano's tiene una pregunta de Nicole sin respuesta; no se pudo crear el repositorio fabrica-canales desde la nube (GitHub 403) · Martin: (hecho) repositorio creado y código subido; chat de texto: borrador de respuesta a Nicole (Galleria y Sedano's) para el "aprobado"; Martin: decidir Blue Door.
 - 14-oct-2026 · Claude Code · Prueba de la habilidad estado-de-obra con Kilwins. Resultado: Estado: cotizando, vence el miércoles 14-oct. Cobrado: $0. Por cobrar: sin dato (no hay monto ni obra ganada). Próximo paso: mandar la propuesta el 14-oct; Martin pidió prórroga al viernes 16 y Nicole no contestó eso; conectores Dayton cada 16" (Nicole, 13-oct). Riesgo: falta saber si el flete está incluido en la cotización de techos de ACP Ideas (QUO-11567, preguntado el 13-oct); sin recorrido de obra. Calendario 7 días: vacío. Drive: carpeta "Kilwins 1390 Ocean Dr (Fortum)", plano A-3 para el celular y 2 cotizaciones de ACP del 13-oct. Fuentes: tablero, Gmail (hilos del 30-sep, 8-oct y 13-oct), Drive, Calendar.
 - 15-oct-2026 · Claude Code · Sedano's #32: 3D completo en la app con todas las etapas del plano (estructura con hierro, acero, framing, techo, plomería, electricidad, aire, cielorrasos, puertas y vidriera), versión del cliente en inglés, video por etapas y fotos con Blender; arreglo de la función de la app que borraba el enlace del 3D; adjuntos de correo por enlace propio de la app (30 días); llave permanente de la app creada; todo en main de mop-estimador · el juego de Sedano's no trae rociadores ni alarma (preguntar a Fortum); el borrado de las 125 piezas viejas de Sedano's en la base pide confirmación en pantalla y se canceló dos veces · Martin: guardar la llave como MOP_LLAVE en el entorno; aprobar el borrado cuando aparezca el aviso; el pedido de acero a Nu-Vue sale solo el 16-oct 7:30.
+- 15-oct-2026 · Claude Code (sesión del repositorio bot-de-trading-view) · Por error se armó el 13-oct un segundo tablero en bot-de-trading-view; Martin decidió unificar acá. Pasé lo nuevo: Kilwins enviado el 14-oct, seguro renovado y entrada pagada, versión final de Flagler, pago de Blue Door del 24-sep. Creé la habilidad buscar-papeles (antes de poner "sin dato", buscar en la bandeja de Drive, Gmail y el repositorio) · el tablero de bot-de-trading-view queda retirado y apunta acá · Claude chat: pedir a Pandora el certificado nuevo con los límites; Martin: confirmar a qué trabajo corresponde el pago de Blue Door; seguimiento de Kilwins el viernes 16-oct.
 ---
 
 ## Anticipación

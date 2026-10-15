@@ -23,3 +23,4 @@ Reglas de decisión (las aplica el gancho Stop antes de cerrar):
 - 2026-10-15 02:20 · herramienta-nueva · adjuntos de correo grandes: la herramienta de Gmail no los lleva; se suben a la app y va un enlace propio de 30 días · mop-estimador subir_obra compartir → decidido: regla en CLAUDE.md de mop-estimador.
 - 2026-10-15 02:40 · herramienta-nueva · Blender 4.2 LTS para render profesional (no viene instalado en la nube) · download.blender.org → decidido: anotado en la regla del 3D (se baja a /opt/blender).
 - 2026-10-15 03:10 · "siempre" · Martin: los videos y el 3D para el cliente siempre con render profesional · chat 15-oct → decidido: Decisiones de TABLERO.md, tabla decisiones de la app y regla en CLAUDE.md de mop-estimador.
+- 2026-10-15 22:00 · buscó-a-mano · Martin tuvo que preguntar por la entrada del seguro: el acuerdo firmado ya estaba en Drive desde el 14-oct y el tablero decía "sin dato" · Drive (bandeja de obras) → decidido: habilidad buscar-papeles (v1).
