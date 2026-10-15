@@ -1,6 +1,6 @@
 # MOP Construction — historia y estado de todo (leer esto PRIMERO en cada chat nuevo)
 
-Actualizado: 1-oct-2026. Si cambiás algo importante, actualizá este archivo en `main`.
+Actualizado: 14-oct-2026. Si cambiás algo importante, actualizá este archivo en `main`.
 
 ## Cómo arrancar un chat nuevo (Martin copia y pega esto)
 > Leé `HISTORIA.md` y `CLAUDE.md` del repositorio Mop-construccion (rama main) y la carpeta
@@ -86,6 +86,20 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
 6. Marca personal en Instagram/YouTube en español ("Martin, el de la plomada") + perfil de Google.
 7. Alianza con una constructora con licencia (MOP hace estructura, ellos el permiso).
 8. Sistema propio de encofrado reutilizable para bajar costo en hormigón.
+
+## Sistema de asistentes (prompt maestro del 13-oct-2026, hecho el 14-oct)
+- `TABLERO.md`: canal entre Claude Code, Claude chat de texto y Claude voz (obras, mensajes, anticipación, decisiones).
+- `OBSERVACIONES.md` + gancho Stop (`.claude/hooks/decidir_habilidades.py`): el agente crea habilidades solo.
+- `HABILIDADES.md`: registro. Habilidades nuevas: estado-de-obra, anticipar, cuestionar, explorador (activas),
+  instagram-lectura (pendiente de conexión). Comandos: /estado, /habilidades, /activar, /apagar, /explorar, /expansion.
+- Explorador: `EXPLORADOR/` (campos, hallazgos, en-espera, mapa-expansion). Tarea programada "Explorador MOP:
+  /explorar semanal" (trig_01WURKDzQ4TtQBpYgVd8qqDP), domingos 20:50 Miami, sesión nueva sin conectores.
+- fabrica-canales: proyecto separado (3 canales con presentador virtual). Repositorio privado
+  martinoliveraprietto-max/Fabrica-canales- (lo creó Martin el 14-oct; desde la nube no se puede crear). Código subido.
+- Arreglos de la nube: edge-tts viejo da 403 → `pip install --upgrade edge-tts` (ya en el gancho de instalación);
+  pyswisseph no compila → antes `pip install --upgrade setuptools`.
+- Gmail 14-oct: Flagler ENVIADA el 9-oct (EST-2026-004); Sedano's #32 (Fortum) vence 21-oct; Galleria Mall (Fortum,
+  5-oct) sin contestar; Blue Door (632 SW 8th St) planos del 18-sep.
 
 ## Dónde está cada cosa
 | Qué | Dónde |

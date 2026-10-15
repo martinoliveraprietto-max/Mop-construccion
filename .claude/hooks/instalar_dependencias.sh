@@ -14,6 +14,9 @@ for p in pillow imageio-ffmpeg yt-dlp edge-tts; do
   python3 -m pip install -q --disable-pip-version-check --root-user-action=ignore "$p" \
     >>/tmp/instalar_mop.log 2>&1 || FALLARON="$FALLARON $p"
 done
+# edge-tts viejo da 403 cuando Microsoft cambia la firma (pasó el 14-oct): siempre a la última versión.
+python3 -m pip install -q --upgrade --disable-pip-version-check --root-user-action=ignore edge-tts \
+  >>/tmp/instalar_mop.log 2>&1 || FALLARON="$FALLARON edge-tts(actualizar)"
 if ! node -e "require.resolve('playwright-core')" >/dev/null 2>&1; then
   (cd "${CLAUDE_PROJECT_DIR:-.}" && npm install --no-save --silent playwright-core \
     >>/tmp/instalar_mop.log 2>&1) || FALLARON="$FALLARON playwright-core"
