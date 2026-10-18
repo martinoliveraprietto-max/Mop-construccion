@@ -1,11 +1,11 @@
 ---
 name: instagram-lectura
-description: (Pendiente de conexión) Leer reels para sacar ideas de contenido: los que Martin comparte o los públicos de cuentas de empresa. Usar cuando Martin dice "mirá este reel", "leé mis guardados" o "qué publica <cuenta>".
+description: Leer reels para sacar ideas de contenido: los que Martin comparte o los públicos de cuentas de empresa. Usar cuando Martin dice "mirá este reel", "leé mis guardados" o "qué publica <cuenta>".
 ---
 
 # instagram-lectura
 
-**Estado:** pendiente de conexión · **Versión:** v0 · **Fecha:** 14-oct-2026
+**Estado:** activa (camino 1) · **Versión:** v1 · **Fecha:** 18-oct-2026
 
 ## Cuándo se dispara
 - "mirá este reel", "leé mis guardados", "qué publica <cuenta>".
@@ -13,6 +13,14 @@ description: (Pendiente de conexión) Leer reels para sacar ideas de contenido: 
 ## Lo que hay que saber
 - La API oficial de Instagram NO da acceso a las publicaciones "guardadas" de una cuenta. No hay permiso para eso.
 - Publicar ya funciona (scripts/publicar.py, token en INSTAGRAM_TOKEN).
+
+## Cómo se lee un reel (probado el 18-oct, gratis, solo para leerlo)
+1. En el directorio temporal de la sesión: `yt-dlp --write-info-json -o "v.%(ext)s" <enlace>` (texto, cuenta, me gusta y el video).
+2. Audio: FFmpeg de imageio-ffmpeg → `a.wav` 16 kHz mono.
+3. Texto: `pip install faster-whisper`, modelo "small", idioma "es". Pasarle el audio ya leído con numpy
+   (con un archivo directo falla por la versión de `av`).
+4. Contarle a Martin: qué dice, si es verdad (verificar en la fuente oficial) y si sirve para MOP.
+5. Borrar el video al terminar. Nunca se republica ni se sube al repositorio.
 
 ## Caminos (de más fácil a más completo)
 1. Martin comparte el enlace del reel en el chat o lo sube a Drive ("Mop instagram"). Costo cero. Se lee el texto del enlace; el video se baja solo si Martin lo sube.

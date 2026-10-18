@@ -90,6 +90,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 - 16-oct-2026 · Claude Code · Cazador de obras: sumé los permisos de la ciudad de Miami (Brickell, Downtown, Flagler, Wynwood; licencia y teléfono cruzados con el condado), los avisos previos de licitaciones del condado y las adjudicaciones; en main de mop-estimador, 17 pruebas sin internet · la ciudad no publica planos en revisión y sus recertificaciones salen ya cerradas (no son oportunidad); sí suben en el puntaje las reparaciones estructurales, apuntalamiento y postensado · Martin: darse de alta en BuildingConnected y PlanHub (gratis para subcontratistas, lo tiene que hacer él); sigue faltando Gmail en la tarea programada y la dirección postal.
 ---
 
+- 18-oct-2026 · Claude Code · Leí el reel que mandó Martin (plugin oficial "Claude Code Setup", recomienda ganchos, habilidades y conectores; solo lectura, gratis); instagram-lectura pasa a v1 · el reel es para juntar comentarios ("comentá PLAN") y vender un curso · Martin: decidir si se instala el plugin y se corre en este repositorio.
 ## Anticipación
 Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo / pendiente de conexión / pendiente de Martin.
 
