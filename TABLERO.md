@@ -92,6 +92,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 
 - 18-oct-2026 · Claude Code · Leí el reel que mandó Martin (plugin oficial "Claude Code Setup", recomienda ganchos, habilidades y conectores; solo lectura, gratis); instagram-lectura pasa a v1 · el reel es para juntar comentarios ("comentá PLAN") y vender un curso · Martin: decidir si se instala el plugin y se corre en este repositorio.
 - 18-oct-2026 · Claude Code · Corrí Claude Code Setup sobre este repositorio · faltan: la guardia de datos privados no revisa archivos escritos por la terminal (solo Edit/Write); edge-tts falla por el certificado del proxy (se arregla en Python) · Martin: aprobar o no las dos mejoras.
+- 19-oct-2026 · Claude Code · Leí el reel de Automaton (agente con billetera cripto que se paga sus servidores; existe, es experimental) · no sirve para MOP: riesgo de plata y sin control; sí sirve el formato "comentá una palabra" (1.436 comentarios) · Martin: decidir si probamos "comentá PRESUPUESTO" con respuesta automática por privado.
 ## Anticipación
 Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo / pendiente de conexión / pendiente de Martin.
 
