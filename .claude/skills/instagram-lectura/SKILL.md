@@ -20,7 +20,9 @@ description: Leer reels para sacar ideas de contenido: los que Martin comparte o
 3. Texto: `pip install faster-whisper`, modelo "small", idioma "es". Pasarle el audio ya leído con numpy
    (con un archivo directo falla por la versión de `av`).
 4. Contarle a Martin: qué dice, si es verdad (verificar en la fuente oficial) y si sirve para MOP.
-5. Borrar el video al terminar. Nunca se republica ni se sube al repositorio.
+5. Para ver la imagen: FFmpeg con `-vf "fps=1/4,scale=240:-1,tile=4x4"` arma una hoja de cuadros y se mira.
+   Funciona igual con enlaces de Facebook (share/r).
+6. Borrar el video al terminar. Nunca se republica ni se sube al repositorio.
 
 ## Caminos (de más fácil a más completo)
 1. Martin comparte el enlace del reel en el chat o lo sube a Drive ("Mop instagram"). Costo cero. Se lee el texto del enlace; el video se baja solo si Martin lo sube.
