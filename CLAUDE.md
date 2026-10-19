@@ -41,7 +41,7 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
   se usa diciendo Z") y se anota en TABLERO.md. Si sirve para cualquier proyecto, copiarla también a
   `~/.claude/skills/`.
 - Reparto por costo: tareas chicas (renombrar, resumir, mover, formatear, buscar) con el modelo más barato
-  disponible (subagente con modelo haiku o sonnet); programar y revisar código con el principal. Nunca dos
+  disponible (subagente `ayudante`, modelo haiku, en `.claude/agents/ayudante.md`); programar y revisar código con el principal. Nunca dos
   asistentes en la misma tarea.
 - Todo bloque que Martin deba pegar en otro lado dice arriba adónde va ("→ Termux" o "→ Claude Code").
 - Respuestas en español rioplatense, frases cortas, sin tablas, sin palabras en inglés salvo nombres propios y
