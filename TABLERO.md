@@ -94,6 +94,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 - 18-oct-2026 · Claude Code · Corrí Claude Code Setup sobre este repositorio · faltan: la guardia de datos privados no revisa archivos escritos por la terminal (solo Edit/Write); edge-tts falla por el certificado del proxy (se arregla en Python) · Martin: aprobar o no las dos mejoras.
 - 19-oct-2026 · Claude Code · Leí el reel de Automaton (agente con billetera cripto que se paga sus servidores; existe, es experimental) · no sirve para MOP: riesgo de plata y sin control; sí sirve el formato "comentá una palabra" (1.436 comentarios) · Martin: decidir si probamos "comentá PRESUPUESTO" con respuesta automática por privado.
 - 19-oct-2026 · Claude Code · Leí el código de Automaton (MIT, se puede copiar): latido cada tanto, niveles de saldo (normal, bajo, crítico, apagado), bitácora de cambios, constitución con 3 leyes · propuesta: "agente MOP" con tope de gasto mensual y sin cripto, usando las rutinas programadas que ya hay · Martin: elegir camino (1 ideas, 2 probar en caja de arena, 3 agente propio 24 h).
+- 19-oct-2026 · Claude Code · Ideas fuera de MOP con ejemplos reales (Botto, Truth Terminal, Project Vend de Anthropic, Automaton): artista autónomo, personaje de IA, tienda manejada por IA, doblaje al español, vender el sistema de asistentes a negocios hispanos · recomendada: la de vender el sistema de asistentes · Martin: elegir una.
 ## Anticipación
 Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo / pendiente de conexión / pendiente de Martin.
 
