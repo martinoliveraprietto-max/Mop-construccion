@@ -172,7 +172,7 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
   dice "not for construction": 12 preguntas a Nicole programadas para el 1-oct 8:01 (borrador en Gmail). COMPLETA en
   la app (3D, piezas, presupuesto con por qué). Acero pedido a Diana (Nu-Vue); soldadura: Dani Soldador (WhatsApp).
 - Kilwins (1390 Ocean Dr #105): vence miércoles 14-oct; plano bajado (29 hojas), sin medir.
-- Sedano's #32 Shell Space (Fortum, 14655 SW 56th St): vence miércoles 21-oct. 15-oct: 3D COMPLETO en la app (en main
+- Sedano's #32 Shell Space (Fortum, 14655 SW 56th St): vence miércoles 21-oct. 18 al 20-oct: preguntas a Nicole enviadas (19-oct), acero cotizado por Nu-Vue (20-oct), hojas A-4.1/A-5.0/S-0.0 recibidas, presupuesto v8 $365.024 con 15 % (todo el detalle en mop-estimador `obras/sedano-32/TRASPASO.md`). 15-oct: 3D COMPLETO en la app (en main
   de mop-estimador, `obras/sedano-32/`): todas las etapas del plano (demolición, estructura con hierro, acero, framing,
   techo, plomería, electricidad, aire, cielorrasos, puertas, vidriera; rociadores y alarma no vienen en el juego).
   Versión para el cliente en inglés, video por etapas y fotos con render de Blender. Pedido de acero a Nu-Vue en
