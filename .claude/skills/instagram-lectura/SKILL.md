@@ -5,10 +5,17 @@ description: (Pendiente de conexión) Leer reels para sacar ideas de contenido: 
 
 # instagram-lectura
 
-**Estado:** pendiente de conexión · **Versión:** v0 · **Fecha:** 14-oct-2026
+**Estado:** activa por enlace (camino 1) · **Versión:** v1 · **Fecha:** 21-oct-2026
 
 ## Cuándo se dispara
 - "mirá este reel", "leé mis guardados", "qué publica <cuenta>".
+
+## Cómo se lee un enlace (probado el 21-oct con un reel de onyaroof)
+1. `yt-dlp --skip-download --write-info-json -o post <enlace>` en el scratchpad: autor, me gusta, comentarios, fecha.
+2. `yt-dlp -o video.%(ext)s <enlace>` y hoja de cuadros con FFmpeg (`fps=1/3,tile=4x3`) para ver qué muestra.
+3. Audio: `pip install faster-whisper`, pasar el audio como arreglo numpy (el archivo directo falla con la versión de av instalada), modelo `small`.
+4. Decirle a Martin: quién es, qué vende, qué dice, si choca con las reglas de MOP y qué idea sirve para @mopconstruccion.inc.
+El video bajado queda solo en el scratchpad: nunca se sube ni se republica.
 
 ## Lo que hay que saber
 - La API oficial de Instagram NO da acceso a las publicaciones "guardadas" de una cuenta. No hay permiso para eso.

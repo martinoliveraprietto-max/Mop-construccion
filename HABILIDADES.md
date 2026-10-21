@@ -10,7 +10,7 @@ Formato: nombre · qué hace · estado · versión · fecha · veces usada
 - anticipar · cuando Martin nombra una herramienta, app, cliente, API o camino nuevo, deja preparado lo que va a hacer falta y lo anota en "Anticipación" · activa · v1 · 14-oct-2026 · 1 (Instagram y Google)
 - cuestionar · abogado del diablo antes de decisiones grandes: cinco preguntas, una objeción con solución, registro en "Decisiones" · activa · v1 · 14-oct-2026 · 0
 - explorador · investiga novedades útiles cada semana y propone máximo tres; solo lectura · activa · v1 · 14-oct-2026 · 1 (14-oct)
-- instagram-lectura · leer reels de otras cuentas o compartidos por Martin para ideas · pendiente de conexión · v0 · 14-oct-2026 · 0
+- instagram-lectura · leer reels de otras cuentas o compartidos por Martin para ideas · activa por enlace (yt-dlp + faster-whisper) · v1 · 21-oct-2026 · 1 (reel de onyaroof)
 - buscar-papeles · antes de poner "sin dato" o decir "no sé", busca en la bandeja de obras de Drive, en Gmail y en el repositorio; solo lectura · activa · v1 · 15-oct-2026 · 1 (seguro de Pandora)
 - fotos · carga fotos nuevas a la web con revisión de seguridad · activa · (previa) · 25-sep-2026 · sin dato
 - publicar · sube la web a GitHub Pages con pruebas en verde · activa (solo la llama Martin) · (previa) · 25-sep-2026 · sin dato
