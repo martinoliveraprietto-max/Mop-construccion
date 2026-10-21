@@ -92,6 +92,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 ---
 - 21-oct-2026 · Claude Code · Leí el reel que mandó Martin (onyaroof, "roof rejuvenation"): es un aviso para vender zonas de distribuidor, no una entrevista real; choca con la regla de no hacer techos y en Florida el recubrimiento que "alarga la vida del techo" entra en licencia de techista. Habilidad instagram-lectura pasa a v1 (activa por enlace) · Sedano's vence hoy 21-oct · Martin: decir si le interesa algo del reel; idea de formato de entrevista corta para @mopconstruccion.inc a su aprobado.
 - 21-oct-2026 · Claude Code · Segundo reel: francisco.carosia muestra Strix (código abierto, Apache-2.0) para atacar la propia app antes de entregarla · aplica a mop-estimador (Supabase con clientes y montos); el revisor de seguridad de Supabase quedó frenado por permisos en esta sesión · Martin: aprobar revisión de seguridad de mop-estimador (paso 1: revisor de Supabase gratis; paso 2: Strix, unos pocos dólares de IA).
+- 21-oct-2026 · Claude Code · Martin preguntó por seguridad "contra computación cuántica" para mop-estimador · la parte cuántica ya la cubren Cloudflare (la app pasa por ahí) y Supabase; el riesgo real hoy son permisos mal puestos en la base, llaves filtradas y contraseñas · Martin: aprobar paso 1 (revisor de Supabase, gratis) y activar el segundo factor en Supabase, GitHub y Gmail.
 
 ## Anticipación
 Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo / pendiente de conexión / pendiente de Martin.
