@@ -5,7 +5,7 @@ description: (Pendiente de conexión) Leer reels para sacar ideas de contenido: 
 
 # instagram-lectura
 
-**Estado:** activa por enlace (camino 1) · **Versión:** v1 · **Fecha:** 21-oct-2026
+**Estado:** activa por enlace (camino 1) · **Versión:** v2 · **Fecha:** 21-oct-2026
 
 ## Cuándo se dispara
 - "mirá este reel", "leé mis guardados", "qué publica <cuenta>".
@@ -15,6 +15,13 @@ description: (Pendiente de conexión) Leer reels para sacar ideas de contenido: 
 2. `yt-dlp -o video.%(ext)s <enlace>` y hoja de cuadros con FFmpeg (`fps=1/3,tile=4x3`) para ver qué muestra.
 3. Audio: `pip install faster-whisper`, pasar el audio como arreglo numpy (el archivo directo falla con la versión de av instalada), modelo `small`.
 4. Decirle a Martin: quién es, qué vende, qué dice, si choca con las reglas de MOP y qué idea sirve para @mopconstruccion.inc.
+5. REGLA (Martin, 21-oct): de cada reel buscar cómo aplicarlo en MOP (web, Instagram, mop-estimador) Y en sus bots:
+   cazador y vigilante (mop-estimador), solana-signal-bot, bot-de-trading-view y fabrica-canales. Una línea por cada uno
+   donde aplique; si no aplica, decirlo.
+6. Si el reel trae una herramienta para instalar: antes de proponerla, buscar fallas conocidas (CVE, Snyk, avisos en
+   GitHub). Nada se instala sin el aprobado de Martin. Ningún reel justifica tocar los tokens o llaves de los bots.
+7. Si Instagram responde "empty media response", reintentar con la dirección /p/ en lugar de /reel/; el texto del reel
+   se puede leer en /embed/captioned/.
 El video bajado queda solo en el scratchpad: nunca se sube ni se republica.
 
 ## Lo que hay que saber

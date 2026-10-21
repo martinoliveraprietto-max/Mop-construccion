@@ -78,6 +78,11 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
 - `instagram/textos.txt`: los textos y el plan, para Martin.
 - `scripts/publicar.py`: publica la siguiente pendiente con la API de Instagram.
 
+## Reels que manda Martin (regla del 21-oct)
+- Se leen con la habilidad instagram-lectura. De cada reel: buscar cómo aplicarlo en MOP y también en sus bots
+  (cazador y vigilante de mop-estimador, solana-signal-bot, bot-de-trading-view, fabrica-canales).
+- Herramienta nueva que venga en un reel: primero revisar fallas de seguridad conocidas; se instala solo con su aprobado.
+
 ## Material nuevo (fotos y videos)
 - Martin sube a Google Drive, carpeta "Mop instagram" (id 19ul5QKrqcSqsnZGLbO2OI8BrTeRzGIIO).
 - Todo gratis: editar video con FFmpeg (`pip install imageio-ffmpeg`, se reinstala en cada sesión).
