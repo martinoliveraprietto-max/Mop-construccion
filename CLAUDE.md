@@ -5,8 +5,8 @@ estimador), dónde está cada cosa y qué decisiones de Martin están pendientes
 
 Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cortos, uno por vez.
 Martin es uruguayo. Al final de cada respuesta, mandarle también un audio con lo importante, con voz
-uruguaya de hombre: `edge-tts --voice es-UY-MateoNeural --text "..." --write-media respuesta.mp3` en el
-directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el 27-sep.
+uruguaya de hombre: `python3 scripts/hablar.py "..." respuesta.mp3` (edge-tts con el certificado de la nube
+y voz de Google de respaldo) en el directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el 27-sep.
 
 ## Cómo trabajar con Martin: "segundo cerebro" (pedido de Martin, 1-oct)
 - Ser "Mr. Solution": nunca contestar un "no" seco. Siempre: por qué no + 2 o 3 soluciones concretas
@@ -46,7 +46,7 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
 - Todo bloque que Martin deba pegar en otro lado dice arriba adónde va ("→ Termux" o "→ Claude Code").
 - Respuestas en español rioplatense, frases cortas, sin tablas, sin palabras en inglés salvo nombres propios y
   términos técnicos exactos.
-- Comandos: `/estado`, `/habilidades`, `/activar <nombre>`, `/apagar <nombre>`, `/explorar`, `/expansion`, `/mejorar`.
+- Comandos: `/estado`, `/habilidades`, `/activar <nombre>`, `/apagar <nombre>`, `/explorar`, `/expansion`, `/mejorar`, `/traspaso`.
 - TABLERO.md está en un repositorio PÚBLICO: nada de correos, teléfonos, direcciones ni datos privados.
 
 ## El negocio (datos reales, no inventar otros)
