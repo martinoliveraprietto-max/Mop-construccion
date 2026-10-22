@@ -46,7 +46,7 @@ directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el
 - Todo bloque que Martin deba pegar en otro lado dice arriba adónde va ("→ Termux" o "→ Claude Code").
 - Respuestas en español rioplatense, frases cortas, sin tablas, sin palabras en inglés salvo nombres propios y
   términos técnicos exactos.
-- Comandos: `/estado`, `/habilidades`, `/activar <nombre>`, `/apagar <nombre>`, `/explorar`, `/expansion`.
+- Comandos: `/estado`, `/habilidades`, `/activar <nombre>`, `/apagar <nombre>`, `/explorar`, `/expansion`, `/mejorar`.
 - TABLERO.md está en un repositorio PÚBLICO: nada de correos, teléfonos, direcciones ni datos privados.
 
 ## El negocio (datos reales, no inventar otros)

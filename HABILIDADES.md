@@ -12,6 +12,7 @@ Formato: nombre · qué hace · estado · versión · fecha · veces usada
 - explorador · investiga novedades útiles cada semana y propone máximo tres; solo lectura · activa · v1 · 14-oct-2026 · 1 (14-oct)
 - instagram-lectura · leer reels de otras cuentas o compartidos por Martin para ideas · activa por enlace (yt-dlp + faster-whisper); aplica cada reel a MOP y a los bots · v2 · 21-oct-2026 · 4 (onyaroof, francisco.carosia, lucas.sassella, antonspain_ia)
 - buscar-papeles · antes de poner "sin dato" o decir "no sé", busca en la bandeja de obras de Drive, en Gmail y en el repositorio; solo lectura · activa · v1 · 15-oct-2026 · 1 (seguro de Pandora)
+- mejorar-sistema · cada semana lee (solo lectura) las sesiones de MOP y de los bots, encuentra pedidos repetidos, correcciones y tareas a mano y propone máximo tres mejoras; /mejorar · activa · v1 · 22-oct-2026 · 1 (primera corrida)
 - fotos · carga fotos nuevas a la web con revisión de seguridad · activa · (previa) · 25-sep-2026 · sin dato
 - publicar · sube la web a GitHub Pages con pruebas en verde · activa (solo la llama Martin) · (previa) · 25-sep-2026 · sin dato
 - pdf-extraction · saca texto y tablas de un PDF con pdfplumber · instalada de skills.sh, sin adaptar a MOP (mejoras pendientes de aprobación de Martin) · v0 · 16-oct-2026 · 0
