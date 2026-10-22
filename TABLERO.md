@@ -130,6 +130,7 @@ Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo /
    - Todos encadenados: el cazador alimenta la máquina de cotizar, la máquina alimenta caja, y el tablero muestra el embudo con números cada viernes: invitaciones, cotizadas, ganadas, cobrado.
 5. **edge-tts** — 14-oct: dio error 403 con la versión vieja; se arregla con `pip install --upgrade edge-tts`. Listo.
 
+11. **Danny Ruiz como socio que manda planos** — 22-oct (Martin: "él me va a empezar a mandar los planos para cotizar y trabajar juntos"). Listo: la bandeja de Gmail ya guarda en Drive sus correos con adjuntos (probado con S26-056); el cazador no le escribe en frío a Encore ni a Florida Palm (mop-estimador, rama ccr-e75a7340-9b8lqz, falta pasarlo a main). Pendiente de Martin: si Danny manda enlaces sin adjunto, sumar su remitente a la búsqueda de la bandeja (hay que volver a pegar el código en Apps Script); acordar con Danny cómo se reparte cada obra (quién cotiza qué, quién factura, margen de cada uno).
 ---
 
 ## Decisiones

@@ -33,3 +33,4 @@ Reglas de decisión (las aplica el gancho Stop antes de cerrar):
 - 2026-10-22 11:05 · cliente-nuevo · Florida Palm Construction (S26-056) llega por Danny, que ahora escribe desde un dominio nuevo (Encore Construction) · Gmail + Drive → decidido: anotado en Obras de TABLERO.md; confirmar con Danny si Encore es su empresa nueva.
 - 2026-10-22 11:20 · corrección · Encore Construction es la empresa nueva de Danny; los planos pueden venir de Encore o de Bello · chat → decidido: anotado en TABLERO.md y HISTORIA.md.
 - 2026-10-22 11:40 · juntó-fuentes · presupuesto S26-056: Gmail + Drive + precios de la app + búsqueda web · Gmail, Drive, mop-estimador → decidido: ya lo cubre leer-planos; sin habilidad nueva.
+- 2026-10-22 11:50 · camino-nuevo · Danny pasa a mandar planos a Martin para cotizar juntos (Encore o Bello) · chat → decidido: Anticipación ítem 11; bandeja ya lo cubre; cazador con Encore y Florida Palm como conocidas.
