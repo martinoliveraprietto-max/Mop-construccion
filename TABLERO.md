@@ -75,6 +75,29 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 
 ---
 
+## Cómo se entrega un estimado (regla de Martin, 22-oct-2026)
+Vale para TODA sesión que arme un estimado o propuesta (mop-estimador u otra). Leer esto antes de empezar.
+
+Lo que va siempre:
+1. El estimado (precios: primero los de Martin, después precio de mercado con fuente y fecha).
+2. El cronograma de obra.
+
+Lo que se le PREGUNTA a Martin antes de mandar, una pregunta por vez, sí o no:
+3. "¿Le ponemos imágenes 3D explicativas en algunas partes de la propuesta?" Solo donde ayudan a entender
+   (por ejemplo: cómo va la estructura, el apuntalamiento, una losa, una alternativa). No en todas las páginas.
+4. "¿Le sumamos el recorrido 3D?" Un solo archivo que se abre en el celular, sin instalar nada: el plano se
+   dibuja y la obra se levanta y se recorre (idea del reel de joacocierra, 22-oct).
+5. "¿Le sumamos el video por etapas?" (el que ya hace mop-estimador con render profesional).
+
+Cuidados:
+- Se presenta como "así va a quedar nuestro trabajo". MOP no vende planos ni diseño: los planos los firma el
+  arquitecto de la obra.
+- Los planos son de la constructora: el 3D va solo a esa constructora. A Instagram, nunca sin su permiso.
+- Nada sale sin el "aprobado" de Martin.
+
+Pendiente de definir con Martin (lo vamos pensando juntos): en qué partes de la propuesta conviene la imagen 3D
+y cuánto tiempo extra se le cobra o no se le cobra al cliente.
+
 ## Mensajes entre asistentes
 Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca al siguiente.
 
@@ -100,6 +123,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 - 22-oct-2026 · Claude Code · Primera corrida de /mejorar (27 sesiones, muestra reciente): tres propuestas a Martin: 1) arreglar el audio una vez para todos los proyectos, 2) habilidad traspaso para "guardá todo y abrí otro chat" (6 veces), 3) archivo de precios de Martin en mop-estimador · en espera: pedir-precio a subcontratistas y regla de pruebas estables en los bots · Martin: elegir.
 - 22-oct-2026 · Claude Code · Hechas por prioridad: 1) audio arreglado una vez (scripts/hablar.py: edge-tts con el certificado de la nube y voz de Google de respaldo; regla de CLAUDE.md cambiada), 2) habilidad traspaso v1 y /traspaso, 3) revisión semanal de chats programada (domingos 19:41 Miami) · frenado por permisos: sumar mop-estimador a esta sesión (para el archivo de precios de Martin) y editar mejorar-sistema a v2 · próxima sesión de mop-estimador: crear precios/precios-de-martin.csv con los precios que Martin dictó para Sedano's y la regla "primero precios de Martin, después mercado"; sesiones de los bots: copiar scripts/hablar.py.
 - 22-oct-2026 · Claude Code · Reel de joacocierra: plano dibujado en cámara rápida que se levanta en 3D y se recorre, en un solo archivo HTML · MOP ya tiene el 3D por etapas en mop-estimador; lo nuevo es el archivo único que el cliente abre en el celular y la animación del dibujo para reels · Martin: elegir entre recorrido para las propuestas (mop-estimador), reel con proyecto propio (nunca planos de constructoras sin permiso) o serie para fabrica-canales.
+- 22-oct-2026 · Claude Code · Nueva sección fija "Cómo se entrega un estimado" en este tablero (pedido de Martin): estimado + cronograma siempre; preguntarle sí o no por imágenes 3D explicativas, recorrido 3D en un archivo y video por etapas · próxima sesión de mop-estimador: copiar esa sección como regla en el CLAUDE.md de mop-estimador (junto con la tarea de precios de Martin).
 
 ## Anticipación
 Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo / pendiente de conexión / pendiente de Martin.
