@@ -34,3 +34,4 @@ Reglas de decisión (las aplica el gancho Stop antes de cerrar):
 - 2026-10-22 11:20 · corrección · Encore Construction es la empresa nueva de Danny; los planos pueden venir de Encore o de Bello · chat → decidido: anotado en TABLERO.md y HISTORIA.md.
 - 2026-10-22 11:40 · juntó-fuentes · presupuesto S26-056: Gmail + Drive + precios de la app + búsqueda web · Gmail, Drive, mop-estimador → decidido: ya lo cubre leer-planos; sin habilidad nueva.
 - 2026-10-22 11:50 · camino-nuevo · Danny pasa a mandar planos a Martin para cotizar juntos (Encore o Bello) · chat → decidido: Anticipación ítem 11; bandeja ya lo cubre; cazador con Encore y Florida Palm como conocidas.
+- 2026-10-22 11:30 · pedido-repetido · plano de más de 10 MB que el conector de Drive no baja (civil S26-056, 16,7 MB); Martin lo volvió a subir a Drive y sigue igual · Drive → decidido: camino = compartir por enlace un momento y bajarlo con curl; si se repite, sumarlo a la habilidad leer-planos.
