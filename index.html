@@ -289,6 +289,14 @@ dialog.visor::backdrop{background:rgba(8,7,6,.94)}
   .serv.grande{grid-column:auto}
   .serv.grande img{aspect-ratio:4/3}
 }
+/* Revisión 23-oct: botones de 44 px para el dedo y detalles del navegador con los colores de la marca */
+.chip,.idioma{min-height:44px}
+.ig-barra,.menu-btn{width:44px;height:44px}
+a[href^="tel:"],a[href^="mailto:"],a[href*="instagram.com"]{padding-block:10px}
+::selection{background:var(--oro);color:var(--negro)}
+html{scrollbar-color:var(--oro) var(--negro);accent-color:var(--oro)}
+input,textarea,select{caret-color:var(--oro-claro)}
+a{text-underline-offset:3px}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do you work as a subcontractor?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We work under the permit and supervision of the builder in charge of the project."}}, {"@type": "Question", "name": "What areas do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "Miami-Dade and Broward. We are based in Dania Beach."}}, {"@type": "Question", "name": "Do you charge for estimates?", "acceptedAnswer": {"@type": "Answer", "text": "No. We walk the site, review the plans and send a price at no charge."}}, {"@type": "Question", "name": "How do I send you plans?", "acceptedAnswer": {"@type": "Answer", "text": "By WhatsApp at 754.457.3599 or by email at mopconstruccion@gmail.com."}}, {"@type": "Question", "name": "Do you speak Spanish?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We work in English and Spanish."}}]}</script>
 </head>
@@ -315,7 +323,7 @@ dialog.visor::backdrop{background:rgba(8,7,6,.94)}
 
 <main id="inicio">
   <section class="portada" style="padding:0">
-    <img src="img/42.jpg" alt="Block home with gable walls topped out">
+    <img src="img/42.jpg" alt="Block home with gable walls topped out" fetchpriority="high">
     <div class="plomada" aria-hidden="true"><i></i><svg viewBox="0 0 20 30"><defs><linearGradient id="pb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3dc95"/><stop offset="1" stop-color="#9c7a2c"/></linearGradient></defs><path d="M10 0 L20 12 L10 30 L0 12 Z" fill="url(#pb)"/></svg></div>
     <div class="envol">
       <div class="ceja" data-es="Dania Beach, FL · Miami-Dade y Broward">Dania Beach, FL · Miami-Dade &amp; Broward</div>
