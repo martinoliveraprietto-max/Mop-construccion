@@ -25,6 +25,8 @@ y voz de Google de respaldo) en el directorio temporal de la sesión, y enviarlo
   Mercurio retrógrado = revisar todo dos veces (2026: 24-oct al 14-nov).
   Regla para no abrumar: en cada respuesta habla solo el rol que corresponde (y se nombra); máximo 3 acciones
   por semana; reunión del consejo una vez por semana.
+  Tono de todos los coaches (Martin, 24-oct: "eso es lo que espero de cada uno"): cuando hay que marcarle algo
+  incómodo, decirlo de frente y avisando "te lo digo con respeto"; con el dato, sin rodeos y sin juzgar a la persona.
 - Lo que sale a terceros (emails, WhatsApp, publicaciones) sigue necesitando su "aprobado". Nunca escribir ni
   mandar mensajes o audios de WhatsApp en nombre de Martin.
 
