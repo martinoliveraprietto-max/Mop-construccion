@@ -70,6 +70,16 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 - Próximo paso con fecha: contestarle a Nicole qué partidas se cotizan (ella pidió incluir puertas). Vencimiento: sin dato.
 - Riesgo: invitación sin contestar desde hace 9 días.
 
+### Call Your Mother Deli (Miami Beach, Fortum Construction)
+- Cliente y contacto: Fortum Construction, Nicole Swanton (invitación "ITB: CYM - Miami Beach", viernes 23-oct 1:06 pm).
+- Estado: cotizando. Falta confirmarle a Nicole si MOP presenta propuesta.
+- Alcance según la invitación: renovación interior de restaurante de 2 pisos (unos 3.492 pies²): demolición selectiva, framing y drywall, cielorrasos (yeso y ACT), FRP, pisos y cerámica, pintura y terminaciones, carpintería (millwork), vidriera y puertas, más mecánica, plomería y electricidad.
+- Planos: CDS.pdf, 81 hojas (CBD Architects, Bid Set). Se bajan del enlace de SharePoint del correo; no van al repositorio.
+- Notas del plano que pesan en el precio: escombro afuera todos los días en camión, sin contenedor en el lugar; drywall nivel 4 liso, pintura a rodillo (1 base + 2 manos); piso de resina de cuarzo y cerámica sobre thinset; cielorraso de cocina Armstrong KitchenZone; marcos de puerta de chapa pintados.
+- Monto: sin dato. Cobrado: $0. Por cobrar con fecha: sin dato.
+- Próximo paso con fecha: Martin decide qué partidas cotiza y confirma a Nicole (sugerido: lunes 26-oct). Vencimiento de la propuesta: jueves 5-nov-2026.
+- Riesgo: Mercurio retrógrado del 24-oct al 14-nov: revisar dos veces cantidades y montos antes de mandar.
+
 ### Otras que aparecieron en Gmail (no pedidas en la carga, se anotan para no perderlas)
 - Sedano's #32 Shell Space (Fortum): MOP confirmó propuesta para el miércoles 21-oct. Nicole preguntó el 13-oct si MOP y su socio mandan una propuesta juntos o separadas: la respuesta la manda Martin con Dani; ningún asistente la redacta.
 
@@ -136,3 +146,4 @@ Formato: fecha · decisión · qué se esperaba · qué pasó (se completa a los
 - 13-oct-2026 · Sistema de asistentes con tablero y habilidades que se crean solas · Esperado: menos pedidos repetidos y nada vencido sin aviso · Qué pasó: revisar el 12-nov-2026.
 - 15-oct-2026 · Los videos y el 3D para el cliente llevan SIEMPRE render profesional (Blender, materiales y luces reales), en todas las obras · Esperado: que el cliente vea la obra terminada como una foto real y eso ayude a ganar trabajos · Qué pasó: revisar el 14-nov-2026.
 - 16-oct-2026 · Claude Code · Ciclo cerrado del cazador (pedido de Martin: "que el cazador también mande los emails… y cierra el ciclo"): la corrida de la mañana deja en una cola el primer correo a cada constructora con correo comprobado; el vigilante (9:43 y 13:43, tiene Gmail) lo manda, mira las respuestas y las anota (pidió no escribir, contestó, invitó a cotizar); si mandan planos, la bandeja los lleva a Drive y el vigilante arma la obra en la aplicación con presupuesto, 3D y piezas. Frenos: solo correos de la página de la empresa, máximo 5 por día, días hábiles de 9 a 17, nunca a las constructoras conocidas, uno cada 30 días, interruptor para frenar todo. Decisión de Martin anotada: es la única excepción al "mandalo"; precios y propuestas siguen con su aprobación. 5 pruebas nuevas, 147 en verde, en main de mop-estimador · sin la dirección postal de MOP no sale ningún correo (la ley la exige) · Martin: pasar la dirección postal comercial (no la de la casa); Claude voz: avisar a Martin cuando un constructor invite a cotizar.
+- 24-oct-2026 · Claude Code · Nicole (Fortum) invitó a cotizar Call Your Mother Deli (Miami Beach, vence jueves 5-nov). Bajé los planos (81 hojas), saqué el alcance y cargué la ficha en Obras · nada contestado todavía · Martin: decidir qué partidas cotiza y confirmarle a Nicole (sugerido lunes 26-oct); después contar cantidades y armar el precio.
