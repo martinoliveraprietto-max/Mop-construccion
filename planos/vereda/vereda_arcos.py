@@ -21,31 +21,46 @@ xe_izq, xe_der = BORDE_IZQ_VEREDA, BORDE_IZQ_VEREDA + ANCHO_VEREDA
 UNION = LARGO / 2                # punto de unión de los dos arcos de cada lado
 
 
-# Cada lado es una S de dos cuartos de elipse que se unen en (xm, UNION):
-#  arco 1 (hacia afuera): centro (xm, 0), sale derecho de la punta del escalón;
-#  arco 2 (hacia adentro): centro (xm, LARGO), llega derecho al borde de la vereda.
-# En la unión los dos arcos tienen la misma tangente (paralela al escalón).
+ANGULO = math.radians(60)        # cuánto de cada elipse se usa (60° = S suave)
+
+
+# Cada lado es una S de dos arcos de elipse iguales que se cruzan en diagonal en el
+# punto medio M (simetría central), así no hay quiebre ni "escalón" en la unión:
+#  arco 1 (hacia afuera): sale derecho (perpendicular) de la punta del escalón;
+#  arco 2 (hacia adentro): llega derecho al borde de la vereda.
+def ejes(xs, xe):
+    """Semieje horizontal (con signo) y vertical de las dos elipses."""
+    return (xe - xs) / 2 / (1 - math.cos(ANGULO)), UNION / math.sin(ANGULO)
+
+
 def xm(xs, xe):
     return (xs + xe) / 2
 
 
+def centros(xs, xe):
+    ax, _ = ejes(xs, xe)
+    return (xs + ax, 0), (xe - ax, LARGO)
+
+
+def _arco1(xs, xe, t):
+    ax, by = ejes(xs, xe)
+    return xs + ax * (1 - math.cos(t)), by * math.sin(t)
+
+
 def punto(xs, xe, u):
     """u de 0 (escalón) a 1 (vereda)."""
-    m = xm(xs, xe)
     if u <= 0.5:
-        t = math.pi * u
-        return m + (xs - m) * math.cos(t), UNION * math.sin(t)
-    t = math.pi * (u - 0.5)
-    return m + (xe - m) * math.sin(t), LARGO - (LARGO - UNION) * math.cos(t)
+        return _arco1(xs, xe, 2 * u * ANGULO)
+    x, y = _arco1(xs, xe, 2 * (1 - u) * ANGULO)
+    return 2 * xm(xs, xe) - x, LARGO - y
 
 
 def x_en(xs, xe, y):
-    m = xm(xs, xe)
+    ax, by = ejes(xs, xe)
     if y <= UNION:
-        s_ = y / UNION
-        return m + (xs - m) * math.sqrt(max(0.0, 1 - s_ * s_))
-    c = (LARGO - y) / (LARGO - UNION)
-    return m + (xe - m) * math.sqrt(max(0.0, 1 - c * c))
+        t = math.asin(min(1.0, y / by))
+        return xs + ax * (1 - math.cos(t))
+    return 2 * xm(xs, xe) - x_en(xs, xe, LARGO - y)
 
 
 def pies(p):
@@ -122,18 +137,19 @@ def svg():
     for xs, xe, lado in ((xs_izq, xe_izq, "A"), (xs_der, xe_der, "B")):
         m = xm(xs, xe)
         izq = xs < 0
-        for yc, num in ((0, 1), (LARGO, 2)):
-            a(f'<circle cx="{X(m)}" cy="{Y(yc)}" r="5" fill="#1f5fa8"/>')
-            a(f'<line x1="{X(m)}" y1="{Y(yc)}" x2="{X(m)}" y2="{Y(UNION)}" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>')
-            a(f'<text x="{X(m)}" y="{Y(yc)+(22 if yc==0 else -12)}" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">C{lado}{num}</text>')
-        a(f'<line x1="{X(m)}" y1="{Y(LARGO)}" x2="{X(xe)}" y2="{Y(LARGO)}" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>')
+        ax, by = ejes(xs, xe)
+        for (cx, cy), num, ext in zip(centros(xs, xe), (1, 2), (xs, xe)):
+            a(f'<circle cx="{X(cx)}" cy="{Y(cy)}" r="5" fill="#1f5fa8"/>')
+            a(f'<line x1="{X(cx)}" y1="{Y(cy)}" x2="{X(ext)}" y2="{Y(cy)}" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>')
+            a(f'<text x="{X(cx)}" y="{Y(cy)+(22 if cy==0 else -12)}" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">C{lado}{num}</text>')
         a(f'<circle cx="{X(m)}" cy="{Y(UNION)}" r="6" fill="#c0392b"/>')
-        a(f'<text x="{X(m)+(-10 if izq else 10)}" y="{Y(UNION)+5}" text-anchor="{"end" if izq else "start"}" font-size="13" font-weight="700" fill="#c0392b">Unión {lado}</text>')
-        r = abs(xe - xs) / 2
-        a(f'<text x="{X(xs)+(-8 if izq else 8)}" y="{Y(UNION*0.35)}" text-anchor="{"end" if izq else "start"}" font-size="14" font-weight="700" fill="#8a6400">{lado}1 hacia afuera</text>')
-        a(f'<text x="{X(xs)+(-8 if izq else 8)}" y="{Y(UNION*0.35)+16}" text-anchor="{"end" if izq else "start"}" font-size="12" fill="#1f5fa8">{pies(r)} x {pies(UNION)}</text>')
-        a(f'<text x="{X(m)+(-8 if izq else 8)}" y="{Y(UNION+(LARGO-UNION)*0.75)}" text-anchor="{"end" if izq else "start"}" font-size="14" font-weight="700" fill="#8a6400">{lado}2 hacia adentro</text>')
-        a(f'<text x="{X(m)+(-8 if izq else 8)}" y="{Y(UNION+(LARGO-UNION)*0.75)+16}" text-anchor="{"end" if izq else "start"}" font-size="12" fill="#1f5fa8">{pies(r)} x {pies(LARGO-UNION)}</text>')
+        a(f'<text x="{X(m)+(-12 if izq else 12)}" y="{Y(UNION)+5}" text-anchor="{"end" if izq else "start"}" font-size="13" font-weight="700" fill="#c0392b">Unión {lado}</text>')
+        med = f"elipse {pies(abs(ax))} x {pies(by)}"
+        for txt, yy, xx in ((f"{lado}1 hacia afuera", UNION * 0.3, xs), (f"{lado}2 hacia adentro", UNION * 1.75, xe)):
+            anc = "end" if izq else "start"
+            dx = (-10 if izq else 10) * (1 if xx == xs else 3)
+            a(f'<text x="{X(xx)+dx}" y="{Y(yy)}" text-anchor="{anc}" font-size="14" font-weight="700" fill="#8a6400">{txt}</text>')
+            a(f'<text x="{X(xx)+dx}" y="{Y(yy)+16}" text-anchor="{anc}" font-size="12" fill="#1f5fa8">{med}</text>')
 
     # Cotas
     def cota_h(x1, x2, y, txt, dy=-14):
@@ -173,13 +189,13 @@ def svg():
         "",
         "CÓMO ES CADA LADO (curva en S):",
         "- Arco 1 hacia afuera: sale derecho de la",
-        "  punta del escalón. Centro en la línea del",
-        "  escalón (CA1, CB1).",
+        "  punta del escalón. Centro sobre la línea",
+        "  del escalón (CA1, CB1).",
         "- Arco 2 hacia adentro: llega derecho al",
-        "  borde de la vereda. Centro en la línea de",
-        "  la vereda vieja (CA2, CB2).",
-        f"- Se unen a {pies(UNION)} del escalón, a mitad",
-        "  de camino, sin quiebre.",
+        "  borde de la vereda. Centro sobre la línea",
+        "  de la vereda vieja (CA2, CB2).",
+        f"- Se cruzan en diagonal a {pies(UNION)} del",
+        "  escalón: la curva no se aplana ni quiebra.",
         "- Clavar estacas en los puntos de la tabla",
         "  y doblar la tabla/flex (masonite) por ellos.",
     ]
