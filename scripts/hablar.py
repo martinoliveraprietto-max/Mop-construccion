@@ -8,6 +8,7 @@ En la nube, edge-tts falla con "certificate verify failed" porque no conoce el c
 del proxy (pasó el 16, el 20 y el 21-oct): acá se le pasa ese certificado directamente.
 Si edge-tts igual falla (por ejemplo, 403 cuando Microsoft cambia la firma), se usa la voz
 de Google (gTTS, acento de Argentina) para que Martin nunca se quede sin audio.
+Martin pidió más volumen (27-oct): la voz sale más fuerte y después se normaliza con FFmpeg.
 """
 import asyncio
 import os
@@ -24,7 +25,7 @@ def con_edge(texto, salida):
     import edge_tts.communicate as comunicacion
     if os.path.exists(CA_NUBE):
         comunicacion._SSL_CTX = ssl.create_default_context(cafile=CA_NUBE)
-    asyncio.run(edge_tts.Communicate(texto, VOZ).save(salida))
+    asyncio.run(edge_tts.Communicate(texto, VOZ, volume="+50%").save(salida))
 
 
 def con_google(texto, salida):
@@ -39,6 +40,19 @@ def con_google(texto, salida):
     gTTS(texto, lang="es", tld="com.ar").save(salida)
 
 
+def subir_volumen(salida):
+    """Lleva el audio a un volumen alto y parejo, como el de un video de redes. Si falla, queda el original."""
+    try:
+        import imageio_ffmpeg
+        temporal = salida + ".fuerte.mp3"
+        subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-loglevel", "error", "-y", "-i", salida,
+                        "-af", "loudnorm=I=-12:TP=-1:LRA=7", "-ar", "24000", "-b:a", "96k", temporal],
+                       check=True)
+        os.replace(temporal, salida)
+    except Exception as error:
+        print(f"No se pudo subir el volumen: {error}", file=sys.stderr)
+
+
 def main():
     if len(sys.argv) != 3:
         sys.exit(__doc__)
@@ -47,6 +61,7 @@ def main():
         try:
             hacer(texto, salida)
             if os.path.getsize(salida) > 1000:
+                subir_volumen(salida)
                 print(f"Audio listo ({nombre}): {salida}")
                 return
             print(f"{nombre} dejó el audio vacío.", file=sys.stderr)
