@@ -87,6 +87,12 @@ cómo se mide. Regla: se prueba barato y rápido; si en 30 días no vende, se co
    Impresión a pedido (sin stock: se imprime cuando alguien compra). Costo: US$0 para empezar. Mide: ventas por diseño.
 3. Libro infantil bilingüe ilustrado ("El patito constructor") en Amazon, impreso a pedido; regalías por cada venta.
    Claude escribe e ilustra el borrador, Martin aprueba. Costo: US$0. Mide: ventas por mes.
+   Detalle (27-oct): Amazon KDP imprime cuando alguien compra; paga 60 % del precio menos la impresión en libro de
+   papel (50 % por debajo de US$9,99) y hasta 70 % en libro digital. Ejemplo a confirmar con la calculadora de
+   Amazon: libro infantil a color de 32 páginas a US$12,99 deja unos US$4,50 por venta. Lo difícil no es hacerlo,
+   es que lo encuentren: hay muchísimos libros hechos con IA. Amazon pide declarar el contenido hecho con IA.
+   Pasos: Martin abre la cuenta de KDP (datos de impuestos y banco); Claude arma texto, ilustraciones, tapa y la
+   ficha; Martin lo sube y aprueba.
 4. Stickers y fondos de pantalla digitales (Etsy): uruguayos en Miami, humor de obra, patitos. Costo: centavos por
    publicación. Mide: descargas pagas.
 5. Plantillas de Canva para negocios latinos chicos (menú, volante, tarjeta, posteo). Producto digital. Costo: US$0.
