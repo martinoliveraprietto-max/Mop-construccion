@@ -48,8 +48,13 @@ def union(xs, xe):
     return xs + a1 * (1 - math.cos(ANGULO)), UNION
 
 
+FORMA = "s"                      # "s" = dos arcos elípticos por lado, "recta" = línea recta
+
+
 def punto(xs, xe, u):
     """u de 0 (escalón) a 1 (vereda)."""
+    if FORMA == "recta":
+        return xs + (xe - xs) * u, LARGO * u
     (a1, b1), (a2, b2) = ejes(xs, xe)
     if u <= 0.5:
         t = 2 * u * ANGULO
@@ -59,6 +64,8 @@ def punto(xs, xe, u):
 
 
 def x_en(xs, xe, y):
+    if FORMA == "recta":
+        return xs + (xe - xs) * y / LARGO
     (a1, b1), (a2, b2) = ejes(xs, xe)
     if y <= UNION:
         t = math.asin(min(1.0, y / b1))
@@ -153,28 +160,39 @@ def svg():
     for xx, txt in ((xs_izq, "LADO ANGOSTO"), (xs_der, "LADO ANCHO")):
         a(f'<text x="{X(xx)+(-10 if xx<0 else 10)}" y="{Y(-12)}" text-anchor="{"end" if xx<0 else "start"}" font-size="13" font-weight="700" fill="#555">{txt}</text>')
 
-    # Centros de las elipses, unión y semiejes
-    for xs, xe, lado in ((xs_izq, xe_izq, "A"), (xs_der, xe_der, "B")):
-        m, _ = union(xs, xe)
-        izq = xs < 0
-        (a1, b1), (a2, b2) = ejes(xs, xe)
-        for (cx, cy), num, ext in zip(centros(xs, xe), (1, 2), (xs, xe)):
-            nombre = f"C{lado}{num}"
-            if not xmin <= cx <= xmax:   # centro fuera de la hoja: se marca en el borde
-                nombre += f" (a {pies(abs(cx))} del centro)"
-                cx = max(xmin, min(xmax, cx))
-            a(f'<circle cx="{X(cx)}" cy="{Y(cy)}" r="5" fill="#1f5fa8"/>')
-            a(f'<line x1="{X(cx)}" y1="{Y(cy)}" x2="{X(ext)}" y2="{Y(cy)}" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>')
-            anc = "middle" if abs(cx) < xmax else ("end" if cx > 0 else "start")
-            a(f'<text x="{X(cx)}" y="{Y(cy)+(22 if cy==0 else -12)}" text-anchor="{anc}" font-size="13" font-weight="700" fill="#1f5fa8">{nombre}</text>')
-        a(f'<circle cx="{X(m)}" cy="{Y(UNION)}" r="6" fill="#c0392b"/>')
-        a(f'<text x="{X(m)+(-12 if izq else 12)}" y="{Y(UNION)+5}" text-anchor="{"end" if izq else "start"}" font-size="13" font-weight="700" fill="#c0392b">Unión {lado}</text>')
-        for txt, yy, xx, med in ((f"{lado}1 hacia afuera", UNION * 0.3, xs, f"elipse {pies(abs(a1))} x {pies(b1)}"),
-                                 (f"{lado}2 hacia adentro", UNION + (LARGO - UNION) * 0.75, xe, f"elipse {pies(abs(a2))} x {pies(b2)}")):
-            anc = "end" if izq else "start"
-            dx = (-10 if izq else 10) * (1 if xx == xs else 3)
-            a(f'<text x="{X(xx)+dx}" y="{Y(yy)}" text-anchor="{anc}" font-size="14" font-weight="700" fill="#8a6400">{txt}</text>')
-            a(f'<text x="{X(xx)+dx}" y="{Y(yy)+16}" text-anchor="{anc}" font-size="12" fill="#1f5fa8">{med}</text>')
+    if FORMA == "recta":
+        for xs, xe, lado in ((xs_izq, xe_izq, "A"), (xs_der, xe_der, "B")):
+            izq = xs < 0
+            largo = math.hypot(xe - xs, LARGO)
+            ang = math.degrees(math.atan2(abs(xe - xs), LARGO))
+            xx, yy = (xs + xe) / 2, LARGO / 2
+            anc, dx = ("end", -45) if izq else ("start", 45)
+            a(f'<text x="{X(xx)+dx}" y="{Y(yy)}" text-anchor="{anc}" font-size="14" font-weight="700" fill="#8a6400">LADO {lado} RECTO</text>')
+            a(f'<text x="{X(xx)+dx}" y="{Y(yy)+16}" text-anchor="{anc}" font-size="12" fill="#1f5fa8">largo {pies(largo)}</text>')
+            a(f'<text x="{X(xx)+dx}" y="{Y(yy)+32}" text-anchor="{anc}" font-size="12" fill="#1f5fa8">corre {pies(abs(xe - xs))} en 8\' ({ang:.0f}°)</text>')
+    else:
+        for xs, xe, lado in ((xs_izq, xe_izq, "A"), (xs_der, xe_der, "B")):
+            m, _ = union(xs, xe)
+            izq = xs < 0
+            (a1, b1), (a2, b2) = ejes(xs, xe)
+            for (cx, cy), num, ext in zip(centros(xs, xe), (1, 2), (xs, xe)):
+                nombre = f"C{lado}{num}"
+                if not xmin <= cx <= xmax:   # centro fuera de la hoja: se marca en el borde
+                    nombre += f" (a {pies(abs(cx))} del centro)"
+                    cx = max(xmin, min(xmax, cx))
+                a(f'<circle cx="{X(cx)}" cy="{Y(cy)}" r="5" fill="#1f5fa8"/>')
+                a(f'<line x1="{X(cx)}" y1="{Y(cy)}" x2="{X(ext)}" y2="{Y(cy)}" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>')
+                anc = "middle" if abs(cx) < xmax else ("end" if cx > 0 else "start")
+                a(f'<text x="{X(cx)}" y="{Y(cy)+(22 if cy==0 else -12)}" text-anchor="{anc}" font-size="13" font-weight="700" fill="#1f5fa8">{nombre}</text>')
+            a(f'<circle cx="{X(m)}" cy="{Y(UNION)}" r="6" fill="#c0392b"/>')
+            a(f'<text x="{X(m)+(-12 if izq else 12)}" y="{Y(UNION)+5}" text-anchor="{"end" if izq else "start"}" font-size="13" font-weight="700" fill="#c0392b">Unión {lado}</text>')
+            for txt, yy, xx, med in ((f"{lado}1 hacia afuera", UNION * 0.3, xs, f"elipse {pies(abs(a1))} x {pies(b1)}"),
+                                     (f"{lado}2 hacia adentro", UNION + (LARGO - UNION) * 0.75, xe, f"elipse {pies(abs(a2))} x {pies(b2)}")):
+                anc = "end" if izq else "start"
+                dx = (-10 if izq else 10) * (1 if xx == xs else 3)
+                a(f'<text x="{X(xx)+dx}" y="{Y(yy)}" text-anchor="{anc}" font-size="14" font-weight="700" fill="#8a6400">{txt}</text>')
+                a(f'<text x="{X(xx)+dx}" y="{Y(yy)+16}" text-anchor="{anc}" font-size="12" fill="#1f5fa8">{med}</text>')
+
 
     # Cotas
     def cota_h(x1, x2, y, txt, dy=-14):
@@ -212,6 +230,15 @@ def svg():
         "- Su borde DERECHO cae en el centro de la",
         "  escalera: el lado ancho queda a la derecha.",
         "",
+    ] + ([
+        "CÓMO ES CADA LADO (línea recta):",
+        "- Va derecho de la punta del escalón a la",
+        "  esquina de la vereda vieja.",
+        "- Hilo tirante entre las dos puntas y",
+        "  tabla recta: no hace falta tabla flexible.",
+        "- Las medidas de la tabla sirven para",
+        "  controlar el hilo.",
+    ] if FORMA == "recta" else [
         "CÓMO ES CADA LADO (curva en S):",
         "- Arco 1 hacia afuera: sale derecho de la",
         "  punta del escalón. Centro sobre la línea",
@@ -223,6 +250,7 @@ def svg():
         "  escalón: la curva no se aplana ni quiebra.",
         "- Clavar estacas en los puntos (o) de la tabla",
         "  y doblar la tabla/flex (masonite) por ellos.",
+    ]) + [
         "",
         "CANTIDADES:",
         f"- Superficie: {area_pie2():.0f} pies cuadrados.",
@@ -233,7 +261,7 @@ def svg():
         a(f'<text x="{tx}" y="{yy}" font-size="12" font-weight="{"700" if t.endswith(":") else "400"}">{t}</text>')
         yy += 18
 
-    a(f'<text x="{mx}" y="{40}" font-size="24" font-weight="700" font-family="Cinzel, serif">VEREDA CON ARCOS ELÍPTICOS EN S — {TITULO}</text>')
+    a(f'<text x="{mx}" y="{40}" font-size="24" font-weight="700" font-family="Cinzel, serif">VEREDA {'CON LADOS RECTOS' if FORMA == 'recta' else 'CON ARCOS ELÍPTICOS EN S'} — {TITULO}</text>')
     a(f'<text x="{mx}" y="{64}" font-size="13">MOP Construction · 27-oct-2026 · medidas en pies y pulgadas · sin escala para presupuesto</text>')
     a('</svg>')
     return "\n".join(o)
@@ -241,14 +269,15 @@ def svg():
 
 OPCIONES = [
     # archivo, título, unión desde el escalón, ángulo de los arcos
-    ("vereda_arcos", "OPCIÓN 1 · PAREJA", LARGO / 2, 60),
-    ("vereda_opcion2", "OPCIÓN 2 · CAMPANA LARGA", 60, 60),
-    ("vereda_opcion3", "OPCIÓN 3 · ENTRADA LARGA Y SUAVE", 36, 50),
+    ("vereda_arcos", "OPCIÓN 1 · PAREJA", LARGO / 2, 60, "s"),
+    ("vereda_opcion2", "OPCIÓN 2 · CAMPANA LARGA", 60, 60, "s"),
+    ("vereda_opcion3", "OPCIÓN 3 · ENTRADA LARGA Y SUAVE", 36, 50, "s"),
+    ("vereda_recta", "OPCIÓN 4 · RECTA", LARGO / 2, 60, "recta"),
 ]
 
 if __name__ == "__main__":
     aqui = pathlib.Path(__file__).parent
-    for archivo, TITULO, UNION, grados in OPCIONES:
+    for archivo, TITULO, UNION, grados, FORMA in OPCIONES:
         ANGULO = math.radians(grados)
         (aqui / f"{archivo}.svg").write_text(svg(), encoding="utf-8")
         print(f"{TITULO}: {area_pie2():.1f} pie2")
