@@ -75,6 +75,30 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 
 ---
 
+## Ideas fuera de la caja (coach creativo, desde el 27-oct-2026)
+Pedido de Martin: salir de la construcción y de los bots. Cada idea: qué es · primer paso · costo para probar ·
+cómo se mide. Regla: se prueba barato y rápido; si en 30 días no vende, se corta. Nada se compra ni se publica sin su aprobado.
+
+1. Patitos de hule para el "Jeep ducking" (en EE.UU. la gente deja patitos en los Jeeps de otros, es una moda real):
+   packs de 5 a 10 patitos temáticos (con casco, con mate, de Miami) y tarjetita "You've been ducked". Primer paso:
+   comprar 1 caja mayorista de prueba y venderla por Instagram/Etsy. Costo: unos US$100 a 200. Mide: packs vendidos
+   en 30 días. Ojo: "Jeep" es marca registrada; no usarla en el nombre de la tienda.
+2. Remeras, gorras y tazas con frases de obra en spanglish ("Built Solid", "A plomo", "Mañana sin falta").
+   Impresión a pedido (sin stock: se imprime cuando alguien compra). Costo: US$0 para empezar. Mide: ventas por diseño.
+3. Libro infantil bilingüe ilustrado ("El patito constructor") en Amazon, impreso a pedido; regalías por cada venta.
+   Claude escribe e ilustra el borrador, Martin aprueba. Costo: US$0. Mide: ventas por mes.
+4. Stickers y fondos de pantalla digitales (Etsy): uruguayos en Miami, humor de obra, patitos. Costo: centavos por
+   publicación. Mide: descargas pagas.
+5. Plantillas de Canva para negocios latinos chicos (menú, volante, tarjeta, posteo). Producto digital. Costo: US$0.
+6. Kits de regalo de mate para uruguayos y argentinos en Florida (mate, bombilla, yerba). Ojo: la yerba es alimento
+   importado (permisos); empezar solo con mate y bombilla.
+7. Comunidad "Uruguayos en Miami" (Instagram o boletín por correo) con avisos pagos de negocios locales.
+8. Canciones y jingles con IA para negocios locales (cumpleaños, restaurantes, peluquerías): servicio barato y rápido.
+9. Juego de cartas o trivia uruguaya impreso a pedido, para regalar en las fiestas.
+
+Recomendación del coach creativo: probar a la vez las 3 que cuestan casi cero (2, 3 y 4) durante 30 días, y la 1 con
+una sola caja de prueba si Martin quiere ir por el patito.
+
 ## Cómo se entrega un estimado (regla de Martin, 22-oct-2026)
 Vale para TODA sesión que arme un estimado o propuesta (mop-estimador u otra). Leer esto antes de empezar.
 
@@ -148,6 +172,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 - 25-oct-2026 · Claude Code · /mejorar, 2.ª corrida (revisión de la habilidad: 25-oct; cobertura parcial: 4 sesiones, 11 mensajes de Martin, 0 resúmenes) · hallazgos: 1) el cazador tiene las 5 cartas frenadas por el mismo dato (licencia de Danny), 2) el estimador usó una cotización de hierro vencida el 5-oct, 3) la revisión ve pocos mensajes porque el filtro mezcla resultados de herramientas · Martin: elegir entre las 3 propuestas (dato de Danny, aviso de precio vencido en el estimador, gancho que guarde sus mensajes para las próximas revisiones).
 - 27-oct-2026 · Claude Code · Audios más fuertes (pedido de Martin): scripts/hablar.py sube la voz y normaliza con FFmpeg, unos 6 dB más · sesiones de mop-estimador y de los bots: copiar el mismo cambio a su herramientas/hablar.py.
 - 27-oct-2026 · Claude Code · Martin pidió ingresos pasivos (publicación de salazar.ivan12, que vende una academia) · propuesta: 1) vender cómputos y planillas de hierro a otros subcontratistas con el estimador que ya existe (rápido, semi pasivo), 2) plantillas digitales para subcontratistas hispanos (pasivo, ingreso chico al principio), 3) el estimador como suscripción mensual para otros (el más grande, meses de trabajo); fabrica-canales sigue · Martin: elegir; nada se manda ni se cobra sin su aprobado.
+- 27-oct-2026 · Claude Code · Coach creativo sumado al consejo (14.º, en CLAUDE.md) y sección nueva "Ideas fuera de la caja" con 9 ideas fuera de la construcción y los bots · Martin: elegir cuáles se prueban 30 días.
 
 ## Anticipación
 Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo / pendiente de conexión / pendiente de Martin.
