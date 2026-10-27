@@ -26,43 +26,45 @@ UNION = LARGO / 2                # punto de unión de los dos arcos de cada lado
 ANGULO = math.radians(60)        # cuánto de cada elipse se usa (60° = S suave)
 
 
-# Cada lado es una S de dos arcos de elipse iguales que se cruzan en diagonal en el
-# punto medio M (simetría central), así no hay quiebre ni "escalón" en la unión:
+# Cada lado es una S de dos arcos de elipse que se cruzan en diagonal en la unión
+# (misma tangente, sin quiebre ni "escalón"):
 #  arco 1 (hacia afuera): sale derecho (perpendicular) de la punta del escalón;
 #  arco 2 (hacia adentro): llega derecho al borde de la vereda.
+# Las dos elipses son proporcionales; si la unión está a mitad de camino son iguales.
 def ejes(xs, xe):
-    """Semieje horizontal (con signo) y vertical de las dos elipses."""
-    return (xe - xs) / 2 / (1 - math.cos(ANGULO)), UNION / math.sin(ANGULO)
-
-
-def xm(xs, xe):
-    return (xs + xe) / 2
+    """Semiejes (horizontal con signo, vertical) del arco 1 y del arco 2."""
+    r = (xe - xs) * math.sin(ANGULO) / (LARGO * (1 - math.cos(ANGULO)))
+    b1, b2 = UNION / math.sin(ANGULO), (LARGO - UNION) / math.sin(ANGULO)
+    return (r * b1, b1), (r * b2, b2)
 
 
 def centros(xs, xe):
-    ax, _ = ejes(xs, xe)
-    return (xs + ax, 0), (xe - ax, LARGO)
+    (a1, _), (a2, _) = ejes(xs, xe)
+    return (xs + a1, 0), (xe - a2, LARGO)
 
 
-def _arco1(xs, xe, t):
-    ax, by = ejes(xs, xe)
-    return xs + ax * (1 - math.cos(t)), by * math.sin(t)
+def union(xs, xe):
+    (a1, b1), _ = ejes(xs, xe)
+    return xs + a1 * (1 - math.cos(ANGULO)), UNION
 
 
 def punto(xs, xe, u):
     """u de 0 (escalón) a 1 (vereda)."""
+    (a1, b1), (a2, b2) = ejes(xs, xe)
     if u <= 0.5:
-        return _arco1(xs, xe, 2 * u * ANGULO)
-    x, y = _arco1(xs, xe, 2 * (1 - u) * ANGULO)
-    return 2 * xm(xs, xe) - x, LARGO - y
+        t = 2 * u * ANGULO
+        return xs + a1 * (1 - math.cos(t)), b1 * math.sin(t)
+    t = 2 * (1 - u) * ANGULO
+    return xe - a2 * (1 - math.cos(t)), LARGO - b2 * math.sin(t)
 
 
 def x_en(xs, xe, y):
-    ax, by = ejes(xs, xe)
+    (a1, b1), (a2, b2) = ejes(xs, xe)
     if y <= UNION:
-        t = math.asin(min(1.0, y / by))
-        return xs + ax * (1 - math.cos(t))
-    return 2 * xm(xs, xe) - x_en(xs, xe, LARGO - y)
+        t = math.asin(min(1.0, y / b1))
+        return xs + a1 * (1 - math.cos(t))
+    t = math.asin(min(1.0, (LARGO - y) / b2))
+    return xe - a2 * (1 - math.cos(t))
 
 
 def area_pie2():
@@ -153,17 +155,22 @@ def svg():
 
     # Centros de las elipses, unión y semiejes
     for xs, xe, lado in ((xs_izq, xe_izq, "A"), (xs_der, xe_der, "B")):
-        m = xm(xs, xe)
+        m, _ = union(xs, xe)
         izq = xs < 0
-        ax, by = ejes(xs, xe)
+        (a1, b1), (a2, b2) = ejes(xs, xe)
         for (cx, cy), num, ext in zip(centros(xs, xe), (1, 2), (xs, xe)):
+            nombre = f"C{lado}{num}"
+            if not xmin <= cx <= xmax:   # centro fuera de la hoja: se marca en el borde
+                nombre += f" (a {pies(abs(cx))} del centro)"
+                cx = max(xmin, min(xmax, cx))
             a(f'<circle cx="{X(cx)}" cy="{Y(cy)}" r="5" fill="#1f5fa8"/>')
             a(f'<line x1="{X(cx)}" y1="{Y(cy)}" x2="{X(ext)}" y2="{Y(cy)}" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>')
-            a(f'<text x="{X(cx)}" y="{Y(cy)+(22 if cy==0 else -12)}" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">C{lado}{num}</text>')
+            anc = "middle" if abs(cx) < xmax else ("end" if cx > 0 else "start")
+            a(f'<text x="{X(cx)}" y="{Y(cy)+(22 if cy==0 else -12)}" text-anchor="{anc}" font-size="13" font-weight="700" fill="#1f5fa8">{nombre}</text>')
         a(f'<circle cx="{X(m)}" cy="{Y(UNION)}" r="6" fill="#c0392b"/>')
         a(f'<text x="{X(m)+(-12 if izq else 12)}" y="{Y(UNION)+5}" text-anchor="{"end" if izq else "start"}" font-size="13" font-weight="700" fill="#c0392b">Unión {lado}</text>')
-        med = f"elipse {pies(abs(ax))} x {pies(by)}"
-        for txt, yy, xx in ((f"{lado}1 hacia afuera", UNION * 0.3, xs), (f"{lado}2 hacia adentro", UNION * 1.75, xe)):
+        for txt, yy, xx, med in ((f"{lado}1 hacia afuera", UNION * 0.3, xs, f"elipse {pies(abs(a1))} x {pies(b1)}"),
+                                 (f"{lado}2 hacia adentro", UNION + (LARGO - UNION) * 0.75, xe, f"elipse {pies(abs(a2))} x {pies(b2)}")):
             anc = "end" if izq else "start"
             dx = (-10 if izq else 10) * (1 if xx == xs else 3)
             a(f'<text x="{X(xx)+dx}" y="{Y(yy)}" text-anchor="{anc}" font-size="14" font-weight="700" fill="#8a6400">{txt}</text>')
@@ -226,14 +233,24 @@ def svg():
         a(f'<text x="{tx}" y="{yy}" font-size="12" font-weight="{"700" if t.endswith(":") else "400"}">{t}</text>')
         yy += 18
 
-    a(f'<text x="{mx}" y="{40}" font-size="24" font-weight="700" font-family="Cinzel, serif">VEREDA CON ARCOS ELÍPTICOS EN S — PLANTA</text>')
+    a(f'<text x="{mx}" y="{40}" font-size="24" font-weight="700" font-family="Cinzel, serif">VEREDA CON ARCOS ELÍPTICOS EN S — {TITULO}</text>')
     a(f'<text x="{mx}" y="{64}" font-size="13">MOP Construction · 27-oct-2026 · medidas en pies y pulgadas · sin escala para presupuesto</text>')
     a('</svg>')
     return "\n".join(o)
 
 
+OPCIONES = [
+    # archivo, título, unión desde el escalón, ángulo de los arcos
+    ("vereda_arcos", "OPCIÓN 1 · PAREJA", LARGO / 2, 60),
+    ("vereda_opcion2", "OPCIÓN 2 · CAMPANA LARGA", 60, 60),
+    ("vereda_opcion3", "OPCIÓN 3 · ENTRADA LARGA Y SUAVE", 36, 50),
+]
+
 if __name__ == "__main__":
     aqui = pathlib.Path(__file__).parent
-    (aqui / "vereda_arcos.svg").write_text(svg(), encoding="utf-8")
-    for k, izq, der, an in tabla():
-        print(f"{pies(k)} -> izq {pies(izq):>10}  der {pies(der):>10}  ancho {pies(an):>10}")
+    for archivo, TITULO, UNION, grados in OPCIONES:
+        ANGULO = math.radians(grados)
+        (aqui / f"{archivo}.svg").write_text(svg(), encoding="utf-8")
+        print(f"{TITULO}: {area_pie2():.1f} pie2")
+        for k, izq, der, an in tabla():
+            print(f"  {pies(k)} -> izq {pies(izq):>10}  der {pies(der):>10}  ancho {pies(an):>10}")

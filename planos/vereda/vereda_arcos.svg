@@ -47,24 +47,24 @@
 <text x="550.0" y="1053.2" text-anchor="middle" font-size="12" fill="#555">Visto parado en la escalera, mirando hacia la vereda vieja</text>
 <text x="201.9" y="867.6" text-anchor="end" font-size="13" font-weight="700" fill="#555">LADO ANGOSTO</text>
 <text x="898.1" y="867.6" text-anchor="start" font-size="13" font-weight="700" fill="#555">LADO ANCHO</text>
-<circle cx="342.1" cy="817.2" r="5" fill="#1f5fa8"/>
-<line x1="342.1" y1="817.2" x2="211.9" y2="817.2" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
-<text x="342.1" y="839.2" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CA1</text>
-<circle cx="211.9" cy="414.0" r="5" fill="#1f5fa8"/>
-<line x1="211.9" y1="414.0" x2="342.1" y2="414.0" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
-<text x="211.9" y="402.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CA2</text>
+<circle cx="342.1000000000001" cy="817.2" r="5" fill="#1f5fa8"/>
+<line x1="342.1000000000001" y1="817.2" x2="211.9" y2="817.2" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="342.1000000000001" y="839.2" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CA1</text>
+<circle cx="211.89999999999995" cy="414.0" r="5" fill="#1f5fa8"/>
+<line x1="211.89999999999995" y1="414.0" x2="342.1" y2="414.0" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="211.89999999999995" y="402.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CA2</text>
 <circle cx="277.0" cy="615.6" r="6" fill="#c0392b"/>
 <text x="265.0" y="620.6" text-anchor="end" font-size="13" font-weight="700" fill="#c0392b">Unión A</text>
 <text x="201.9" y="756.72" text-anchor="end" font-size="14" font-weight="700" fill="#8a6400">A1 hacia afuera</text>
 <text x="201.9" y="772.72" text-anchor="end" font-size="12" fill="#1f5fa8">elipse 2' 7" x 4' 7 1/2"</text>
 <text x="312.1" y="464.40000000000003" text-anchor="end" font-size="14" font-weight="700" fill="#8a6400">A2 hacia adentro</text>
 <text x="312.1" y="480.40000000000003" text-anchor="end" font-size="12" fill="#1f5fa8">elipse 2' 7" x 4' 7 1/2"</text>
-<circle cx="550.0" cy="817.2" r="5" fill="#1f5fa8"/>
-<line x1="550.0" y1="817.2" x2="888.1" y2="817.2" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
-<text x="550.0" y="839.2" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CB1</text>
-<circle cx="888.1" cy="414.0" r="5" fill="#1f5fa8"/>
-<line x1="888.1" y1="414.0" x2="550.0" y2="414.0" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
-<text x="888.1" y="402.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CB2</text>
+<circle cx="549.9999999999999" cy="817.2" r="5" fill="#1f5fa8"/>
+<line x1="549.9999999999999" y1="817.2" x2="888.1" y2="817.2" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="549.9999999999999" y="839.2" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CB1</text>
+<circle cx="888.1000000000001" cy="414.0" r="5" fill="#1f5fa8"/>
+<line x1="888.1000000000001" y1="414.0" x2="550.0" y2="414.0" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="888.1000000000001" y="402.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CB2</text>
 <circle cx="719.0500000000001" cy="615.6" r="6" fill="#c0392b"/>
 <text x="731.0500000000001" y="620.6" text-anchor="start" font-size="13" font-weight="700" fill="#c0392b">Unión B</text>
 <text x="898.1" y="756.72" text-anchor="start" font-size="14" font-weight="700" fill="#8a6400">B1 hacia afuera</text>
@@ -196,6 +196,6 @@
 <text x="1060.0" y="917" font-size="12" font-weight="400">- Superficie: 70 pies cuadrados.</text>
 <text x="1060.0" y="935" font-size="12" font-weight="400">- Hormigón a 4": 0.87 yd³</text>
 <text x="1060.0" y="953" font-size="12" font-weight="400">  (con 10% de desperdicio: 0.95 yd³).</text>
-<text x="130" y="40" font-size="24" font-weight="700" font-family="Cinzel, serif">VEREDA CON ARCOS ELÍPTICOS EN S — PLANTA</text>
+<text x="130" y="40" font-size="24" font-weight="700" font-family="Cinzel, serif">VEREDA CON ARCOS ELÍPTICOS EN S — OPCIÓN 1 · PAREJA</text>
 <text x="130" y="64" font-size="13">MOP Construction · 27-oct-2026 · medidas en pies y pulgadas · sin escala para presupuesto</text>
 </svg>

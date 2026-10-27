@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1430" height="1105" viewBox="0 0 1430 1105" font-family="Montserrat, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<defs><pattern id="hor" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#efe7d6"/><circle cx="3" cy="3" r="0.9" fill="#bfae8a"/><circle cx="8" cy="7" r="0.7" fill="#bfae8a"/></pattern><pattern id="lad" width="14" height="8" patternUnits="userSpaceOnUse"><rect width="14" height="8" fill="#d9b7a6"/><path d="M0 0H14M0 4H14M7 0V4M0 4V8M14 4V8" stroke="#a8796a" stroke-width="0.8"/></pattern><marker id="fl" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#333"/></marker></defs>
+<rect x="211.9" y="817.2" width="676.2" height="126.0" fill="#d6d6d6" stroke="#222" stroke-width="2"/>
+<line x1="211.9" y1="859.2" x2="888.1" y2="859.2" stroke="#777" stroke-width="1"/>
+<line x1="211.9" y1="901.2" x2="888.1" y2="901.2" stroke="#777" stroke-width="1"/>
+<text x="550.0" y="901.2" text-anchor="middle" font-size="18" font-weight="700">ESCALERA</text>
+<rect x="342.1" y="162.0" width="207.9" height="252.0" fill="url(#lad)" stroke="#222" stroke-width="2"/>
+<text x="446.05" y="288.0" text-anchor="middle" font-size="14" font-weight="700">VEREDA</text>
+<text x="446.05" y="305.0" text-anchor="middle" font-size="14" font-weight="700">EXISTENTE</text>
+<path d="M211.9,817.2 L212.0,811.5 L212.1,805.7 L212.4,800.0 L212.8,794.3 L213.3,788.6 L214.0,782.9 L214.7,777.3 L215.6,771.7 L216.6,766.1 L217.6,760.6 L218.8,755.1 L220.1,749.7 L221.6,744.3 L223.1,739.0 L224.7,733.8 L226.4,728.6 L228.3,723.5 L230.2,718.5 L232.2,713.6 L234.4,708.7 L236.6,704.0 L238.9,699.3 L241.4,694.8 L243.9,690.3 L246.5,686.0 L249.2,681.8 L251.9,677.6 L254.8,673.6 L257.7,669.8 L260.7,666.0 L265.7,659.7 L270.6,653.3 L275.4,646.6 L280.0,639.7 L284.5,632.7 L288.8,625.5 L293.0,618.0 L297.0,610.4 L300.9,602.7 L304.6,594.8 L308.2,586.7 L311.6,578.5 L314.8,570.1 L317.9,561.6 L320.8,553.0 L323.5,544.3 L326.0,535.5 L328.4,526.5 L330.5,517.5 L332.5,508.3 L334.3,499.1 L336.0,489.9 L337.4,480.5 L338.6,471.1 L339.7,461.7 L340.6,452.2 L341.2,442.7 L341.7,433.1 L342.0,423.6 L342.1,414.0 L550.0,414.0 L550.3,423.6 L551.0,433.1 L552.3,442.7 L554.0,452.2 L556.2,461.7 L559.0,471.1 L562.2,480.5 L565.9,489.9 L570.2,499.1 L574.9,508.3 L580.0,517.5 L585.7,526.5 L591.8,535.5 L598.4,544.3 L605.4,553.0 L612.9,561.6 L620.9,570.1 L629.3,578.5 L638.1,586.7 L647.3,594.8 L657.0,602.7 L667.1,610.4 L677.5,618.0 L688.4,625.5 L699.6,632.7 L711.3,639.7 L723.3,646.6 L735.6,653.3 L748.3,659.7 L761.3,666.0 L769.1,669.8 L776.7,673.6 L784.1,677.6 L791.3,681.8 L798.3,686.0 L805.1,690.3 L811.6,694.8 L817.9,699.3 L823.9,704.0 L829.7,708.7 L835.3,713.6 L840.5,718.5 L845.6,723.5 L850.3,728.6 L854.8,733.8 L859.1,739.0 L863.0,744.3 L866.7,749.7 L870.1,755.1 L873.2,760.6 L876.0,766.1 L878.5,771.7 L880.8,777.3 L882.7,782.9 L884.4,788.6 L885.7,794.3 L886.7,800.0 L887.5,805.7 L887.9,811.5 L888.1,817.2Z" fill="url(#hor)" stroke="none"/>
+<circle cx="213.0" cy="792.0" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="885.2" cy="792.0" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="216.4" cy="766.8" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="876.3" cy="766.8" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="222.3" cy="741.6" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="861.0" cy="741.6" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="231.1" cy="716.4" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="838.3" cy="716.4" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="243.4" cy="691.2" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="806.4" cy="691.2" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="260.7" cy="666.0" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="761.3" cy="666.0" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="279.3" cy="640.8" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="713.1" cy="640.8" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="294.3" cy="615.6" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="674.1" cy="615.6" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="306.6" cy="590.4" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="642.2" cy="590.4" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="316.6" cy="565.2" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="616.2" cy="565.2" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="324.7" cy="540.0" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="595.1" cy="540.0" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="331.1" cy="514.8" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="578.5" cy="514.8" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="336.0" cy="489.6" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="565.8" cy="489.6" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="339.4" cy="464.4" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="557.0" cy="464.4" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="341.4" cy="439.2" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<circle cx="551.7" cy="439.2" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>
+<path d="M211.9,817.2 L212.0,811.5 L212.1,805.7 L212.4,800.0 L212.8,794.3 L213.3,788.6 L214.0,782.9 L214.7,777.3 L215.6,771.7 L216.6,766.1 L217.6,760.6 L218.8,755.1 L220.1,749.7 L221.6,744.3 L223.1,739.0 L224.7,733.8 L226.4,728.6 L228.3,723.5 L230.2,718.5 L232.2,713.6 L234.4,708.7 L236.6,704.0 L238.9,699.3 L241.4,694.8 L243.9,690.3 L246.5,686.0 L249.2,681.8 L251.9,677.6 L254.8,673.6 L257.7,669.8 L260.7,666.0 L265.7,659.7 L270.6,653.3 L275.4,646.6 L280.0,639.7 L284.5,632.7 L288.8,625.5 L293.0,618.0 L297.0,610.4 L300.9,602.7 L304.6,594.8 L308.2,586.7 L311.6,578.5 L314.8,570.1 L317.9,561.6 L320.8,553.0 L323.5,544.3 L326.0,535.5 L328.4,526.5 L330.5,517.5 L332.5,508.3 L334.3,499.1 L336.0,489.9 L337.4,480.5 L338.6,471.1 L339.7,461.7 L340.6,452.2 L341.2,442.7 L341.7,433.1 L342.0,423.6 L342.1,414.0" fill="none" stroke="#b8860b" stroke-width="4"/>
+<path d="M888.1,817.2 L887.9,811.5 L887.5,805.7 L886.7,800.0 L885.7,794.3 L884.4,788.6 L882.7,782.9 L880.8,777.3 L878.5,771.7 L876.0,766.1 L873.2,760.6 L870.1,755.1 L866.7,749.7 L863.0,744.3 L859.1,739.0 L854.8,733.8 L850.3,728.6 L845.6,723.5 L840.5,718.5 L835.3,713.6 L829.7,708.7 L823.9,704.0 L817.9,699.3 L811.6,694.8 L805.1,690.3 L798.3,686.0 L791.3,681.8 L784.1,677.6 L776.7,673.6 L769.1,669.8 L761.3,666.0 L748.3,659.7 L735.6,653.3 L723.3,646.6 L711.3,639.7 L699.6,632.7 L688.4,625.5 L677.5,618.0 L667.1,610.4 L657.0,602.7 L647.3,594.8 L638.1,586.7 L629.3,578.5 L620.9,570.1 L612.9,561.6 L605.4,553.0 L598.4,544.3 L591.8,535.5 L585.7,526.5 L580.0,517.5 L574.9,508.3 L570.2,499.1 L565.9,489.9 L562.2,480.5 L559.0,471.1 L556.2,461.7 L554.0,452.2 L552.3,442.7 L551.0,433.1 L550.3,423.6 L550.0,414.0" fill="none" stroke="#b8860b" stroke-width="4"/>
+<text x="625.6" y="691.2" text-anchor="middle" font-size="16" font-weight="700" fill="#5a4a20">VEREDA NUEVA</text>
+<line x1="550.0" y1="943.2" x2="550.0" y2="136.8" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="12 5 3 5"/>
+<text x="556.0" y="145.2" text-anchor="start" font-size="12" fill="#c0392b">CENTRO ESCALERA</text>
+<text x="550.0" y="1053.2" text-anchor="middle" font-size="12" fill="#555">Visto parado en la escalera, mirando hacia la vereda vieja</text>
+<text x="201.9" y="867.6" text-anchor="end" font-size="13" font-weight="700" fill="#555">LADO ANGOSTO</text>
+<text x="898.1" y="867.6" text-anchor="start" font-size="13" font-weight="700" fill="#555">LADO ANCHO</text>
+<circle cx="348.5833887177182" cy="817.2" r="5" fill="#1f5fa8"/>
+<line x1="348.5833887177182" y1="817.2" x2="211.9" y2="817.2" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="348.5833887177182" y="839.2" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CA1</text>
+<circle cx="130.0" cy="414.0" r="5" fill="#1f5fa8"/>
+<line x1="130.0" y1="414.0" x2="342.1" y2="414.0" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="130.0" y="402.0" text-anchor="start" font-size="13" font-weight="700" fill="#1f5fa8">CA2 (a 8' 7 3/4" del centro)</text>
+<circle cx="260.725" cy="666.0" r="6" fill="#c0392b"/>
+<text x="248.72500000000002" y="671.0" text-anchor="end" font-size="13" font-weight="700" fill="#c0392b">Unión A</text>
+<text x="201.9" y="771.84" text-anchor="end" font-size="14" font-weight="700" fill="#8a6400">A1 hacia afuera</text>
+<text x="201.9" y="787.84" text-anchor="end" font-size="12" fill="#1f5fa8">elipse 2' 8 1/2" x 3' 11"</text>
+<text x="312.1" y="477.0" text-anchor="end" font-size="14" font-weight="700" fill="#8a6400">A2 hacia adentro</text>
+<text x="312.1" y="493.0" text-anchor="end" font-size="12" fill="#1f5fa8">elipse 4' 6 1/4" x 6' 6 1/4"</text>
+<circle cx="533.1641034910867" cy="817.2" r="5" fill="#1f5fa8"/>
+<line x1="533.1641034910867" y1="817.2" x2="888.1" y2="817.2" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="533.1641034910867" y="839.2" text-anchor="middle" font-size="13" font-weight="700" fill="#1f5fa8">CB1</text>
+<circle cx="970.0" cy="414.0" r="5" fill="#1f5fa8"/>
+<line x1="970.0" y1="414.0" x2="550.0" y2="414.0" stroke="#1f5fa8" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="970.0" y="402.0" text-anchor="end" font-size="13" font-weight="700" fill="#1f5fa8">CB2 (a 11' 8 3/4" del centro)</text>
+<circle cx="761.3125" cy="666.0" r="6" fill="#c0392b"/>
+<text x="773.3125" y="671.0" text-anchor="start" font-size="13" font-weight="700" fill="#c0392b">Unión B</text>
+<text x="898.1" y="771.84" text-anchor="start" font-size="14" font-weight="700" fill="#8a6400">B1 hacia afuera</text>
+<text x="898.1" y="787.84" text-anchor="start" font-size="12" fill="#1f5fa8">elipse 7' 0 1/2" x 3' 11"</text>
+<text x="580.0" y="477.0" text-anchor="start" font-size="14" font-weight="700" fill="#8a6400">B2 hacia adentro</text>
+<text x="580.0" y="493.0" text-anchor="start" font-size="12" fill="#1f5fa8">elipse 11' 8 3/4" x 6' 6 1/4"</text>
+<line x1="211.9" y1="973.2" x2="888.1" y2="973.2" stroke="#333" stroke-width="1.2" marker-start="url(#fl)" marker-end="url(#fl)"/>
+<text x="550.0" y="995.2" text-anchor="middle" font-size="14" font-weight="700">ÚLTIMO ESCALÓN 13' 5"</text>
+<line x1="211.9" y1="1013.2" x2="550.0" y2="1013.2" stroke="#333" stroke-width="1.2" marker-start="url(#fl)" marker-end="url(#fl)"/>
+<text x="380.95" y="1033.2" text-anchor="middle" font-size="14" font-weight="700">6' 8 1/2"</text>
+<line x1="550.0" y1="1013.2" x2="888.1" y2="1013.2" stroke="#333" stroke-width="1.2" marker-start="url(#fl)" marker-end="url(#fl)"/>
+<text x="719.05" y="1033.2" text-anchor="middle" font-size="14" font-weight="700">6' 8 1/2"</text>
+<line x1="342.1" y1="148.0" x2="550.0" y2="148.0" stroke="#333" stroke-width="1.2" marker-start="url(#fl)" marker-end="url(#fl)"/>
+<text x="446.05" y="134.0" text-anchor="middle" font-size="14" font-weight="700">4' 1 1/2" terminada</text>
+<line x1="948.1" y1="817.2" x2="948.1" y2="414.0" stroke="#333" stroke-width="1.2" marker-start="url(#fl)" marker-end="url(#fl)"/>
+<text x="956.1" y="615.6" font-size="14" font-weight="700">8' 0"</text>
+<line x1="893.1" y1="817.2" x2="958.1" y2="817.2" stroke="#999" stroke-width="0.8"/>
+<line x1="893.1" y1="414.0" x2="958.1" y2="414.0" stroke="#999" stroke-width="0.8"/>
+<text x="1060.0" y="130" font-size="17" font-weight="700">REPLANTEO (cada 6 pulgadas)</text>
+<text x="1060.0" y="150" font-size="12">Medir desde el escalón hacia la vereda,</text>
+<text x="1060.0" y="166" font-size="12">y de ahí al costado desde la línea de centro.</text>
+<text x="1060.0" y="196" font-size="12" font-weight="700">Desde escalón</text>
+<text x="1165.0" y="196" font-size="12" font-weight="700">Izq. (A)</text>
+<text x="1245.0" y="196" font-size="12" font-weight="700">Der. (B)</text>
+<text x="1325.0" y="196" font-size="12" font-weight="700">Ancho</text>
+<line x1="1060.0" y1="200" x2="1380.0" y2="200" stroke="#ddd"/>
+<text x="1060.0" y="217" font-size="13">0' 0"</text>
+<text x="1165.0" y="217" font-size="13">6' 8 1/2"</text>
+<text x="1245.0" y="217" font-size="13">6' 8 1/2"</text>
+<text x="1325.0" y="217" font-size="13">13' 5"</text>
+<line x1="1060.0" y1="221" x2="1380.0" y2="221" stroke="#ddd"/>
+<text x="1060.0" y="238" font-size="13">0' 6"</text>
+<text x="1165.0" y="238" font-size="13">6' 8 1/4"</text>
+<text x="1245.0" y="238" font-size="13">6' 7 3/4"</text>
+<text x="1325.0" y="238" font-size="13">13' 4"</text>
+<line x1="1060.0" y1="242" x2="1380.0" y2="242" stroke="#ddd"/>
+<text x="1060.0" y="259" font-size="13">1' 0"</text>
+<text x="1165.0" y="259" font-size="13">6' 7 1/2"</text>
+<text x="1245.0" y="259" font-size="13">6' 5 3/4"</text>
+<text x="1325.0" y="259" font-size="13">13' 1"</text>
+<line x1="1060.0" y1="263" x2="1380.0" y2="263" stroke="#ddd"/>
+<text x="1060.0" y="280" font-size="13">1' 6"</text>
+<text x="1165.0" y="280" font-size="13">6' 6"</text>
+<text x="1245.0" y="280" font-size="13">6' 2"</text>
+<text x="1325.0" y="280" font-size="13">12' 8"</text>
+<line x1="1060.0" y1="284" x2="1380.0" y2="284" stroke="#ddd"/>
+<text x="1060.0" y="301" font-size="13">2' 0"</text>
+<text x="1165.0" y="301" font-size="13">6' 4"</text>
+<text x="1245.0" y="301" font-size="13">5' 8 3/4"</text>
+<text x="1325.0" y="301" font-size="13">12' 0 1/2"</text>
+<line x1="1060.0" y1="305" x2="1380.0" y2="305" stroke="#ddd"/>
+<text x="1060.0" y="322" font-size="13">2' 6"</text>
+<text x="1165.0" y="322" font-size="13">6' 1"</text>
+<text x="1245.0" y="322" font-size="13">5' 1"</text>
+<text x="1325.0" y="322" font-size="13">11' 2"</text>
+<line x1="1060.0" y1="326" x2="1380.0" y2="326" stroke="#ddd"/>
+<text x="1060.0" y="343" font-size="13">3' 0"</text>
+<text x="1165.0" y="343" font-size="13">5' 9"</text>
+<text x="1245.0" y="343" font-size="13">4' 2 1/4"</text>
+<text x="1325.0" y="343" font-size="13">9' 11 1/4"</text>
+<line x1="1060.0" y1="347" x2="1380.0" y2="347" stroke="#ddd"/>
+<text x="1060.0" y="364" font-size="13">3' 6"</text>
+<text x="1165.0" y="364" font-size="13">5' 4 1/2"</text>
+<text x="1245.0" y="364" font-size="13">3' 2 3/4"</text>
+<text x="1325.0" y="364" font-size="13">8' 7 1/4"</text>
+<line x1="1060.0" y1="368" x2="1380.0" y2="368" stroke="#ddd"/>
+<text x="1060.0" y="385" font-size="13">4' 0"</text>
+<text x="1165.0" y="385" font-size="13">5' 1"</text>
+<text x="1245.0" y="385" font-size="13">2' 5 1/2"</text>
+<text x="1325.0" y="385" font-size="13">7' 6 1/2"</text>
+<line x1="1060.0" y1="389" x2="1380.0" y2="389" stroke="#ddd"/>
+<text x="1060.0" y="406" font-size="13">4' 6"</text>
+<text x="1165.0" y="406" font-size="13">4' 10"</text>
+<text x="1245.0" y="406" font-size="13">1' 10"</text>
+<text x="1325.0" y="406" font-size="13">6' 8"</text>
+<line x1="1060.0" y1="410" x2="1380.0" y2="410" stroke="#ddd"/>
+<text x="1060.0" y="427" font-size="13">5' 0"</text>
+<text x="1165.0" y="427" font-size="13">4' 7 1/2"</text>
+<text x="1245.0" y="427" font-size="13">1' 3 3/4"</text>
+<text x="1325.0" y="427" font-size="13">5' 11 1/4"</text>
+<line x1="1060.0" y1="431" x2="1380.0" y2="431" stroke="#ddd"/>
+<text x="1060.0" y="448" font-size="13">5' 6"</text>
+<text x="1165.0" y="448" font-size="13">4' 5 3/4"</text>
+<text x="1245.0" y="448" font-size="13">0' 10 3/4"</text>
+<text x="1325.0" y="448" font-size="13">5' 4 1/2"</text>
+<line x1="1060.0" y1="452" x2="1380.0" y2="452" stroke="#ddd"/>
+<text x="1060.0" y="469" font-size="13">6' 0"</text>
+<text x="1165.0" y="469" font-size="13">4' 4"</text>
+<text x="1245.0" y="469" font-size="13">0' 6 3/4"</text>
+<text x="1325.0" y="469" font-size="13">4' 11"</text>
+<line x1="1060.0" y1="473" x2="1380.0" y2="473" stroke="#ddd"/>
+<text x="1060.0" y="490" font-size="13">6' 6"</text>
+<text x="1165.0" y="490" font-size="13">4' 3"</text>
+<text x="1245.0" y="490" font-size="13">0' 3 3/4"</text>
+<text x="1325.0" y="490" font-size="13">4' 6 3/4"</text>
+<line x1="1060.0" y1="494" x2="1380.0" y2="494" stroke="#ddd"/>
+<text x="1060.0" y="511" font-size="13">7' 0"</text>
+<text x="1165.0" y="511" font-size="13">4' 2 1/4"</text>
+<text x="1245.0" y="511" font-size="13">0' 1 3/4"</text>
+<text x="1325.0" y="511" font-size="13">4' 3 3/4"</text>
+<line x1="1060.0" y1="515" x2="1380.0" y2="515" stroke="#ddd"/>
+<text x="1060.0" y="532" font-size="13">7' 6"</text>
+<text x="1165.0" y="532" font-size="13">4' 1 3/4"</text>
+<text x="1245.0" y="532" font-size="13">0' 0 1/2"</text>
+<text x="1325.0" y="532" font-size="13">4' 2"</text>
+<line x1="1060.0" y1="536" x2="1380.0" y2="536" stroke="#ddd"/>
+<text x="1060.0" y="553" font-size="13">8' 0"</text>
+<text x="1165.0" y="553" font-size="13">4' 1 1/2"</text>
+<text x="1245.0" y="553" font-size="13">0' 0"</text>
+<text x="1325.0" y="553" font-size="13">4' 1 1/2"</text>
+<text x="1060.0" y="593" font-size="12" font-weight="700">SUPUESTOS (confirmar antes de armar):</text>
+<text x="1060.0" y="611" font-size="12" font-weight="400">- Vereda existente 4' 1 1/2" (medida).</text>
+<text x="1060.0" y="629" font-size="12" font-weight="400">- Su borde DERECHO cae en el centro de la</text>
+<text x="1060.0" y="647" font-size="12" font-weight="400">  escalera: el lado ancho queda a la derecha.</text>
+<text x="1060.0" y="665" font-size="12" font-weight="400"></text>
+<text x="1060.0" y="683" font-size="12" font-weight="700">CÓMO ES CADA LADO (curva en S):</text>
+<text x="1060.0" y="701" font-size="12" font-weight="400">- Arco 1 hacia afuera: sale derecho de la</text>
+<text x="1060.0" y="719" font-size="12" font-weight="400">  punta del escalón. Centro sobre la línea</text>
+<text x="1060.0" y="737" font-size="12" font-weight="400">  del escalón (CA1, CB1).</text>
+<text x="1060.0" y="755" font-size="12" font-weight="400">- Arco 2 hacia adentro: llega derecho al</text>
+<text x="1060.0" y="773" font-size="12" font-weight="400">  borde de la vereda. Centro sobre la línea</text>
+<text x="1060.0" y="791" font-size="12" font-weight="400">  de la vereda vieja (CA2, CB2).</text>
+<text x="1060.0" y="809" font-size="12" font-weight="400">- Se cruzan en diagonal a 3' 0" del</text>
+<text x="1060.0" y="827" font-size="12" font-weight="400">  escalón: la curva no se aplana ni quiebra.</text>
+<text x="1060.0" y="845" font-size="12" font-weight="400">- Clavar estacas en los puntos (o) de la tabla</text>
+<text x="1060.0" y="863" font-size="12" font-weight="400">  y doblar la tabla/flex (masonite) por ellos.</text>
+<text x="1060.0" y="881" font-size="12" font-weight="400"></text>
+<text x="1060.0" y="899" font-size="12" font-weight="700">CANTIDADES:</text>
+<text x="1060.0" y="917" font-size="12" font-weight="400">- Superficie: 67 pies cuadrados.</text>
+<text x="1060.0" y="935" font-size="12" font-weight="400">- Hormigón a 4": 0.82 yd³</text>
+<text x="1060.0" y="953" font-size="12" font-weight="400">  (con 10% de desperdicio: 0.90 yd³).</text>
+<text x="130" y="40" font-size="24" font-weight="700" font-family="Cinzel, serif">VEREDA CON ARCOS ELÍPTICOS EN S — OPCIÓN 3 · ENTRADA LARGA Y SUAVE</text>
+<text x="130" y="64" font-size="13">MOP Construction · 27-oct-2026 · medidas en pies y pulgadas · sin escala para presupuesto</text>
+</svg>
