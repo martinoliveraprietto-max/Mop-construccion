@@ -98,6 +98,10 @@ cómo se mide. Regla: se prueba barato y rápido; si en 30 días no vende, se co
 
 Recomendación del coach creativo: probar a la vez las 3 que cuestan casi cero (2, 3 y 4) durante 30 días, y la 1 con
 una sola caja de prueba si Martin quiere ir por el patito.
+Ranking pedido por Martin (27-oct: más rentable, rápida y con menos esfuerzo): 1.º jingles y canciones con IA (n.º 8:
+primera venta en días, costo casi cero, ganancia casi toda; no es pasivo); 2.º remeras impresas a pedido (n.º 2: lo más
+pasivo, pero lento y de poca ganancia por unidad); 3.º patito (n.º 1: divertido y con moda real, pero lleva stock y envíos).
+Todo sin probar: se valida con 3 clientes o 30 días.
 
 ## Cómo se entrega un estimado (regla de Martin, 22-oct-2026)
 Vale para TODA sesión que arme un estimado o propuesta (mop-estimador u otra). Leer esto antes de empezar.
