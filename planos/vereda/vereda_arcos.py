@@ -11,7 +11,9 @@ ANCHO_ESCALON = 13 * 12 + 5      # 161" último escalón
 LARGO = 8 * 12                   # 96" de la escalera a la vereda existente
 ANCHO_VEREDA = 49.5              # vereda existente 4' 1 1/2" terminada (Martin, 27-oct)
 # --- SUPUESTOS (confirmar en obra) ---
-BORDE_IZQ_VEREDA = 0             # borde izquierdo de la vereda = centro de la escalera
+BORDE_IZQ_VEREDA = -ANCHO_VEREDA # borde DERECHO de la vereda = centro de la escalera:
+                                 # el lado ancho queda a la derecha (foto de Martin, 27-oct)
+ESPESOR = 4                      # losa de 4" (para el cálculo de hormigón)
                                  # (mirando desde la escalera hacia la vereda)
 
 xs_izq, xs_der = -ANCHO_ESCALON / 2, ANCHO_ESCALON / 2
@@ -61,6 +63,14 @@ def x_en(xs, xe, y):
         t = math.asin(min(1.0, y / by))
         return xs + ax * (1 - math.cos(t))
     return 2 * xm(xs, xe) - x_en(xs, xe, LARGO - y)
+
+
+def area_pie2():
+    n, total = 400, 0.0
+    for i in range(n):
+        y = (i + 0.5) * LARGO / n
+        total += (x_en(xs_der, xe_der, y) - x_en(xs_izq, xe_izq, y)) * LARGO / n
+    return total / 144
 
 
 def pies(p):
@@ -124,14 +134,22 @@ def svg():
     contorno = pts + ptd[::-1]
     d = "M" + " L".join(f"{X(x):.1f},{Y(y):.1f}" for x, y in contorno) + "Z"
     a(f'<path d="{d}" fill="url(#hor)" stroke="none"/>')
+    # estacas cada 6"
+    for k in range(1, 16):
+        y = k * 6
+        for xs, xe in ((xs_izq, xe_izq), (xs_der, xe_der)):
+            a(f'<circle cx="{X(x_en(xs, xe, y)):.1f}" cy="{Y(y):.1f}" r="3.2" fill="#fff" stroke="#5a4a20" stroke-width="1.5"/>')
     for p, col in ((pts, "#b8860b"), (ptd, "#b8860b")):
         d = "M" + " L".join(f"{X(x):.1f},{Y(y):.1f}" for x, y in p)
         a(f'<path d="{d}" fill="none" stroke="{col}" stroke-width="4"/>')
-    a(f'<text x="{X(26)}" y="{Y(42)}" text-anchor="middle" font-size="16" font-weight="700" fill="#5a4a20">VEREDA NUEVA</text>')
+    a(f'<text x="{X(18)}" y="{Y(30)}" text-anchor="middle" font-size="16" font-weight="700" fill="#5a4a20">VEREDA NUEVA</text>')
 
     # Centro de escalera
     a(f'<line x1="{X(0)}" y1="{Y(-30)}" x2="{X(0)}" y2="{Y(LARGO+66)}" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="12 5 3 5"/>')
-    a(f'<text x="{X(0)-6}" y="{Y(LARGO+64)}" text-anchor="end" font-size="12" fill="#c0392b">CENTRO ESCALERA</text>')
+    a(f'<text x="{X(0)+6}" y="{Y(LARGO+64)}" text-anchor="start" font-size="12" fill="#c0392b">CENTRO ESCALERA</text>')
+    a(f'<text x="{X(0)}" y="{Y(-30)+110}" text-anchor="middle" font-size="12" fill="#555">Visto parado en la escalera, mirando hacia la vereda vieja</text>')
+    for xx, txt in ((xs_izq, "LADO ANGOSTO"), (xs_der, "LADO ANCHO")):
+        a(f'<text x="{X(xx)+(-10 if xx<0 else 10)}" y="{Y(-12)}" text-anchor="{"end" if xx<0 else "start"}" font-size="13" font-weight="700" fill="#555">{txt}</text>')
 
     # Centros de las elipses, unión y semiejes
     for xs, xe, lado in ((xs_izq, xe_izq, "A"), (xs_der, xe_der, "B")):
@@ -184,8 +202,8 @@ def svg():
     notas = [
         "SUPUESTOS (confirmar antes de armar):",
         f"- Vereda existente {pies(ANCHO_VEREDA)} (medida).",
-        "- Su borde izquierdo cae en el centro",
-        "  de la escalera (mirando desde la escalera).",
+        "- Su borde DERECHO cae en el centro de la",
+        "  escalera: el lado ancho queda a la derecha.",
         "",
         "CÓMO ES CADA LADO (curva en S):",
         "- Arco 1 hacia afuera: sale derecho de la",
@@ -196,8 +214,13 @@ def svg():
         "  de la vereda vieja (CA2, CB2).",
         f"- Se cruzan en diagonal a {pies(UNION)} del",
         "  escalón: la curva no se aplana ni quiebra.",
-        "- Clavar estacas en los puntos de la tabla",
+        "- Clavar estacas en los puntos (o) de la tabla",
         "  y doblar la tabla/flex (masonite) por ellos.",
+        "",
+        "CANTIDADES:",
+        f"- Superficie: {area_pie2():.0f} pies cuadrados.",
+        f"- Hormigón a {ESPESOR}\": {area_pie2()*ESPESOR/12/27:.2f} yd³",
+        f"  (con 10% de desperdicio: {area_pie2()*ESPESOR/12/27*1.1:.2f} yd³).",
     ]
     for t in notas:
         a(f'<text x="{tx}" y="{yy}" font-size="12" font-weight="{"700" if t.endswith(":") else "400"}">{t}</text>')
