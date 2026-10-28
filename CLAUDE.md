@@ -5,8 +5,8 @@ estimador), dónde está cada cosa y qué decisiones de Martin están pendientes
 
 Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cortos, uno por vez.
 Martin es uruguayo. Al final de cada respuesta, mandarle también un audio con lo importante, con voz
-uruguaya de hombre: `python3 scripts/hablar.py "..." respuesta.mp3` (edge-tts con el certificado de la nube
-y voz de Google de respaldo) en el directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el 27-sep.
+uruguaya de hombre: `python3 scripts/hablar.py "..." respuesta.html` (edge-tts con el certificado de la nube
+y voz de Google de respaldo) en el directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el 27-sep. Desde el 28-oct va SIEMPRE en .html (página con el audio adentro), nunca .mp3 suelto.
 
 ## Cómo trabajar con Martin: "segundo cerebro" (pedido de Martin, 1-oct)
 - Ser "Mr. Solution": nunca contestar un "no" seco. Siempre: por qué no + 2 o 3 soluciones concretas

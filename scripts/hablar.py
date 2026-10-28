@@ -2,7 +2,11 @@
 """Arma el audio para Martin con voz uruguaya de hombre (edge-tts, es-UY-MateoNeural).
 
 Uso:
-  python3 scripts/hablar.py "texto" ruta/respuesta.mp3
+  python3 scripts/hablar.py "texto" ruta/respuesta.html   (lo normal: página con el audio adentro)
+  python3 scripts/hablar.py "texto" ruta/respuesta.mp3    (solo el audio)
+
+Martin pidió el 28-oct: "audios en html, no más mp3". Con .html sale una página con el reproductor
+y el audio adentro (no depende de otro archivo), más el texto escrito debajo.
 
 En la nube, edge-tts falla con "certificate verify failed" porque no conoce el certificado
 del proxy (pasó el 16, el 20 y el 21-oct): acá se le pasa ese certificado directamente.
@@ -11,6 +15,8 @@ de Google (gTTS, acento de Argentina) para que Martin nunca se quede sin audio.
 Martin pidió más volumen (27-oct): la voz sale más fuerte y después se normaliza con FFmpeg.
 """
 import asyncio
+import base64
+import html
 import os
 import ssl
 import subprocess
@@ -53,16 +59,44 @@ def subir_volumen(salida):
         print(f"No se pudo subir el volumen: {error}", file=sys.stderr)
 
 
+def pagina(texto, mp3, salida):
+    """Arma la página con el audio adentro, con los colores de MOP."""
+    with open(mp3, "rb") as archivo:
+        datos = base64.b64encode(archivo.read()).decode()
+    with open(salida, "w", encoding="utf-8") as archivo:
+        archivo.write(f"""<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audio para Martin</title>
+<style>
+body{{margin:0;background:#0d0c0a;color:#f3ead6;font:18px/1.5 system-ui,sans-serif;padding:24px 16px}}
+h1{{color:#e6c97e;font-size:20px;margin:0 0 16px}}
+audio{{width:100%;margin-bottom:20px}}
+p{{white-space:pre-wrap;margin:0}}
+</style></head><body>
+<h1>MOP · audio</h1>
+<audio controls autoplay src="data:audio/mpeg;base64,{datos}"></audio>
+<p>{html.escape(texto)}</p>
+</body></html>
+""")
+
+
 def main():
     if len(sys.argv) != 3:
         sys.exit(__doc__)
     texto, salida = sys.argv[1], sys.argv[2]
+    final = salida
+    if salida.endswith(".html"):
+        salida = salida[:-5] + ".mp3"
     for nombre, hacer in (("edge-tts", con_edge), ("Google", con_google)):
         try:
             hacer(texto, salida)
             if os.path.getsize(salida) > 1000:
                 subir_volumen(salida)
-                print(f"Audio listo ({nombre}): {salida}")
+                if final != salida:
+                    pagina(texto, salida, final)
+                    os.remove(salida)
+                print(f"Audio listo ({nombre}): {final}")
                 return
             print(f"{nombre} dejó el audio vacío.", file=sys.stderr)
         except Exception as error:
