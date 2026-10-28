@@ -117,6 +117,21 @@ Miami, 20 años de oficio, bilingüe, y lo que Claude ya sabe hacer (libros, voz
    bilingüe más un audiolibro con su voz real. Para hijos y nietos inmigrantes que no quieren perder esas historias.
 13. "La casa contada": al dueño de una casa nueva se le entrega un libro y un video de cómo se construyó su casa,
    desde el terreno hasta la llave (fotos de obra, 3D y fechas). Se le vende a constructoras como regalo de entrega.
+Productos tecnológicos con hueco en el mercado (28-oct, Martin: "algo tecnológico, que la gente necesite, con espacio
+para crecer"). Antes de programar nada, se valida con 5 charlas con posibles clientes:
+14. Asistente por WhatsApp para subcontratistas hispanos: por audio en español arma la factura, el recibo de pago
+   parcial (lien waiver), avisa los plazos de la ley de Florida para cobrar (el aviso al dueño de 45 días) y persigue
+   los pagos atrasados. Necesidad: muchos subcontratistas latinos pierden plata por papeles en inglés y plazos que no
+   conocen. Ventaja de Martin: lo vive todos los días. Cobro: cuota mensual.
+15. "Prueba para el seguro" antes del huracán: con el celular se filma la casa o el negocio, la IA arma el inventario
+   de cosas con valor aproximado y fotos, y un informe con fecha para el reclamo al seguro. Necesidad: en Florida muchos
+   reclamos se traban por falta de pruebas. Se vende a dueños, inquilinos y por medio de agentes de seguro.
+16. Lector de cartas para inmigrantes: le sacás foto a una carta (banco, escuela, IRS, cuenta) y por WhatsApp te
+   explica en español qué es, qué hay que hacer y para cuándo, y te lo recuerda. Ojo: no da consejo legal ni de
+   inmigración; solo lee, explica y recuerda.
+17. Recepcionista con voz en español para negocios latinos chicos que pierden llamadas: atiende 24 horas por teléfono
+   o WhatsApp, toma pedidos y agenda. Cuota mensual.
+
 
 
 Recomendación del coach creativo: probar a la vez las 3 que cuestan casi cero (2, 3 y 4) durante 30 días, y la 1 con
