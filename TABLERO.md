@@ -101,6 +101,11 @@ cómo se mide. Regla: se prueba barato y rápido; si en 30 días no vende, se co
 7. Comunidad "Uruguayos en Miami" (Instagram o boletín por correo) con avisos pagos de negocios locales.
 8. Canciones y jingles con IA para negocios locales (cumpleaños, restaurantes, peluquerías): servicio barato y rápido.
 9. Juego de cartas o trivia uruguaya impreso a pedido, para regalar en las fiestas.
+10. (28-oct, del reel de francisco.carosia sobre el paquete oficial de Expo para Claude Code) Apps de turnos para
+   negocios latinos chicos (peluquerías, barberías, uñas, talleres): Claude la arma con Expo, el dueño la abre con un
+   QR y saca turnos con recordatorios. Se cobra la instalación y una cuota mensual por mantenerla (la parte más
+   parecida a un ingreso pasivo). Primer paso: una app de muestra para una peluquería imaginaria y ofrecérsela a 3
+   negocios conocidos. Costo: US$0 para la muestra; publicarla en las tiendas tiene costo (cuentas de Apple y Google).
 
 Recomendación del coach creativo: probar a la vez las 3 que cuestan casi cero (2, 3 y 4) durante 30 días, y la 1 con
 una sola caja de prueba si Martin quiere ir por el patito.
@@ -183,6 +188,7 @@ Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca a
 - 27-oct-2026 · Claude Code · Audios más fuertes (pedido de Martin): scripts/hablar.py sube la voz y normaliza con FFmpeg, unos 6 dB más · sesiones de mop-estimador y de los bots: copiar el mismo cambio a su herramientas/hablar.py.
 - 27-oct-2026 · Claude Code · Martin pidió ingresos pasivos (publicación de salazar.ivan12, que vende una academia) · propuesta: 1) vender cómputos y planillas de hierro a otros subcontratistas con el estimador que ya existe (rápido, semi pasivo), 2) plantillas digitales para subcontratistas hispanos (pasivo, ingreso chico al principio), 3) el estimador como suscripción mensual para otros (el más grande, meses de trabajo); fabrica-canales sigue · Martin: elegir; nada se manda ni se cobra sin su aprobado.
 - 27-oct-2026 · Claude Code · Coach creativo sumado al consejo (14.º, en CLAUDE.md) y sección nueva "Ideas fuera de la caja" con 9 ideas fuera de la construcción y los bots · Martin: elegir cuáles se prueban 30 días.
+- 28-oct-2026 · Claude Code · Reel de francisco.carosia: paquete oficial de Expo para Claude Code (hacer apps de celular de verdad) · MOP Estimator ya está hecho con Expo (se actualiza al celular con EAS) y esta sesión tiene el conector de Expo; lo útil: que la sesión del estimador use ese paquete oficial, y una idea nueva fuera de la caja (n.º 10: apps de turnos para negocios latinos con cuota mensual).
 
 ## Anticipación
 Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo / pendiente de conexión / pendiente de Martin.
