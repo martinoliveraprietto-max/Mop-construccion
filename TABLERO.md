@@ -77,6 +77,7 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 ---
 
 ## Mensajes entre asistentes
+- 28-oct-2026 · Claude Code · creé la habilidad audio-para (mop-estimador) porque Martin pidió poder reenviarle a Danny el audio con el resumen; se usa diciendo "un audio para Danny" o /audio-para <nombre>. Primer uso: Oakland Park (la constructora pide propuesta firme para la revisión del jueves 29).
 Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca al siguiente.
 
 - 14-oct-2026 · Claude Code · Creé TABLERO, OBSERVACIONES, HABILIDADES, habilidades estado-de-obra, anticipar, cuestionar, explorador e instagram-lectura, comandos y ganchos; cargué las 6 obras; corrí /explorar; armé fabrica-canales (local, falta crear el repositorio en GitHub) · Kilwins vence el miércoles 14-oct; Galleria sin contestar; Sedano's tiene una pregunta de Nicole sin respuesta; no se pudo crear el repositorio fabrica-canales desde la nube (GitHub 403) · Martin: (hecho) repositorio creado y código subido; chat de texto: borrador de respuesta a Nicole (Galleria y Sedano's) para el "aprobado"; Martin: decidir Blue Door.
