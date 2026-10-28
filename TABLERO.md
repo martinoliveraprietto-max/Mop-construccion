@@ -106,6 +106,18 @@ cómo se mide. Regla: se prueba barato y rápido; si en 30 días no vende, se co
    QR y saca turnos con recordatorios. Se cobra la instalación y una cuota mensual por mantenerla (la parte más
    parecida a un ingreso pasivo). Primer paso: una app de muestra para una peluquería imaginaria y ofrecérsela a 3
    negocios conocidos. Costo: US$0 para la muestra; publicarla en las tiendas tiene costo (cuentas de Apple y Google).
+Ideas propias (28-oct, Martin: "estás siguiendo una idea, no creando una"). Salen de lo que Martin es: uruguayo en
+Miami, 20 años de oficio, bilingüe, y lo que Claude ya sabe hacer (libros, voz, video, 3D):
+11. "Cuentos con la voz del abuelo": libro infantil bilingüe personalizado donde el nieto que vive en EE.UU. es el
+   protagonista junto a sus abuelos que están en Uruguay o en Latinoamérica, con un QR en cada página que reproduce la
+   voz del abuelo leyendo ese pedazo. Se imprime a pedido y se vende como regalo para familias inmigrantes. Existen por
+   separado los libros personalizados y los libros con voz grabada; la mezcla para familias separadas por la
+   distancia es nuestra. Primer paso: una muestra de 8 páginas. Costo de la muestra: US$0.
+12. "Memorias de familia": se graba en charlas al abuelo o la abuela contando su vida, y se entrega un libro impreso
+   bilingüe más un audiolibro con su voz real. Para hijos y nietos inmigrantes que no quieren perder esas historias.
+13. "La casa contada": al dueño de una casa nueva se le entrega un libro y un video de cómo se construyó su casa,
+   desde el terreno hasta la llave (fotos de obra, 3D y fechas). Se le vende a constructoras como regalo de entrega.
+
 
 Recomendación del coach creativo: probar a la vez las 3 que cuestan casi cero (2, 3 y 4) durante 30 días, y la 1 con
 una sola caja de prueba si Martin quiere ir por el patito.
