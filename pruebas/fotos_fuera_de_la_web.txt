@@ -9,8 +9,6 @@
 11.jpg  fuera de las 12 elegidas
 15.jpg  fuera de las 12 elegidas
 16.jpg  fuera de las 12 elegidas
-20.jpg  fuera de las 12 elegidas
-23.jpg  fuera de las 12 elegidas
 25.jpg  persona al fondo
 29.jpg  fuera de las 12 elegidas
 30.jpg  fuera de las 12 elegidas
@@ -25,7 +23,6 @@
 55.jpg  persona en el techo
 56.jpg  fuera de las 12 elegidas
 57.jpg  persona en andamio sin casco
-58.jpg  fuera de las 12 elegidas
 60.jpg  persona sin casco
 62.jpg  fuera de las 12 elegidas
 63.jpg  fuera de las 12 elegidas
@@ -47,10 +44,17 @@
 82.jpg  pierna de persona en el borde
 83.jpg  gente en altura, arnés no visible
 84.jpg  fuera de las 12 elegidas
-87.jpg  fuera de las 12 elegidas
 88.jpg  brazo de persona en el borde
 90.jpg  fuera de las 12 elegidas
 91.jpg  personas en altura sin casco ni arnés
 93.jpg  persona en el techo, arnés no visible
 94.jpg  fuera de las 12 elegidas
 95.jpg  fuera de las 12 elegidas
+17.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+18.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+26.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+48.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+61.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+75.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+86.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+92.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
