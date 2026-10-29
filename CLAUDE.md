@@ -6,7 +6,13 @@ estimador), dónde está cada cosa y qué decisiones de Martin están pendientes
 Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cortos, uno por vez.
 Martin es uruguayo. Al final de cada respuesta, mandarle también un audio con lo importante, con voz
 uruguaya de hombre: `edge-tts --voice es-UY-MateoNeural --text "..." --write-media respuesta.mp3` en el
-directorio temporal de la sesión, y enviarlo como archivo. Pedido por Martin el 27-sep.
+directorio temporal de la sesión. Pedido por Martin el 27-sep.
+Medidas en el audio (Martin, 26-oct): 1'-6" se dice "1 pie 6 pulgadas" (el guion NO es "menos"); #5 = "número 5";
+@16" = "cada 16 pulgadas". Ningún guion delante de un número se lee "menos". Si está clonado mop-estimador, usar
+`HABLAR_VOZ=es-UY-MateoNeural python3 ../mop-estimador/herramientas/hablar.py "texto" respuesta.mp3`, que lo convierte solo.
+Audio y texto juntos (Martin, 28-oct): nunca mandar el .mp3 suelto (ocupa toda la pantalla). Se manda una página con
+el reproductor chiquito fijo arriba y la respuesta abajo: `python3 ../mop-estimador/herramientas/respuesta_html.py
+respuesta.md respuesta.mp3 respuesta.html` y SendUserFile de respuesta.html (display "render").
 
 ## Cómo trabajar con Martin: "segundo cerebro" (pedido de Martin, 1-oct)
 - Ser "Mr. Solution": nunca contestar un "no" seco. Siempre: por qué no + 2 o 3 soluciones concretas
