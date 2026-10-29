@@ -14,7 +14,6 @@
 30.jpg  fuera de las 12 elegidas
 31.jpg  fuera de las 12 elegidas
 35.jpg  gente al fondo sin casco
-36.jpg  fuera de las 12 elegidas
 45.jpg  persona en el techo, arnés no visible
 46.jpg  gente en andamio sin casco
 49.jpg  fuera de las 12 elegidas
@@ -34,8 +33,6 @@
 70.jpg  fuera de las 12 elegidas
 71.jpg  persona sobre muro alto, arnés no visible
 72.jpg  persona en escalera sin casco
-73.jpg  fuera de las 12 elegidas
-74.jpg  fuera de las 12 elegidas
 76.jpg  pared con nichos: la sacó Martin el 27-sep
 77.jpg  persona sin casco
 78.jpg  persona sin casco
@@ -58,3 +55,7 @@
 75.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
 86.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
 92.jpg  fuera de la web: la web muestra solo framing y carpintería (Martin, 29-oct-2026)
+03.jpg  foto de techo: fuera de la web (Martin, 29-oct-2026)
+38.jpg  foto de techo: fuera de la web (Martin, 29-oct-2026)
+69.jpg  foto de techo: fuera de la web (Martin, 29-oct-2026)
+87.jpg  foto de techo: fuera de la web (Martin, 29-oct-2026)
