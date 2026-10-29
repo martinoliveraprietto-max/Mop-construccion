@@ -15,7 +15,7 @@ description: (Pendiente de conexión) Leer reels para sacar ideas de contenido: 
 - Publicar ya funciona (scripts/publicar.py, token en INSTAGRAM_TOKEN).
 
 ## Caminos (de más fácil a más completo)
-1. Martin comparte el enlace del reel en el chat o lo sube a Drive ("Mop instagram"). Costo cero. El texto y la cuenta se leen con `yt-dlp --skip-download --dump-json <enlace>` (probado 29-oct); el video se baja solo si Martin lo sube.
+1. Martin comparte el enlace del reel en el chat o lo sube a Drive ("Mop instagram"). Costo cero. El texto y la cuenta se leen con `yt-dlp --skip-download --dump-json <enlace>` (probado 29-oct). Si es carrusel de fotos, yt-dlp falla: bajar `https://www.instagram.com/p/<código>/embed/captioned/`, sacar los `display_url` y leer las imágenes (probado 29-oct). El video se baja solo si Martin lo sube.
 2. Martin arma una colección guardada y pasa los enlaces de a varios. Costo cero.
 3. Business Discovery (API Graph con inicio de sesión de Facebook): datos públicos de cuentas de empresa o creador (texto, me gusta, comentarios). Requiere página de Facebook vinculada y permiso extra. Documentación: https://developers.facebook.com/docs/instagram-platform
 
