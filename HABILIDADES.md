@@ -24,4 +24,9 @@ Formato: nombre · qué hace · estado · versión · fecha · veces usada
 - prospecting · armar listas de prospectos con señales y puntaje · instalada de skills.sh, sin adaptar a MOP (mejoras pendientes de aprobación de Martin) · v0 · 16-oct-2026 · 0
 - sales-enablement · objeciones, una hoja para el cliente y análisis de ganadas y perdidas · instalada de skills.sh, sin adaptar a MOP (mejoras pendientes de aprobación de Martin) · v0 · 16-oct-2026 · 0
 - offers · diseño de la oferta: valor, garantías, escasez real · instalada de skills.sh, sin adaptar a MOP (mejoras pendientes de aprobación de Martin) · v0 · 16-oct-2026 · 0
+- humanizer · saca las muletillas de la IA de los textos que salen con el nombre de Martin (Instagram, correos, web), en inglés y español · activa · v1 (adaptada a MOP) · 1-nov-2026 · 1 (prueba con el Reel 02) · fuente github.com/blader/humanizer, MIT
+- hook-generator · 6 ganchos de dos líneas para una publicación · activa · v1 (adaptada a MOP: Instagram, no LinkedIn) · 1-nov-2026 · 0 · fuente github.com/charlie947/social-media-skills, MIT
+- post-formatter · arma una publicación con una estructura fija (problema-solución, antes-después) · activa · v1 (adaptada a MOP) · 1-nov-2026 · 0 · misma fuente
+- content-matrix · 24 a 40 ideas de publicaciones cruzando temas de MOP con 8 formatos · activa · v1 (adaptada a MOP) · 1-nov-2026 · 0 · misma fuente
+- post-writer · escribe la publicación con la voz de MOP (lee CLAUDE.md, textos.txt y cola.json) · activa · v1 (adaptada a MOP) · 1-nov-2026 · 0 · misma fuente
 - cazador (en mop-estimador) · cada mañana: permisos y licitaciones de Miami-Dade, filtro de cuatro reglas, puntaje 0-100, cinco oportunidades con guion de llamada y borrador; embudo los viernes · activa (solo borradores: nada se manda sin el aprobado de Martin) · v1 · 15-oct-2026 · 1 (primera corrida)
