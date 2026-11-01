@@ -89,6 +89,7 @@ Los mensajes hasta el 24-oct están en `archivo/TABLERO-mensajes-hasta-24-oct-20
 - 1-nov-2026 · Claude Code · Página "Cerebro MOP" en claude.ai para el celular (el panel del mod no se ve en el teléfono): lee en vivo las fichas y la tabla tablero de Supabase con la conexión de Martin; enlace en HISTORIA.md y CEREBRO_MOP.md · Martin: abrirla y decir si se ve bien.
 - 1-nov-2026 · Claude Code · Memoria para todo Claude (Martin: "dale"): mop-estimador muestra CALIENTE.md al arrancar y tiene la habilidad memoria (main 835bc59); la tarea de las 6:27 pone arriba del TABLERO de Martin el bloque CEREBRO MOP (enlace y 5 urgencias); a Martin se le pasó la frase para sus preferencias de claude.ai · ojo: el CLAUDE.md de mop-estimador pesa 75 KB, conviene adelgazarlo · Martin: pegar la frase en Ajustes.
 - 1-nov-2026 · Claude Code · Creé la habilidad mesa (Martin: "dale, armá la habilidad mesa"): 3 coaches con métodos probados sobre los datos de la memoria, abogado del diablo y recomendación; primera prueba con Call Your Mother Deli · Martin: decidir CYM antes del jueves 5-nov.
+- 1-nov-2026 · Claude Code · Martin pidió cerrar este chat y abrir otro: traspaso en `archivo/TRASPASO-2026-11-01.md` (qué se hizo y qué queda) · el chat nuevo arranca leyendo ese archivo · chat nuevo: revisar la corrida de las 6:27 del lunes a las 7:15 y preguntar por Call Your Mother Deli.
 ---
 
 ## Anticipación
