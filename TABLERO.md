@@ -90,6 +90,7 @@ Los mensajes hasta el 24-oct están en `archivo/TABLERO-mensajes-hasta-24-oct-20
 - 1-nov-2026 · Claude Code · Memoria para todo Claude (Martin: "dale"): mop-estimador muestra CALIENTE.md al arrancar y tiene la habilidad memoria (main 835bc59); la tarea de las 6:27 pone arriba del TABLERO de Martin el bloque CEREBRO MOP (enlace y 5 urgencias); a Martin se le pasó la frase para sus preferencias de claude.ai · ojo: el CLAUDE.md de mop-estimador pesa 75 KB, conviene adelgazarlo · Martin: pegar la frase en Ajustes.
 - 1-nov-2026 · Claude Code · Creé la habilidad mesa (Martin: "dale, armá la habilidad mesa"): 3 coaches con métodos probados sobre los datos de la memoria, abogado del diablo y recomendación; primera prueba con Call Your Mother Deli · Martin: decidir CYM antes del jueves 5-nov.
 - 1-nov-2026 · Claude Code · Martin pidió cerrar este chat y abrir otro: traspaso en `archivo/TRASPASO-2026-11-01.md` (qué se hizo y qué queda) · el chat nuevo arranca leyendo ese archivo · chat nuevo: revisar la corrida de las 6:27 del lunes a las 7:15 y preguntar por Call Your Mother Deli.
+- 1-nov-2026 · Claude Code (chat nuevo) · Martin aprobó la recomendación de la mesa para Call Your Mother Deli: anotada en Decisiones y en la memoria; revisión de la tarea 6:27 programada para el lunes 7:15 de Miami · Martin: plano a la bandeja el lunes a la noche.
 ---
 
 ## Anticipación
@@ -133,6 +134,7 @@ Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo /
 ## Decisiones
 Formato: fecha · decisión · qué se esperaba · qué pasó (se completa a los 30 días).
 
+- 1-nov-2026 · Call Your Mother Deli (Fortum): se cotiza, con condición (recomendación de la mesa, aprobada por Martin). RememBR va primero; lunes 2-nov a la noche plano a la bandeja; martes llamar a Fortum por CYM y las 3 propuestas que esperan; miércoles propuesta solo con lo de MOP · Esperado: propuesta entregada antes del jueves 5-nov sin atrasar RememBR · Qué pasó: revisar el 1-dic-2026.
 - 13-oct-2026 · Arranca el proyecto fabrica-canales (prueba de 60 días, meta: un canal con 1.000 suscriptores; si a los 30 días ningún canal crece, se para) · Esperado: canal que crezca sin trabajo de Martin · Qué pasó: revisar el 12-nov-2026.
 - 13-oct-2026 · Sistema de asistentes con tablero y habilidades que se crean solas · Esperado: menos pedidos repetidos y nada vencido sin aviso · Qué pasó: revisar el 12-nov-2026.
 - 15-oct-2026 · Los videos y el 3D para el cliente llevan SIEMPRE render profesional (Blender, materiales y luces reales), en todas las obras · Esperado: que el cliente vea la obra terminada como una foto real y eso ayude a ganar trabajos · Qué pasó: revisar el 14-nov-2026.
