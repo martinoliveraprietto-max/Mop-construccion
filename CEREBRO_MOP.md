@@ -66,7 +66,7 @@ Cuando la ficha no alcanza: busca en Supabase, Drive, Gmail, los repositorios y 
 
 ## Hecho el 1-nov-2026
 - Fase 0: `CALIENTE.md` y el gancho de inicio nuevo (`.claude/hooks/leer_tablero.sh`): pasó de unos 16 KB (cortado a 2 KB) a unos 1,6 KB que se ven enteros.
-- Fase 1: tablas `memoria_fichas` y `memoria_hechos` y la función `memoria_buscar` (migración `supabase/migrations/20261101190000_memoria.sql`), herramienta `herramientas/memoria.py` con 7 pruebas (`pruebas/prueba_memoria.py`), habilidad `memoria`, carga inicial de 30 fichas desde el TABLERO de Martin del 1-nov.
+- Fase 1: tablas `memoria_fichas` y `memoria_hechos` y la función `memoria_buscar` (migración `supabase/migrations/20261101190000_memoria.sql`), herramienta `herramientas/memoria.py` con 7 pruebas (`pruebas/prueba_memoria.py`), habilidad `memoria`. Carga inicial de 30 fichas lista; la migración en Supabase espera la confirmación de Martin (Supabase pidió confirmar y nadie contestó a tiempo).
 - Fase 2: `buscar-papeles` v2 (la araña que aprende), `herramientas/transcribir.py` para audios.
 - Fase 3: la tarea de las 6:27 rehace el cartel y revisa la memoria; TABLERO.md (27 a 18 KB) e HISTORIA.md (26 a 16 KB) adelgazados, lo viejo en `archivo/`.
 - Fase 4 (pestaña "Memoria" en la app del estimador): queda para diciembre, como dice el plan.
