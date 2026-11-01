@@ -103,6 +103,7 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
 
 ## Dónde está cada cosa
 | Qué | Dónde |
+- Plan maestro de memoria (Cerebro MOP, 1-nov-2026, espera aprobado): `CEREBRO_MOP.md`.
 |---|---|
 | Página web | este repo (`index.html`, `img/`), en línea: https://martinoliveraprietto-max.github.io/Mop-construccion/ |
 | Instagram (cola, reels, textos, perfil) | este repo, `instagram/` y `scripts/publicar.py`, `scripts/hacer_reel.py` |
