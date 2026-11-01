@@ -55,7 +55,6 @@ Claude es el "segundo cerebro" de Martin ("Mr. Solution"). Reglas:
 Cómo actúa Claude, por área (estado al 1-oct):
 | Área | Qué hace Claude | Estado |
 |---|---|---|
-| Plan maestro de memoria (Cerebro MOP, 1-nov-2026, espera aprobado) | `CEREBRO_MOP.md` |
 | Correo | Revisa Gmail, separa lo importante de la publicidad, avisa respuestas y vencimientos, prepara borradores | funcionando |
 | Presupuestos | Lee planos, saca cantidades, pide precios, arma propuesta con mano de obra real (salario + cargas) y cronograma, controla la ganancia | funcionando (North Beach, Flagler, Lincoln) |
 | Precios | Cada cotización que llega va a `mop-estimador/precios/` con fecha y fuente; avisa cuando vence | funcionando |
@@ -105,6 +104,7 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
 ## Dónde está cada cosa
 | Qué | Dónde |
 |---|---|
+| Plan maestro de memoria (Cerebro MOP, 1-nov-2026, espera aprobado) | `CEREBRO_MOP.md` |
 | Página web | este repo (`index.html`, `img/`), en línea: https://martinoliveraprietto-max.github.io/Mop-construccion/ |
 | Instagram (cola, reels, textos, perfil) | este repo, `instagram/` y `scripts/publicar.py`, `scripts/hacer_reel.py` |
 | Logo elegido (plomada que baja por la O) | este repo, `marca/` |
