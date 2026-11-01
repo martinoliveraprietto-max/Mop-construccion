@@ -23,6 +23,8 @@ def chequear(condicion, mensaje):
 
 html = open(os.path.join(SITIO, "index.html"), encoding="utf-8").read()
 texto = re.sub(r"<[^>]+>", " ", html)
+# Web en pausa hasta después de la auditoría (Martin, 29-oct-2026): una sola foto, sin galería ni traducciones.
+PAUSA = 'data-modo="pausa"' in html
 
 print("== Datos exactos ==")
 for dato in ["MOP Construction and Service, Inc.", "Your Vision.", "Built Solid.", "754.457.3599",
@@ -48,9 +50,11 @@ if m:
         chequear(False, f"los datos estructurados son JSON válido ({e})")
 
 print("== Traducciones ==")
+if PAUSA:
+    print("  (web en pausa: sin traducciones)")
 vacias = re.findall(r'data-es=""', html)
 chequear(not vacias, "ninguna traducción vacía")
-chequear(html.count("data-es=") > 100, f"textos traducidos: {html.count('data-es=')}")
+chequear(PAUSA or html.count("data-es=") > 100, f"textos traducidos: {html.count('data-es=')}")
 voseo = [v for v in ["Tocá", "Contanos", "querés", "Empezá", "escribinos", "llamanos"] if v in html]
 chequear(not voseo, "español neutro con «tú» (sin voseo)")
 
@@ -69,10 +73,14 @@ volvieron = sorted(fuera & usadas)
 chequear(not volvieron, "ninguna foto sacada de la web (sin casco, sin arnés o descartada) volvió a la página"
          + (f" (volvieron: {volvieron})" if volvieron else ""))
 sobran = [f for f in fotos if f not in usadas and f not in fuera and f != "04.jpg"]
-chequear(not sobran, "todas las fotos de img/ se usan o están en fotos_fuera_de_la_web.txt"
+chequear(PAUSA or not sobran, "todas las fotos de img/ se usan o están en fotos_fuera_de_la_web.txt"
          + (f" (sin usar: {sobran})" if sobran else ""))
 galeria = re.findall(r'<figure class="obra"', html)
-chequear(len(galeria) == 12, f"la galería tiene 12 fotos (tiene {len(galeria)})")
+if PAUSA:
+    chequear(len([u for u in usadas if u.endswith(".jpg")]) <= 1, f"web en pausa: como mucho 1 foto (tiene {sorted(usadas)})")
+    chequear(not re.search(r"\b(roof|techo)", texto, re.I), "web en pausa: sin menciones de techos")
+else:
+    chequear(len(galeria) == 12, f"la galería tiene 12 fotos (tiene {len(galeria)})")
 
 
 def exif_con_datos(ruta):

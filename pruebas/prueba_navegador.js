@@ -58,6 +58,17 @@ async function recorrer(browser, base, nombre, opciones) {
   });
   chequear(rotas.length === 0, "todas las imágenes cargan" + (rotas.length ? ` (rotas: ${rotas})` : ""));
 
+  // Web en pausa hasta después de la auditoría: página simple, sin menú, galería ni formulario.
+  if (await page.evaluate(() => document.documentElement.dataset.modo === "pausa")) {
+    chequear((await page.textContent("h1")).includes("MOP Construction"), "web en pausa: muestra el nombre");
+    chequear(await page.isVisible("a[href^='https://wa.me/17544573599']"), "web en pausa: botón de WhatsApp");
+    chequear(await page.$$eval("img[src$='.jpg']", (i) => i.length) <= 1, "web en pausa: como mucho 1 foto");
+    if (CAPTURAS) await page.screenshot({ path: path.join(CAPTURAS, `web-${opciones.viewport.width}.png`), fullPage: true });
+    chequear(errores.length === 0, "sin errores en la consola" + (errores.length ? `: ${errores.join(" | ")}` : ""));
+    await ctx.close();
+    return;
+  }
+
   // menú
   const movil = opciones.viewport.width <= 1180;
   if (movil) {
