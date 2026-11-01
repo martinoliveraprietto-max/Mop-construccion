@@ -38,3 +38,6 @@ Audio o video de una llamada → `python3 -m herramientas.transcribir <archivo>`
 ## Qué NO hace
 - Nunca copia montos, correos, teléfonos ni direcciones de casa a este repositorio público: eso vive solo en Supabase.
 - No borra hechos: si uno está mal, se anota otro que lo corrige.
+
+## Cambios de tablas (lección del 1-nov)
+El aviso de confirmación de Supabase (`apply_migration`) no le aparece a Martin en el celular. Para crear o cambiar tablas: guardar la migración en `supabase/migrations/`, mandarle el enlace https://supabase.com/dashboard/project/sfmhdtingccfkzkwbqgt/sql/new y el SQL en un bloque de código en el chat (no en la página html: ahí no se puede copiar), y que toque Run.

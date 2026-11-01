@@ -88,7 +88,7 @@ SQL_REVISAR = (
 
 SQL_CALIENTE = (
     "select tipo, nombre, estado, proximo, vence from public.memoria_fichas "
-    "where tipo <> 'sistema' and (vence <= current_date + 7 or estado ilike '%espera%' "
+    "where tipo <> 'sistema' and (tipo = 'bot' or vence <= current_date + 7 or estado ilike '%espera%' "
     "or estado ilike '%trabad%' or estado ilike '%decid%') order by vence nulls last, nombre;")
 
 
