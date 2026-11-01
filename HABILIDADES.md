@@ -13,6 +13,7 @@ Formato: nombre · qué hace · estado · versión · fecha · veces usada
 - instagram-lectura · leer reels de otras cuentas o compartidos por Martin para ideas · pendiente de conexión · v0 · 14-oct-2026 · 0
 - buscar-papeles · antes de poner "sin dato" o decir "no sé": primero la memoria, después Drive, Gmail, audios y el repositorio; lo que encuentra lo anota en la ficha ("araña que aprende"); solo lectura afuera · activa · v2 · 1-nov-2026 · 1 (seguro de Pandora)
 - memoria · Cerebro MOP (también en mop-estimador desde el 1-nov): busca la ficha de una obra, constructora, proveedor, bot o trámite en Supabase con una consulta, anota hechos con fuente y fecha, rehace CALIENTE.md y revisa datos viejos · activa · v1 · 1-nov-2026 · 0
+- mesa · mesa de directorio: 3 coaches del consejo con métodos probados (Hormozi, Brunson, Kennedy, Cardone, Gary Vee, Profit First...) sobre los números de la memoria, más el abogado del diablo y una recomendación · activa · v1 · 1-nov-2026 · 1 (Call Your Mother Deli)
 - fotos · carga fotos nuevas a la web con revisión de seguridad · activa · (previa) · 25-sep-2026 · sin dato
 - publicar · sube la web a GitHub Pages con pruebas en verde · activa (solo la llama Martin) · (previa) · 25-sep-2026 · sin dato
 - pdf-extraction · saca texto y tablas de un PDF con pdfplumber · instalada de skills.sh, sin adaptar a MOP (mejoras pendientes de aprobación de Martin) · v0 · 16-oct-2026 · 0
