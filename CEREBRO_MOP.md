@@ -70,3 +70,5 @@ Cuando la ficha no alcanza: busca en Supabase, Drive, Gmail, los repositorios y 
 - Fase 2: `buscar-papeles` v2 (la araña que aprende), `herramientas/transcribir.py` para audios.
 - Fase 3: la tarea de las 6:27 rehace el cartel y revisa la memoria; TABLERO.md (27 a 18 KB) e HISTORIA.md (26 a 16 KB) adelgazados, lo viejo en `archivo/`.
 - Fase 4 (pestaña "Memoria" en la app del estimador): queda para diciembre, como dice el plan.
+
+- Página para el celular (1-nov): "Cerebro MOP" en claude.ai, https://claude.ai/artifact/4jYsyGxKuV3K8VBcKzDyMU. Lee las fichas y la tabla tablero de Supabase en vivo con la conexión de Martin; no hay que actualizarla a mano. El panel del mod (`mods/cerebro-mop`) solo se ve en la computadora.
