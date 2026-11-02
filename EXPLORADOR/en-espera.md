@@ -11,3 +11,8 @@ Formato: fecha · idea · motivo · revisar el
 - 14-oct-2026 · Helius gratis para el bot Solana · no es cuello de botella · 13-nov-2026
 - 14-oct-2026 · Portales de licitación · sin novedades verificables · 13-nov-2026
 - 14-oct-2026 · Propuestas 1 (YouTube privado) y 3 (voz libre + avatar) · no elegidas todavía por Martin · 13-nov-2026
+- 2-nov-2026 · Modo rápido de Opus 4.8 se quita el 30-nov (pasar a Opus 5.5); revisar si alguna rutina lo fija · aviso con fecha · 30-nov-2026
+- 2-nov-2026 · CLAUDE_CODE_SUBAGENT_EFFORT para subagentes baratos · no es cuello de botella · 2-dic-2026
+- 2-nov-2026 · onFailure "block" en guardia_git.py · mejora menor · 2-dic-2026
+- 2-nov-2026 · Fork de subagentes por defecto en claude -p: revisar rutinas headless · aviso · 2-dic-2026
+- 2-nov-2026 · Bitquery V1 Solana instructions → V2 y Helius staked · depende de revisar solana-signal-bot · 2-dic-2026

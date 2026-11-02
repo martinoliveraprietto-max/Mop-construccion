@@ -91,6 +91,8 @@ Los mensajes hasta el 24-oct están en `archivo/TABLERO-mensajes-hasta-24-oct-20
 - 1-nov-2026 · Claude Code · Creé la habilidad mesa (Martin: "dale, armá la habilidad mesa"): 3 coaches con métodos probados sobre los datos de la memoria, abogado del diablo y recomendación; primera prueba con Call Your Mother Deli · Martin: decidir CYM antes del jueves 5-nov.
 - 1-nov-2026 · Claude Code · Martin pidió cerrar este chat y abrir otro: traspaso en `archivo/TRASPASO-2026-11-01.md` (qué se hizo y qué queda) · el chat nuevo arranca leyendo ese archivo · chat nuevo: revisar la corrida de las 6:27 del lunes a las 7:15 y preguntar por Call Your Mother Deli.
 - 1-nov-2026 · Claude Code (chat nuevo) · Martin aprobó la recomendación de la mesa para Call Your Mother Deli: anotada en Decisiones y en la memoria; revisión de la tarea 6:27 programada para el lunes 7:15 de Miami · Martin: plano a la bandeja el lunes a la noche.
+- 2-nov-2026 · Explorador (semanal) · Esta semana sin novedades que valgan: 7 hallazgos de Claude Code y APIs de Solana, ninguno pasa el filtro; avisos en en-espera.md (modo rápido de Opus 4.8 se quita el 30-nov) · Nada de video, voz ni construcción con fecha en la ventana · Martin: sigue pendiente elegir la prueba de medición de planos del 14-oct.
+
 ---
 
 ## Anticipación
