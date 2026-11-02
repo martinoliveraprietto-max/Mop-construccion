@@ -1,11 +1,11 @@
 # CALIENTE — lo urgente de hoy (Cerebro MOP)
-Armado el 01-11-2026 13:36 de Miami. Detalle: `python3 -m herramientas.memoria buscar <nombre>` (Supabase). Plan: CEREBRO_MOP.md.
+Armado el 02-11-2026 07:25 de Miami. Detalle: `python3 -m herramientas.memoria buscar <nombre>` (Supabase). Plan: CEREBRO_MOP.md.
 
 ## Vence en 7 días
 - 3-11 Auditoría del seguro: 2-nov subir todo y hablar con Pandora; 3-nov llamada NEIS 8:30-10:30; papeles a…
 - 3-11 Permiso de Instagram: renovación automática 3-nov 10:17
 - 3-11 RememBR Oakland Park: mandar preguntas el 3-nov; propuesta el 6-nov
-- 5-11 Call Your Mother Deli: se cotiza; lunes plano a la bandeja, martes llamar a Fortum, miércoles propuesta
+- 5-11 Call Your Mother Deli: lunes 2-nov noche: plano a la bandeja; martes: llamar a Nicole; miércoles: prop…
 
 ## Esperando (a Martin o al cliente)
 - Kilwins: esperar a Fortum; adicional de puertas si lo piden
@@ -17,7 +17,7 @@ Armado el 01-11-2026 13:36 de Miami. Detalle: `python3 -m herramientas.memoria b
 
 ## Bots
 - Bot D: en papel; espera decisión de Martin
-- Bot multiactivo: sin estrategia aprobada; salud ATENCIÓN (falta pdftotext, 5.º día)
+- Bot multiactivo: sin estrategia aprobada; pdftotext ya instalado, legisladores funcionando
 - Bots Solana A, B y C: en papel
 
 ## Últimas decisiones
@@ -26,4 +26,3 @@ Armado el 01-11-2026 13:36 de Miami. Detalle: `python3 -m herramientas.memoria b
 - 1-nov: humanizer y 4 habilidades de redes instaladas
 - 30-oct: veneno se pregunta antes; pasadores solo con detalle en el plano
 - 29-oct: web en pausa hasta después de la auditoría
-- 28-oct: estimados sin condiciones de pago salvo pedido

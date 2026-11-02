@@ -91,6 +91,7 @@ Los mensajes hasta el 24-oct están en `archivo/TABLERO-mensajes-hasta-24-oct-20
 - 1-nov-2026 · Claude Code · Creé la habilidad mesa (Martin: "dale, armá la habilidad mesa"): 3 coaches con métodos probados sobre los datos de la memoria, abogado del diablo y recomendación; primera prueba con Call Your Mother Deli · Martin: decidir CYM antes del jueves 5-nov.
 - 1-nov-2026 · Claude Code · Martin pidió cerrar este chat y abrir otro: traspaso en `archivo/TRASPASO-2026-11-01.md` (qué se hizo y qué queda) · el chat nuevo arranca leyendo ese archivo · chat nuevo: revisar la corrida de las 6:27 del lunes a las 7:15 y preguntar por Call Your Mother Deli.
 - 1-nov-2026 · Claude Code (chat nuevo) · Martin aprobó la recomendación de la mesa para Call Your Mother Deli: anotada en Decisiones y en la memoria; revisión de la tarea 6:27 programada para el lunes 7:15 de Miami · Martin: plano a la bandeja el lunes a la noche.
+- 2-nov-2026 · Claude Code · Revisé la primera corrida de la tarea 6:27 con Sonnet: escribió 2 hechos en la memoria y el bloque CEREBRO MOP en el TABLERO de Martin; NO pudo subir CALIENTE.md (no le apareció add_repo y el clon público dio 403 al subir). Lo rehice y subí desde este chat · Martin: agregar el repositorio Mop-construccion a la tarea 6:27 para que suba sola.
 ---
 
 ## Anticipación
