@@ -304,3 +304,7 @@ pidan poner plata grande por adelantado sin seña. Meta: el primer millón, por 
 - Archivos que Martin manda por el chat (fotos, PDF, diseños 3D) solo los ve el chat donde los
   mandó. Para pasarlos a otro chat: subirlos a Google Drive ("Mop instagram") o mandarlos por mail
   a mopconstruccion@gmail.com, y decirle al chat nuevo dónde están.
+
+## Auditoría del seguro (oct-nov 2026)
+Puntero y cómo seguir: `auditoria-seguro/ESTADO.md`. Papeles entregados el 2-nov; se espera respuesta de la
+auditoría; cierre antes de fin de noviembre. El detalle es privado y está en el Drive de Martin (documento 28).
