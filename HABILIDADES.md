@@ -10,7 +10,7 @@ Formato: nombre · qué hace · estado · versión · fecha · veces usada
 - anticipar · cuando Martin nombra una herramienta, app, cliente, API o camino nuevo, deja preparado lo que va a hacer falta y lo anota en "Anticipación" · activa · v1 · 14-oct-2026 · 1 (Instagram y Google)
 - cuestionar · abogado del diablo antes de decisiones grandes: cinco preguntas, una objeción con solución, registro en "Decisiones" · activa · v1 · 14-oct-2026 · 0
 - explorador · investiga novedades útiles cada semana y propone máximo tres; solo lectura · activa · v1 · 14-oct-2026 · 1 (14-oct)
-- instagram-lectura · leer reels de otras cuentas o compartidos por Martin para ideas · pendiente de conexión · v0 · 14-oct-2026 · 0
+- instagram-lectura · leer reels de otras cuentas o compartidos por Martin para ideas (grabación de pantalla + herramientas/leer_reel.py) · activa · v1 · 3-nov-2026 · 0
 - buscar-papeles · antes de poner "sin dato" o decir "no sé": primero la memoria, después Drive, Gmail, audios y el repositorio; lo que encuentra lo anota en la ficha ("araña que aprende"); solo lectura afuera · activa · v2 · 1-nov-2026 · 1 (seguro de Pandora)
 - memoria · Cerebro MOP (también en mop-estimador desde el 1-nov): busca la ficha de una obra, constructora, proveedor, bot o trámite en Supabase con una consulta, anota hechos con fuente y fecha, rehace CALIENTE.md y revisa datos viejos · activa · v1 · 1-nov-2026 · 0
 - mesa · mesa de directorio: 3 coaches del consejo con métodos probados (Hormozi, Brunson, Kennedy, Cardone, Gary Vee, Profit First...) sobre los números de la memoria, más el abogado del diablo y una recomendación · activa · v1 · 1-nov-2026 · 1 (Call Your Mother Deli)

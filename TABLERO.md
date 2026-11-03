@@ -92,6 +92,7 @@ Los mensajes hasta el 24-oct están en `archivo/TABLERO-mensajes-hasta-24-oct-20
 - 1-nov-2026 · Claude Code · Martin pidió cerrar este chat y abrir otro: traspaso en `archivo/TRASPASO-2026-11-01.md` (qué se hizo y qué queda) · el chat nuevo arranca leyendo ese archivo · chat nuevo: revisar la corrida de las 6:27 del lunes a las 7:15 y preguntar por Call Your Mother Deli.
 - 1-nov-2026 · Claude Code (chat nuevo) · Martin aprobó la recomendación de la mesa para Call Your Mother Deli: anotada en Decisiones y en la memoria; revisión de la tarea 6:27 programada para el lunes 7:15 de Miami · Martin: plano a la bandeja el lunes a la noche.
 - 2-nov-2026 · Claude Code · Revisé la primera corrida de la tarea 6:27 con Sonnet: escribió 2 hechos en la memoria y el bloque CEREBRO MOP en el TABLERO de Martin; NO pudo subir CALIENTE.md (no le apareció add_repo y el clon público dio 403 al subir). Lo rehice y subí desde este chat · Martin: agregar el repositorio Mop-construccion a la tarea 6:27 para que suba sola.
+- 3-nov-2026 · Claude Code · Cambié la habilidad instagram-lectura a v1 (activa): Instagram pide inicio de sesión desde el 1-nov y el permiso de MOP Publicador no lee reels ajenos (probado). Camino nuevo: Martin graba la pantalla con sonido y herramientas/leer_reel.py saca lo que se dice y una grilla de cuadros; faster-whisper se instala solo al arrancar · Martin: grabar el reel que mandó; decidir si se hace el camino oficial (página de Facebook).
 ---
 
 ## Anticipación

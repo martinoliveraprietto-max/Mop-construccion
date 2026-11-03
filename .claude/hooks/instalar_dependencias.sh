@@ -4,6 +4,8 @@
 #   pillow + imageio-ffmpeg: fotos y reels (scripts/hacer_reel.py). Todo gratis.
 #   edge-tts: los audios con voz uruguaya (Mateo) que Martin pidió al final de cada respuesta.
 #   yt-dlp: leer los subtítulos de los videos de YouTube que manda Martin.
+#   faster-whisper: pasar a texto audios y grabaciones de reels (herramientas/leer_reel.py); se instala
+#     en segundo plano porque es pesado (3-nov-2026).
 #   playwright-core: pruebas/prueba_navegador.js (usa el Chromium que ya trae la nube).
 set -uo pipefail
 [ "${CLAUDE_CODE_REMOTE:-}" != "true" ] && exit 0
@@ -14,6 +16,8 @@ for p in pillow imageio-ffmpeg yt-dlp edge-tts; do
   python3 -m pip install -q --disable-pip-version-check --root-user-action=ignore "$p" \
     >>/tmp/instalar_mop.log 2>&1 || FALLARON="$FALLARON $p"
 done
+python3 -m pip show -q faster-whisper >/dev/null 2>&1 || (nohup python3 -m pip install -q \
+  --disable-pip-version-check --root-user-action=ignore faster-whisper >>/tmp/instalar_mop.log 2>&1 &)
 # edge-tts viejo da 403 cuando Microsoft cambia la firma (pasó el 14-oct): siempre a la última versión.
 python3 -m pip install -q --upgrade --disable-pip-version-check --root-user-action=ignore edge-tts \
   >>/tmp/instalar_mop.log 2>&1 || FALLARON="$FALLARON edge-tts(actualizar)"
