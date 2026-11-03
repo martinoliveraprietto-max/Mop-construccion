@@ -54,3 +54,4 @@ Reglas de decisión (las aplica el gancho Stop antes de cerrar):
 01-11-2026 18:02 · herramienta · edge-tts falla por certificado del proxy; arreglo: cargar /root/.ccr/ca-bundle.crt en edge_tts.communicate._SSL_CTX antes de generar · chat nuevo
 01-11-2026 19:02 · herramienta nueva · Kadabra (extensión de Chrome, detector de rug en Solana): se bajó el paquete .crx y se leyó el código (permisos, servidores, qué manda) · Chrome Web Store, código de la extensión
 02-11-2026 23:25 · pedido repetido · Martin manda enlace de reel; Instagram sigue pidiendo inicio de sesión (yt-dlp vacío, embed sin video, Firecrawl no lo soporta); no se saltea el bloqueo. Camino: capturas o grabación de pantalla al chat o a Drive · Instagram, yt-dlp, Firecrawl
+03-11-2026 11:40 · corrección · el correo a la auditora rebotó por dirección mal escrita; antes de mandar a un tercero, copiar la dirección del último correo que ese tercero mandó · Gmail, aviso de NEIS
