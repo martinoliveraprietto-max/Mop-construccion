@@ -35,9 +35,12 @@ respuesta.md respuesta.mp3 respuesta.html` y SendUserFile de respuesta.html (dis
   mandar mensajes o audios de WhatsApp en nombre de Martin.
 
 ## Sistema de asistentes (prompt maestro de Martin, 13-oct-2026)
-- Al arrancar cada sesión: leer `TABLERO.md` y `HABILIDADES.md` y decir en tres líneas qué vence hoy, qué
-  está trabado y qué habilidades hay activas. (El gancho SessionStart los muestra.)
-- Al terminar cada sesión: escribir en "Mensajes entre asistentes" de `TABLERO.md` qué se hizo y qué queda.
+- Memoria (Cerebro MOP, 1-nov-2026, plan en `CEREBRO_MOP.md`): al arrancar, el gancho muestra `CALIENTE.md`
+  entero (2 KB): con eso decir en tres líneas qué vence hoy, qué está trabado y qué habilidades hay activas. Antes
+  de leer `TABLERO.md`, `HISTORIA.md`, Drive o Gmail, buscar la ficha con la habilidad `memoria` (una consulta a
+  Supabase). Lo viejo está en `archivo/`.
+- Al terminar cada sesión: anotar lo que cambió en la memoria (habilidad `memoria`), rehacer `CALIENTE.md` si
+  cambió algo urgente, y escribir en "Mensajes entre asistentes" de `TABLERO.md` qué se hizo y qué queda.
 - Durante la sesión: anotar en `OBSERVACIONES.md` (fecha y hora · tipo · qué pasó · fuentes) cada pedido
   repetido, cada vez que hubo que juntar datos de 2 o más fuentes, cada "siempre" / "cada vez" / "de ahora en
   más" / "no me hagas repetir", cada herramienta, app, cliente, API o camino nuevo, y cada corrección de formato.

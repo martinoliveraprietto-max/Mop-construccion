@@ -1,0 +1,1 @@
+{ "name": "cerebro-mop", "version": "0.1.0", "description": "Panel Cerebro MOP: muestra CALIENTE.md (lo urgente de hoy) al lado del chat", "types": "./types/index.d.ts" }
