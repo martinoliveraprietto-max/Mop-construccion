@@ -14,7 +14,7 @@ personas, correos ni datos de impuestos. Todo el detalle está en el Drive de Ma
 
 ## Estado en una línea
 Papeles entregados a tiempo por el portal de la auditoría (2-nov). La auditora no llamó en el horario previsto
-(3-nov); con el aprobado de Martin se le escribió pidiendo seguir por escrito. El primer envío rebotó por una dirección mal escrita (la correcta está en el aviso automático de la subida, con un punto entre nombre y apellido); se reenvió el 3-nov a las 11:36 con aprobado. Se espera su respuesta y hay que revisar que no rebote. Cierre
+(3-nov); con el aprobado de Martin se le escribió pidiendo seguir por escrito. El primer envío rebotó por una dirección mal escrita (la correcta está en el aviso automático de la subida, con un punto entre nombre y apellido); se reenvió el 3-nov a las 11:36 con aprobado. La auditoría contestó el mismo 3-nov (12:54): por ahora no necesita nada más; el expediente pasa a una auditora que cierra el informe y escribirá si tiene preguntas. Dice que llamó el 2-nov y dejó un mensaje de voz (Martin debe revisar el buzón del teléfono). No hay nada más que mandar. Cierre
 total previsto antes de fin de noviembre.
 
 ## Decisiones de Martin (no volver a preguntar)
