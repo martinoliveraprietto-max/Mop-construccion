@@ -7,6 +7,9 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 Martin es uruguayo. Al final de cada respuesta, mandarle también un audio con lo importante, con voz
 uruguaya de hombre: `edge-tts --voice es-UY-MateoNeural --text "..." --write-media respuesta.mp3` en el
 directorio temporal de la sesión. Pedido por Martin el 27-sep.
+"Mostrame" = IMAGEN o VIDEO, no texto (Martin, 4-nov: "te estoy pidiendo que me muestres, no que me digas"): ante un "mostrame",
+"cuál es" o "dónde va", lo primero es una imagen real o marcada (foto del producto, plano con círculos, dibujo con flechas) o un
+video, con poco texto. Si no se consigue, decirlo en una línea y mandar la más cercana. Detalle en CLAUDE.md de mop-estimador.
 Volumen (Martin, 4-nov: "no escucho un carajo"): el audio sale por `herramientas/hablar.py` de mop-estimador, que ya lo sube a -12 LUFS con
 tope -1 dBFS y la página `respuesta_html.py` trae botón de volumen 2x a 4x. Nunca mandar un mp3 crudo.
 Medidas en el audio (Martin, 26-oct): 1'-6" se dice "1 pie 6 pulgadas" (el guion NO es "menos"); #5 = "número 5";
