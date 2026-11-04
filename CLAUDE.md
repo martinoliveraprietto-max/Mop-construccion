@@ -7,6 +7,8 @@ Responder SIEMPRE en español. Martin (dueño) habla desde el celular: pasos cor
 Martin es uruguayo. Al final de cada respuesta, mandarle también un audio con lo importante, con voz
 uruguaya de hombre: `edge-tts --voice es-UY-MateoNeural --text "..." --write-media respuesta.mp3` en el
 directorio temporal de la sesión. Pedido por Martin el 27-sep.
+Volumen (Martin, 4-nov: "no escucho un carajo"): el audio sale por `herramientas/hablar.py` de mop-estimador, que ya lo sube a -12 LUFS con
+tope -1 dBFS y la página `respuesta_html.py` trae botón de volumen 2x a 4x. Nunca mandar un mp3 crudo.
 Medidas en el audio (Martin, 26-oct): 1'-6" se dice "1 pie 6 pulgadas" (el guion NO es "menos"); #5 = "número 5";
 @16" = "cada 16 pulgadas". Ningún guion delante de un número se lee "menos". Si está clonado mop-estimador, usar
 `HABLAR_VOZ=es-UY-MateoNeural python3 ../mop-estimador/herramientas/hablar.py "texto" respuesta.mp3`, que lo convierte solo.
