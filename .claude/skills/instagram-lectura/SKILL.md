@@ -18,7 +18,7 @@ description: Leer reels para sacar ideas de contenido: los que Martin comparte (
 - La API oficial no da acceso a las "guardadas".
 
 ## Pasos
-1. Con el enlace: probar una vez `yt-dlp --skip-download --dump-json <enlace>`. Si funciona, listo (texto y cuenta).
+1. Con el enlace: probar una vez `yt-dlp --skip-download --dump-json <enlace>`. A veces anda (4-nov sí, 3-nov no). Si anda, bajar el video con `yt-dlp -f "b[ext=mp4]/b" -o reel.mp4 <enlace>` a una carpeta nueva del scratchpad y seguir en el paso 3.
 2. Si falla (lo normal desde el 1-nov): pedirle a Martin, en una línea, que grabe la pantalla del celular CON SONIDO mientras pasa el reel y lo mande al chat o a la carpeta "Mop instagram" de Drive (id 19ul5QKrqcSqsnZGLbO2OI8BrTeRzGIIO). Si quiere, que copie también el texto de la publicación.
 3. Con el video: `python3 -m herramientas.leer_reel <video> --salida <carpeta del scratchpad>`. Da lo que se dice (faster-whisper, idioma automático) y una grilla con un cuadro cada 3 segundos. Mirar la grilla con Read.
 4. Responder: qué dice, qué muestra, y 2 o 3 ideas concretas para MOP (formato, gancho, texto), sin copiar.
