@@ -17,6 +17,8 @@ Papeles entregados a tiempo por el portal de la auditoría (2-nov). La auditora 
 (3-nov); con el aprobado de Martin se le escribió pidiendo seguir por escrito. El primer envío rebotó por una dirección mal escrita (la correcta está en el aviso automático de la subida, con un punto entre nombre y apellido); se reenvió el 3-nov a las 11:36 con aprobado. La auditoría contestó el mismo 3-nov (12:54): por ahora no necesita nada más; el expediente pasa a una auditora que cierra el informe y escribirá si tiene preguntas. Dice que llamó el 2-nov y dejó un mensaje de voz (Martin debe revisar el buzón del teléfono). No hay nada más que mandar. Cierre
 total previsto antes de fin de noviembre.
 
+09-nov-2026 07:01 Miami: se envió a Allison Croft (NEIS), en el mismo hilo, la respuesta aprobada por Martin: todo el trabajo fue de reforma, no obra nueva. Pendiente: que NEIS conteste; la declaración 2025 sigue sin subir.
+
 ## Decisiones de Martin (no volver a preguntar)
 - Resolver por escrito, no por teléfono. No llama al agente. No comparte copia de la auditoría con el agente.
 - No consulta abogado (se le recomendó; decidió que no).
