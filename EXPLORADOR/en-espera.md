@@ -11,3 +11,8 @@ Formato: fecha · idea · motivo · revisar el
 - 14-oct-2026 · Helius gratis para el bot Solana · no es cuello de botella · 13-nov-2026
 - 14-oct-2026 · Portales de licitación · sin novedades verificables · 13-nov-2026
 - 14-oct-2026 · Propuestas 1 (YouTube privado) y 3 (voz libre + avatar) · no elegidas todavía por Martin · 13-nov-2026
+- 9-nov-2026 · Hooks de Claude Code con Monitor y tope de 24 hooks · ya cubierto: la guardia usa matcher "Bash" · 9-dic-2026
+- 9-nov-2026 · permissions.denyInsteadOfPrompting para rutinas · sin evidencia de rutinas colgadas por permisos; probar con --simular si pasa · 9-dic-2026
+- 9-nov-2026 · MCP en segundo plano y deniedMcpServers por URL · mejora menor · 9-dic-2026
+- 9-nov-2026 · BPRO de Broward (licitaciones electrónicas) · sin fecha ni acceso (403); confirmar en la página del condado · 9-dic-2026
+- Revisión del 9-nov: ninguna idea de en-espera tenía fecha vencida (las del 14-oct se revisan el 13-nov).
