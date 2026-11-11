@@ -19,6 +19,8 @@ total previsto antes de fin de noviembre.
 
 09-nov-2026 07:01 Miami: se envió a Allison Croft (NEIS), en el mismo hilo, la respuesta aprobada por Martin: todo el trabajo fue de reforma, no obra nueva. Pendiente: que NEIS conteste; la declaración 2025 sigue sin subir.
 
+11-nov-2026: NEIS contestó a la respuesta del 9-nov ("Thank you for the mail. Have a blessed day!"). No hay preguntas pendientes. Falta el cálculo final de la prima, que NEIS no mandó todavía.
+
 ## Decisiones de Martin (no volver a preguntar)
 - Resolver por escrito, no por teléfono. No llama al agente. No comparte copia de la auditoría con el agente.
 - No consulta abogado (se le recomendó; decidió que no).
