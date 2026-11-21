@@ -23,6 +23,7 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 - Cobrado: ~$120.734 (si los $20.250 del 7-nov fueron la seña de Rojas; a confirmar).
 - Por cobrar con fecha: ~$14.266 por contrato, o ~$30.000 si hay adicionales. Fecha: sin dato.
 - Próximo paso con fecha: confirmar con Kozo el saldo real antes de facturar; armar cronograma y certificados de avance semanales. Fecha: sin dato.
+- 21-nov (Martin, chat): llegó un cheque de Kozo por ~$38.200 (monto exacto: sin dato). Por cobrar de Rojas según la memoria (13-nov): ~$21.300 más adicionales más retención del 5 %. El cheque es MAYOR que ese saldo: **confirmar con Martin qué facturas cubre** (¿Rojas completa, adicionales, retención, otra obra de Kozo?). Nada se da por saldado hasta que Martin lo diga.
 - Riesgo: diferencia entre $14.266 y $30.000 sin aclarar. Seguro de responsabilidad civil RENOVADO (firmado el 12-oct, vigente desde el 15-oct, entrada ya pagada según Martin el 15-oct); falta pedirle a Pandora el certificado nuevo (Kozo lo pide para pagar) y confirmar si cubre hormigón antes de hormigonar. Plano original "Proyecto rojas.pdf" solo en OneDrive personal de Martin.
 
 ### Blue Door (632 SW 8th St)
@@ -73,11 +74,19 @@ Estados posibles: cotizando / propuesta enviada / ganada / en ejecución / cobra
 ### Otras que aparecieron en Gmail (no pedidas en la carga, se anotan para no perderlas)
 - Sedano's #32 Shell Space (Fortum): MOP confirmó propuesta para el miércoles 21-oct. Nicole preguntó el 13-oct si MOP y su socio mandan una propuesta juntos o separadas: la respuesta la manda Martin con Dani; ningún asistente la redacta.
 
+### Caja, pagos y compras (21-nov, dicho por Martin en el chat)
+- Cobro: cheque de Kozo ~$38.200 (monto exacto: sin dato; fecha de depósito: sin dato). A qué facturas corresponde: confirmar con Martin (ver Rojas).
+- Pagado: Concrete Max, factura 29671 (hormigón de Rojas del 5-nov). El número coincide con la factura cargada el 9-nov en la memoria; fecha y medio de pago: sin dato. SALE de los vencimientos del 6-dic.
+- Compra: extensor de tres pantallas para portátil, Amazon, US$359,99. Llega el domingo 22-nov. Cuenta de pago (personal o MOP): sin dato. Fecha límite de devolución: sin dato (mirarla en el pedido de Amazon apenas llegue).
+- Computadora nueva: decidida, NO comprada. Tope total $1.500 con las pantallas (quedan unos $1.140 con impuestos para la computadora). Requisitos: Windows, 16", táctil, 32 GB de memoria, 1 TB ideal. Candidatas: HP OmniBook X Flip 2 en 1 16" (Ryzen AI 9 465, 32 GB, 512 GB; $999,99 en Best Buy el 13-nov; precio de hoy: sin dato) y Lenovo Yoga 7a 2 en 1 16" (Ryzen AI 9 465, 32 GB, 1 TB; precio: sin dato). Ninguna tiene placa de video dedicada: límite para 3D (Blender) y video pesado. Puesta en marcha: `docs/martin/COMPUTADORA_NUEVA.md`.
+
 ---
 
 ## Mensajes entre asistentes
 Formato: fecha · quién escribe · qué hizo · qué detectó · qué le toca al siguiente.
 Los mensajes hasta el 24-oct están en `archivo/TABLERO-mensajes-hasta-24-oct-2026.md`.
+
+- 21-nov-2026 · Claude Code · Anoté lo que dijo Martin en el chat: cheque de Kozo ~$38.200, Concrete Max 29671 pagada (fuera del 6-dic), extensor de pantallas en Amazon (llega 22-nov) y la decisión de la computadora nueva (tope $1.500). Armé `docs/martin/COMPUTADORA_NUEVA.md` (pasos para el día que llegue; nada ejecutado, nada comprado) · el cheque es mayor que el saldo de Rojas (~$21.300): no cuadra sin saber qué cubre · Martin: decir qué facturas cubre el cheque, de qué cuenta salió el extensor y cuál computadora compra.
 
 - 07-nov-2026 · Claude Code · Repescas y avisos de corrida (Martin, 7-nov; el 6-nov fallaron astrólogo, aviso de fallas, cazador y vigilante por límite de uso y no hubo tablero): la tarea TABLERO corre ahora a las 6:27 y a las 13:27 de Miami, todos los días (a la tarde, si el tablero de hoy ya está en Drive, termina en una línea); la tarea del cazador corre ahora a las 7:55 y a las 14:55 de lunes a viernes (a la tarde, si el aviso de hoy dice OK, termina en una línea; quedó a las 14:55 y no a las 14:27 para conservar Gmail, Drive y el modelo, con el visto bueno de Martin). Tablero, astrólogo, cazador y vigilante escriben `avisos/tareas/<tarea>/AAAA-MM-DD.md` en mop-estimador: primera línea OK o "FALLÓ: causa"; escriben FALLÓ al arrancar y lo pisan al final, así una corrida cortada deja rastro. La carpeta es `avisos/tareas/` porque `avisos/cazador/<fecha>.md` ya es el informe del cazador · el aviso de fallas no se pudo cambiar desde ese chat; una corrida que ni arranca no puede escribir nada · Martin: en el chat del aviso de fallas, pedir que lea `avisos/tareas` y escriba "FALLÓ: no dejó aviso" a las que falten.
 - 02-nov-2026 · Claude Code · Auditoría del seguro ENTREGADA a NEIS (portal, 5 archivos: cuestionario, ventas por mes, nómina del PEO, dos certificados de compensación laboral); correo a NEIS pidiendo la llamada en español; paquete revisado por ChatGPT (docs 10 a 27 en la carpeta de Drive de la auditoría) · Falta la declaración 2025 (la manda la contadora; se sube como carga adicional) · Martin: llamada con la auditora el martes 3-nov 8:30-10:30; ensayar antes; cierre total antes del 30-nov. Después: Sunbiz (dirección), compensación laboral de ayudantes con el contador, cuentas separadas, estimación real de ventas al renovar.
@@ -138,6 +147,8 @@ Conectores, habilidades, datos o permisos que van a hacer falta. Estado: listo /
 
 ## Decisiones
 Formato: fecha · decisión · qué se esperaba · qué pasó (se completa a los 30 días).
+
+- 21-nov-2026 · Computadora nueva para MOP: tope total $1.500 incluido el extensor de tres pantallas (~$1.140 con impuestos para la computadora); Windows, 16", táctil, 32 GB, 1 TB ideal. Todavía no comprada · Esperado: dejar Termux y la Chromebook como herramienta principal y trabajar planos y estimados en pantalla grande · Qué pasó: revisar el 21-dic-2026.
 
 - 1-nov-2026 · Call Your Mother Deli (Fortum): se cotiza, con condición (recomendación de la mesa, aprobada por Martin). RememBR va primero; lunes 2-nov a la noche plano a la bandeja; martes llamar a Fortum por CYM y las 3 propuestas que esperan; miércoles propuesta solo con lo de MOP · Esperado: propuesta entregada antes del jueves 5-nov sin atrasar RememBR · Qué pasó: revisar el 1-dic-2026.
 - 13-oct-2026 · Arranca el proyecto fabrica-canales (prueba de 60 días, meta: un canal con 1.000 suscriptores; si a los 30 días ningún canal crece, se para) · Esperado: canal que crezca sin trabajo de Martin · Qué pasó: revisar el 12-nov-2026.

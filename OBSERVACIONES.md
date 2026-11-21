@@ -56,3 +56,4 @@ Reglas de decisión (las aplica el gancho Stop antes de cerrar):
 02-11-2026 23:25 · pedido repetido · Martin manda enlace de reel; Instagram sigue pidiendo inicio de sesión (yt-dlp vacío, embed sin video, Firecrawl no lo soporta); no se saltea el bloqueo. Camino: capturas o grabación de pantalla al chat o a Drive · Instagram, yt-dlp, Firecrawl
 03-11-2026 11:40 · corrección · el correo a la auditora rebotó por dirección mal escrita; antes de mandar a un tercero, copiar la dirección del último correo que ese tercero mandó · Gmail, aviso de NEIS
 04-11-2026 07:15 · pedido repetido · Martin mandó otro reel (7 repositorios para agentes); el 4-nov yt-dlp sí lo bajó y leer_reel.py sacó texto y grilla · Instagram, yt-dlp, Firecrawl
+21-11-2026 15:30 · dato de 2 o más fuentes · cheque de Kozo ~38.200 cruzado con el saldo de Rojas de la memoria (~21.300): no cuadra, se pregunta a Martin; Concrete Max 29671 ya estaba pagada en la memoria · chat de Martin, Supabase memoria
