@@ -99,6 +99,29 @@ Si algo falla: copiar el error a Claude Code, no tocar nada a mano.
 - Acceso directo a la app MOP y a la página Cerebro MOP en Chrome.
 - Copia de seguridad: Historial de archivos de Windows a un disco externo, o Drive.
 
+## Sacarle el máximo rendimiento (HP OmniBook X Flip 16, comprada el 21-nov)
+Datos de la caja: Ryzen AI 9 465, 32 GB soldados (no se amplía la memoria), 512 GB, pantalla OLED táctil,
+gráficos integrados Radeon 880M, 2 puertos Thunderbolt 4. Nada de esto está hecho todavía.
+
+1. **Actualizar todo antes de usarla:** Windows Update hasta el final; después la app "HP Support Assistant"
+   (o "myHP") → actualizar BIOS y controladores; después el controlador de gráficos de AMD (amd.com, "AMD Software").
+2. **Modo de energía:** enchufada, Configuración → Sistema → Energía → "Máximo rendimiento". En "myHP", el modo
+   "Rendimiento" (se calienta más y el ventilador suena más: es normal).
+3. **Sacar lo que sobra:** desinstalar la prueba de McAfee (Windows ya trae su antivirus, Defender) y los
+   programas de prueba. Configuración → Aplicaciones → Inicio: apagar lo que arranca solo y no hace falta.
+4. **Cuidar el disco (512 GB se llenan rápido):** planos y videos en Google Drive "a pedido" (no todo en el
+   disco); dejar siempre más de 100 GB libres. Si se llena: disco externo USB-C, o cambiar el disco interno por
+   uno de 1-2 TB (un comprador de Best Buy dice que se cambia; confirmarlo con el manual de HP antes de abrir).
+5. **WSL con más memoria:** archivo `C:\Users\<usuario>\.wslconfig` con `memory=16GB` y `processors=8`, así Linux
+   (Claude Code, pruebas) usa la mitad y Windows sigue fluido.
+6. **El extensor KYY:** al puerto Thunderbolt 4 (el del rayo), con su controlador de kyymonitor.com, y la
+   computadora enchufada a su cargador. Cuatro pantallas gastan memoria de video: si va lento, bajar el brillo
+   o usar 3 pantallas.
+7. **Pantalla OLED:** modo oscuro y barra de tareas que se oculta sola (evita marcas de imágenes fijas).
+8. **Batería:** en "myHP", carga inteligente (no queda siempre al 100 % si vive enchufada).
+9. **3D y video:** Blender corre, pero sin placa de video dedicada es lento. Los renders para clientes siguen en
+   la nube. Probar Blender con "Cycles" usando la placa AMD (Preferencias → Sistema → HIP) y, si no la toma, CPU.
+
 ## Qué pasa de Termux (celular) y de la Chromebook
 - **Termux:** hoy corre el estimador local (`instalar-celular.sh`, puerto 8010) y los bots. Con la computadora:
   - el estimador y las pruebas pasan a la computadora (WSL);
