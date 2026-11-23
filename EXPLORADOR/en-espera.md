@@ -11,3 +11,7 @@ Formato: fecha · idea · motivo · revisar el
 - 14-oct-2026 · Helius gratis para el bot Solana · no es cuello de botella · 13-nov-2026
 - 14-oct-2026 · Portales de licitación · sin novedades verificables · 13-nov-2026
 - 14-oct-2026 · Propuestas 1 (YouTube privado) y 3 (voz libre + avatar) · no elegidas todavía por Martin · 13-nov-2026
+- 22-nov-2026 · HeyGen Avatar 6 (avatar desde una foto) · de pago, precio sin dato, no es cuello · 22-dic-2026
+- 22-nov-2026 · HeyGen Voice Turbo (gratis hasta 30-nov) · no resuelve un cuello; pide cuenta · 22-dic-2026
+- 22-nov-2026 · Beam AI de Attentive.ai (cómputos con IA) · sin precio ni prueba gratis, sin framing verificado · 22-dic-2026
+- 22-nov-2026 · Renovadas 30 días las ideas vencidas del 13-nov (MCP, Mods, publicar.py, WhatsApp, Helius, portales, propuestas 1 y 3 del 14-oct) · sin cambios verificables · 22-dic-2026
